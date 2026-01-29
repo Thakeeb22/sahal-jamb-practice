@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahal School Jamb Practice</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/sahal favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="head">
+          <img
+            class="logo"
+            src="./img/sahal logo.svg"
+            alt="Sahal School Logo"
+          />
+          <h2>Sahal International School Jamb Practice App</h2>
+          <div class="subject-tab" id="subject-tab"></div>
+          <div class="timer-box">
+            <i class="fa-regular fa-clock"></i>
+            <span id="timer">01:59:59</span>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="exam-container">
+          <section class="question-area">
+            <div class="question-card">
+              <div class="question-header">
+                <h3 id="question-count"></h3>
+              </div>
+              <div class="question-body">
+                <p class="question-text" id="question-text"></p>
+                <div class="option-list" id="option-list"></div>
+              </div>
+              <div class="question-footer">
+                <button class="btn btn-prev">
+                  <i class="fa-solid fa-arrow-left"></i>Previous
+                </button>
+                <button class="btn btn-calc">
+                  <i class="fa-solid fa-calculator"></i>Calculator
+                </button>
+                <button class="btn btn-next">
+                  Next<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </section>
+          <aside class="question-palette">
+            <h4>Question Palette</h4>
+            <div class="palette-grid" id="palette"></div>
+            <div class="palette-legend">
+              <div class="legend-item">
+                <span class="box answered"></span>Answered
+              </div>
+              <div class="legend-item">
+                <span class="box current"></span>Current
+              </div>
+              <div class="legend-item">
+                <span class="box unanswered"></span>Unanswered
+              </div>
+            </div>
+            <button class="btn btn-submit">Submit</button>
+          </aside>
+        </div>
+      </main>
+      <footer>
+        <p>
+          &copy; 2026 Sahal International School JAMB Practice App. All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+    <!-- Calculator Modal -->
+<div id="calc-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <input type="text" id="calc-display" readonly />
+    <div class="calc-buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>/</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>*</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+      <button>+</button>
+      <button>C</button>
+    </div>
+  </div>
+</div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

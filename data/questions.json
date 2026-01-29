@@ -1,0 +1,377 @@
+[
+  {
+    "subject": "English",
+    "questions": [
+      {
+        "question": "Synonym of 'Happy'?",
+        "options": ["Sad", "Joyful", "Angry", "Tired"],
+        "answer": "Joyful"
+      },
+      {
+        "question": "Antonym of 'Cold'?",
+        "options": ["Hot", "Cool", "Warm", "Freeze"],
+        "answer": "Hot"
+      },
+      {
+        "question": "Plural of 'Child'?",
+        "options": ["Childs", "Children", "Childes", "Childer"],
+        "answer": "Children"
+      },
+      {
+        "question": "Past tense of 'Go'?",
+        "options": ["Goed", "Went", "Gone", "Goes"],
+        "answer": "Went"
+      }
+    ]
+  },
+  {
+    "subject": "Mathematics",
+    "questions": [
+      {
+        "question": "2 + 3 = ?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "5"
+      },
+      {
+        "question": "5 * 6 = ?",
+        "options": ["30", "25", "35", "20"],
+        "answer": "30"
+      },
+      {
+        "question": "Square root of 16?",
+        "options": ["2", "4", "8", "6"],
+        "answer": "4"
+      },
+      {
+        "question": "12 ÷ 4 = ?",
+        "options": ["2", "3", "4", "6"],
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "subject": "Biology",
+    "questions": [
+      {
+        "question": "Basic unit of life?",
+        "options": ["Cell", "Atom", "Organ", "Molecule"],
+        "answer": "Cell"
+      },
+      {
+        "question": "Humans have how many chromosomes?",
+        "options": ["46", "45", "44", "48"],
+        "answer": "46"
+      },
+      {
+        "question": "Photosynthesis occurs in?",
+        "options": ["Mitochondria", "Chloroplast", "Nucleus", "Ribosome"],
+        "answer": "Chloroplast"
+      },
+      {
+        "question": "DNA stands for?",
+        "options": [
+          "Deoxyribonucleic Acid",
+          "Ribonucleic Acid",
+          "Dioxyribonucleic Acid",
+          "None"
+        ],
+        "answer": "Deoxyribonucleic Acid"
+      }
+    ]
+  },
+  {
+    "subject": "Physics",
+    "questions": [
+      {
+        "question": "Acceleration due to gravity (Earth)?",
+        "options": ["9.8", "10", "8.9", "9"],
+        "answer": "9.8"
+      },
+      {
+        "question": "Formula for speed?",
+        "options": ["v=d/t", "s=vt", "v=st", "d=vt"],
+        "answer": "v=d/t"
+      },
+      {
+        "question": "Unit of force?",
+        "options": ["Newton", "Pascal", "Joule", "Watt"],
+        "answer": "Newton"
+      },
+      {
+        "question": "Light travels fastest in?",
+        "options": ["Vacuum", "Air", "Water", "Glass"],
+        "answer": "Vacuum"
+      }
+    ]
+  },
+  {
+    "subject": "Chemistry",
+    "questions": [
+      {
+        "question": "Water chemical formula?",
+        "options": ["H2O", "CO2", "O2", "H2"],
+        "answer": "H2O"
+      },
+      {
+        "question": "Atomic number of Carbon?",
+        "options": ["6", "12", "8", "14"],
+        "answer": "6"
+      },
+      {
+        "question": "pH of neutral solution?",
+        "options": ["7", "1", "14", "0"],
+        "answer": "7"
+      },
+      {
+        "question": "Periodic table group 1 elements?",
+        "options": [
+          "Alkali metals",
+          "Noble gases",
+          "Halogens",
+          "Transition metals"
+        ],
+        "answer": "Alkali metals"
+      }
+    ]
+  },
+  {
+    "subject": "Government",
+    "questions": [
+      {
+        "question": "Nigeria gained independence in?",
+        "options": ["1960", "1970", "1950", "1963"],
+        "answer": "1960"
+      },
+      {
+        "question": "Type of government in Nigeria?",
+        "options": ["Federal", "Unitary", "Monarchy", "Dictatorship"],
+        "answer": "Federal"
+      },
+      {
+        "question": "Power to make laws?",
+        "options": ["Legislature", "Executive", "Judiciary", "Civil"],
+        "answer": "Legislature"
+      },
+      {
+        "question": "President is part of?",
+        "options": ["Executive", "Legislature", "Judiciary", "Army"],
+        "answer": "Executive"
+      }
+    ]
+  },
+  {
+    "subject": "Literature",
+    "questions": [
+      {
+        "question": "Author of 'Things Fall Apart'?",
+        "options": ["Chinua Achebe", "Wole Soyinka", "Ngugi", "Ama Ata Aidoo"],
+        "answer": "Chinua Achebe"
+      },
+      {
+        "question": "Poetry is written in?",
+        "options": ["Verse", "Prose", "Paragraphs", "Sentences"],
+        "answer": "Verse"
+      },
+      {
+        "question": "Drama is performed on?",
+        "options": ["Stage", "Paper", "Radio", "Magazine"],
+        "answer": "Stage"
+      },
+      {
+        "question": "Simile compares using?",
+        "options": ["Like/As", "And/Or", "But/So", "If/Then"],
+        "answer": "Like/As"
+      }
+    ]
+  },
+  {
+    "subject": "History",
+    "questions": [
+      {
+        "question": "Who led the American Revolution?",
+        "options": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Edison",
+          "Napoleon"
+        ],
+        "answer": "George Washington"
+      },
+      {
+        "question": "World War II ended in?",
+        "options": ["1945", "1940", "1939", "1950"],
+        "answer": "1945"
+      },
+      {
+        "question": "Ancient Egypt was famous for?",
+        "options": ["Pyramids", "Colosseum", "Great Wall", "Stonehenge"],
+        "answer": "Pyramids"
+      },
+      {
+        "question": "Renaissance began in?",
+        "options": ["Italy", "France", "England", "Germany"],
+        "answer": "Italy"
+      }
+    ]
+  },
+  {
+    "subject": "Geography",
+    "questions": [
+      {
+        "question": "Largest ocean?",
+        "options": ["Pacific", "Atlantic", "Indian", "Arctic"],
+        "answer": "Pacific"
+      },
+      {
+        "question": "Longest river?",
+        "options": ["Nile", "Amazon", "Mississippi", "Yangtze"],
+        "answer": "Nile"
+      },
+      {
+        "question": "Highest mountain?",
+        "options": ["Everest", "Kilimanjaro", "Elbrus", "Fuji"],
+        "answer": "Everest"
+      },
+      {
+        "question": "Desert with most sand?",
+        "options": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+        "answer": "Sahara"
+      }
+    ]
+  },
+  {
+    "subject": "Commerce",
+    "questions": [
+      {
+        "question": "Selling goods for profit?",
+        "options": ["Trade", "Barter", "Theft", "Donation"],
+        "answer": "Trade"
+      },
+      {
+        "question": "Document showing payment?",
+        "options": ["Invoice", "Receipt", "Letter", "Memo"],
+        "answer": "Invoice"
+      },
+      {
+        "question": "Buying in large quantity?",
+        "options": ["Wholesale", "Retail", "Import", "Export"],
+        "answer": "Wholesale"
+      },
+      {
+        "question": "Business owned by one person?",
+        "options": [
+          "Sole proprietorship",
+          "Partnership",
+          "Cooperative",
+          "Corporation"
+        ],
+        "answer": "Sole proprietorship"
+      }
+    ]
+  },
+  {
+    "subject": "Accounting",
+    "questions": [
+      {
+        "question": "Accounting equation?",
+        "options": [
+          "Assets=Liabilities+Equity",
+          "Assets=Income+Expenses",
+          "Profit=Revenue-Expenses",
+          "Cash=Bank+Receivable"
+        ],
+        "answer": "Assets=Liabilities+Equity"
+      },
+      {
+        "question": "Financial statement showing profit?",
+        "options": [
+          "Income Statement",
+          "Balance Sheet",
+          "Cash Flow",
+          "Trial Balance"
+        ],
+        "answer": "Income Statement"
+      },
+      {
+        "question": "Double entry means?",
+        "options": [
+          "Debit & Credit",
+          "Only Debit",
+          "Only Credit",
+          "Cash Entry"
+        ],
+        "answer": "Debit & Credit"
+      },
+      {
+        "question": "Document recording transactions?",
+        "options": ["Ledger", "Journal", "Invoice", "Receipt"],
+        "answer": "Journal"
+      }
+    ]
+  },
+  {
+    "subject": "Marketing",
+    "questions": [
+      {
+        "question": "Promotion is part of?",
+        "options": ["Marketing mix", "Accounting", "Management", "Finance"],
+        "answer": "Marketing mix"
+      },
+      {
+        "question": "4Ps in Marketing?",
+        "options": [
+          "Product, Price, Place, Promotion",
+          "Plan, Prepare, Perform, Present",
+          "People, Place, Price, Profit",
+          "Process, Price, Product, Promotion"
+        ],
+        "answer": "Product, Price, Place, Promotion"
+      },
+      {
+        "question": "Market segmentation divides by?",
+        "options": ["Demographics", "Finance", "Weather", "Education"],
+        "answer": "Demographics"
+      },
+      {
+        "question": "Branding is?",
+        "options": [
+          "Identity of product",
+          "Type of price",
+          "Marketing report",
+          "Accounting"
+        ],
+        "answer": "Identity of product"
+      }
+    ]
+  },
+  {
+    "subject": "Civic Education",
+    "questions": [
+      {
+        "question": "Rights and duties of citizens?",
+        "options": ["Civic education", "Politics", "Economics", "History"],
+        "answer": "Civic education"
+      },
+      {
+        "question": "Democracy means?",
+        "options": [
+          "Rule by people",
+          "Rule by king",
+          "Rule by army",
+          "Rule by council"
+        ],
+        "answer": "Rule by people"
+      },
+      {
+        "question": "Voting age in Nigeria?",
+        "options": ["18", "16", "21", "25"],
+        "answer": "18"
+      },
+      {
+        "question": "National anthem is sung to show?",
+        "options": ["Patriotism", "Fun", "Celebration", "Wealth"],
+        "answer": "Patriotism"
+      }
+    ]
+  }
+]
