@@ -18,30 +18,42 @@ const tabContainer = document.getElementById("subject-tab");
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
   const user = JSON.parse(localStorage.getItem("jambUser"));
-  if (!user || !user.subjects) {
-    alert("No subjects found for this user.");
-    return;
-  }
+  if (!user || !user.subjects) return alert("No subjects found for this user.");
 
   subjects = user.subjects;
 
   for (const subject of subjects) {
     try {
-      const res = await fetch(`/api/questions/${encodeURIComponent(subject)}`);
+      const res = await fetch(`/data/${encodeURIComponent(subject)}.json`);
       if (!res.ok) throw new Error(`Failed to fetch ${subject}`);
       const data = await res.json();
-      questions[subject] = data.questions;
+
+      // Map options to array
+      questions[subject] = data.map((q) => ({
+        question: q.question || q.q || "No question text",
+        options: Object.values(q.options || { A: q.A, B: q.B, C: q.C, D: q.D }),
+        answer: q.answer || q.correct_answer || "A",
+      }));
+
+      // Handle empty subject file
+      if (!questions[subject].length) {
+        questions[subject] = [
+          { question: "No questions found.", options: [], answer: "" },
+        ];
+      }
     } catch (err) {
       console.error(err);
       alert(`Failed to load questions for ${subject}.`);
-      questions[subject] = [];
+      questions[subject] = [
+        { question: "No questions found.", options: [], answer: "" },
+      ];
     }
   }
 
   // Initialize answers
-  subjects.forEach((subject) => {
-    answers[subject] = new Array(questions[subject].length).fill(null);
-  });
+  subjects.forEach(
+    (sub) => (answers[sub] = new Array(questions[sub].length).fill(null)),
+  );
 
   createSubjectTabs();
   loadQuestion();
@@ -83,19 +95,16 @@ function loadQuestion() {
   q.options.forEach((opt, i) => {
     const label = document.createElement("label");
     label.className = "options";
-
     label.innerHTML = `
       <input type="radio" name="option"
         ${answers[subject][currentQuestionIndex] === opt ? "checked" : ""}>
       <span class="indicator">${String.fromCharCode(65 + i)}</span>
       <span class="text">${opt}</span>
     `;
-
     label.onclick = () => {
       answers[subject][currentQuestionIndex] = opt;
       updatePalette();
     };
-
     optionListEl.appendChild(label);
   });
 

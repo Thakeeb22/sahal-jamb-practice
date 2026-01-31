@@ -10,6 +10,7 @@
   "description": "Sahal School JAMB Practice App is a lightweight Computer-Based Test (CBT) application for students preparing for JAMB exams. This is a frontend-only MVP built with vanilla HTML, CSS, and JavaScript, using browser localStorage for data persistence and static JSON files for questions.",
   "main": "index.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

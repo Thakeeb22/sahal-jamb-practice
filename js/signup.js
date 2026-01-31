@@ -5,29 +5,38 @@
 const signupForm = document.getElementById("signup-form");
 const subjectContainer = document.getElementById("subject-checkboxes");
 
-/* ===== LOAD SUBJECTS DYNAMICALLY ===== */
+/* ===== LOAD SUBJECTS FROM DATA FOLDER ===== */
 async function loadSubjects() {
-  try {
-    const res = await fetch("/api/subjects");
-    if (!res.ok) throw new Error("Failed to fetch subjects");
-    const subjects = await res.json();
+  // List all JSON files in your data folder
+  const files = [
+    "mathematics.json",
+    "english.json",
+    "biology.json",
+    "chemistry.json",
+    "physics.json",
+    "government.json",
+    "literature-in-english.json",
+    "economics.json",
+    "commerce.json",
+    "principles_of_accounts.json",
 
-    subjectContainer.innerHTML = "";
-    subjects.forEach((subject) => {
-      const label = document.createElement("label");
-      label.className = "subject-label";
+  ]; // <-- add/remove files as needed
 
-      label.innerHTML = `
-        <input type="checkbox" name="subject" value="${subject}">
-        <span>${subject}</span>
-      `;
+  const subjects = files.map((file) =>
+    file.replace(".json", "").replace(/_/g, " "),
+  );
 
-      subjectContainer.appendChild(label);
-    });
-  } catch (err) {
-    console.error(err);
-    alert("Error loading subjects. Please refresh the page.");
-  }
+  // Generate checkboxes
+  subjectContainer.innerHTML = "";
+  subjects.forEach((subject) => {
+    const label = document.createElement("label");
+    label.className = "subject-label";
+    label.innerHTML = `
+      <input type="checkbox" name="subject" value="${subject}">
+      <span>${subject}</span>
+    `;
+    subjectContainer.appendChild(label);
+  });
 }
 
 /* ===== HANDLE SIGNUP ===== */
@@ -47,13 +56,8 @@ signupForm.addEventListener("submit", async (e) => {
     return;
   }
 
-  if (subjects.length === 0) {
-    alert("Please select at least one subject.");
-    return;
-  }
-
-  if (subjects.length > 4) {
-    alert("Please select a maximum of 4 subjects.");
+  if (subjects.length === 0 || subjects.length > 4) {
+    alert("Please select between 1 and 4 subjects.");
     return;
   }
 
@@ -61,7 +65,7 @@ signupForm.addEventListener("submit", async (e) => {
     const res = await fetch("/api/auth/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fullname, password, licenseCode, subjects }),
+      body: JSON.stringify({ fullname, password, licenseCode }),
     });
 
     const data = await res.json();
@@ -71,9 +75,9 @@ signupForm.addEventListener("submit", async (e) => {
       return;
     }
 
-    // Save JWT and user info in localStorage
-    localStorage.setItem("jambToken", data.token);
+    // Save JWT and user info + selected subjects
     localStorage.setItem("jambUser", JSON.stringify({ fullname, subjects }));
+    localStorage.setItem("jambToken", data.token);
 
     alert("Signup successful! Redirecting to practice page...");
     window.location.href = "practice.html";
