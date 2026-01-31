@@ -1,14 +1,22 @@
-/* ===== LOAD SUBJECTS FROM JSON ===== */
-ffetch("../data/questions.json")
-  .then((res) => res.json())
-  .then((data) => {
-    const subjectContainer = document.getElementById("subject-checkboxes");
+/*********************************
+ * SAHAL JAMB PRACTICE – SIGNUP
+ *********************************/
+
+// Get the container for subject checkboxes
+const subjectContainer = document.getElementById("subject-checkboxes");
+
+// Function to load available subjects dynamically
+async function loadAvailableSubjects() {
+  try {
+    // Assuming all subject JSON files are in ./data/
+    const files = await fetch("./data/subjects.json").then((res) => res.json());
+
+    // Example format: ["Mathematics", "English", "Biology", ...]
+    const availableSubjects = files;
+
     subjectContainer.innerHTML = "";
 
-    // Get unique subjects
-    const uniqueSubjects = [...new Set(data.map((q) => q.subject))];
-
-    uniqueSubjects.forEach((subject) => {
+    availableSubjects.forEach((subject) => {
       const label = document.createElement("label");
       label.className = "subject-label";
 
@@ -16,16 +24,18 @@ ffetch("../data/questions.json")
         <input type="checkbox" name="subject" value="${subject}">
         <span>${subject}</span>
       `;
-
       subjectContainer.appendChild(label);
     });
-  })
-  .catch((error) => {
+  } catch (error) {
     console.error("Error loading subjects:", error);
     alert("Error loading subjects. Please refresh the page.");
-  });
+  }
+}
 
+// Call function to populate subjects
+loadAvailableSubjects();
 
+/* ===== SIGNUP FORM ===== */
 const signupForm = document.getElementById("signup-form");
 
 signupForm.addEventListener("submit", function (e) {
@@ -54,28 +64,8 @@ signupForm.addEventListener("submit", function (e) {
     return;
   }
 
-  // Get existing users from localStorage
-  let users = JSON.parse(localStorage.getItem("jambUsers") || "[]");
-
-  // Check if user already exists
-  const userExists = users.some((u) => u.fullname === fullname);
-  if (userExists) {
-    alert("User with this name already exists. Please choose another.");
-    return;
-  }
-
-  // Create new user object
-  const newUser = {
-    fullname,
-    password,
-    subjects,
-  };
-
-  // Save to localStorage
-  users.push(newUser);
-  localStorage.setItem("jambUsers", JSON.stringify(users));
-
-  // Also save current user for the quiz
+  // Save current user for the quiz
+  const newUser = { fullname, password, licenseCode, subjects };
   localStorage.setItem("jambUser", JSON.stringify(newUser));
 
   alert("Signup successful! Redirecting to practice page...");
