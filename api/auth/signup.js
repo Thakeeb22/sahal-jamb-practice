@@ -12,6 +12,13 @@ export default async function handler(req, res) {
   try {
     await connectDB();
 
+    // Drop unique index on licenseCode if it exists to allow reuse
+    try {
+      await User.collection.dropIndex("licenseCode_1");
+    } catch (err) {
+      // Index might not exist, ignore error
+    }
+
     const { fullname, password, licenseCode } = req.body;
 
     // Validate input
