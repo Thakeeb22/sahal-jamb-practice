@@ -2,21 +2,18 @@
  * SAHAL JAMB PRACTICE – SIGNUP
  *********************************/
 
-// Get the container for subject checkboxes
+const signupForm = document.getElementById("signup-form");
 const subjectContainer = document.getElementById("subject-checkboxes");
 
-// Function to load available subjects dynamically
-async function loadAvailableSubjects() {
+/* ===== LOAD SUBJECTS DYNAMICALLY ===== */
+async function loadSubjects() {
   try {
-    // Assuming all subject JSON files are in ./data/
-    const files = await fetch("./data/subjects.json").then((res) => res.json());
-
-    // Example format: ["Mathematics", "English", "Biology", ...]
-    const availableSubjects = files;
+    const res = await fetch("/api/subjects");
+    if (!res.ok) throw new Error("Failed to fetch subjects");
+    const subjects = await res.json();
 
     subjectContainer.innerHTML = "";
-
-    availableSubjects.forEach((subject) => {
+    subjects.forEach((subject) => {
       const label = document.createElement("label");
       label.className = "subject-label";
 
@@ -24,21 +21,17 @@ async function loadAvailableSubjects() {
         <input type="checkbox" name="subject" value="${subject}">
         <span>${subject}</span>
       `;
+
       subjectContainer.appendChild(label);
     });
-  } catch (error) {
-    console.error("Error loading subjects:", error);
+  } catch (err) {
+    console.error(err);
     alert("Error loading subjects. Please refresh the page.");
   }
 }
 
-// Call function to populate subjects
-loadAvailableSubjects();
-
-/* ===== SIGNUP FORM ===== */
-const signupForm = document.getElementById("signup-form");
-
-signupForm.addEventListener("submit", function (e) {
+/* ===== HANDLE SIGNUP ===== */
+signupForm.addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const fullname = document.getElementById("fullname").value.trim();
@@ -64,10 +57,31 @@ signupForm.addEventListener("submit", function (e) {
     return;
   }
 
-  // Save current user for the quiz
-  const newUser = { fullname, password, licenseCode, subjects };
-  localStorage.setItem("jambUser", JSON.stringify(newUser));
+  try {
+    const res = await fetch("/api/auth/signup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ fullname, password, licenseCode, subjects }),
+    });
 
-  alert("Signup successful! Redirecting to practice page...");
-  window.location.href = "practice.html";
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert(data.message || "Signup failed");
+      return;
+    }
+
+    // Save JWT and user info in localStorage
+    localStorage.setItem("jambToken", data.token);
+    localStorage.setItem("jambUser", JSON.stringify({ fullname, subjects }));
+
+    alert("Signup successful! Redirecting to practice page...");
+    window.location.href = "practice.html";
+  } catch (err) {
+    console.error(err);
+    alert("An error occurred during signup. Please try again.");
+  }
 });
+
+/* ===== INIT ===== */
+loadSubjects();
