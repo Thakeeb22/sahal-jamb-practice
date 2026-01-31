@@ -1,0 +1,226 @@
+{
+  "subject": "economics",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "Economics is the study of human behaviour as it relates to the",
+      "hasImage": false,
+      "options": {
+        "A": "efficient allocation of resources",
+        "B": "production of goods",
+        "C": "operation of companies",
+        "D": "generation of income"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The downturn in the prices of shares on stock markets is a highlight of",
+      "hasImage": false,
+      "options": {
+        "A": "efficient allocation of resources",
+        "B": "the invisible hand",
+        "C": "the regulatory nature of the market",
+        "D": "consumer rationality"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If Σf = 6 and N = 6, determine the value of Σfx",
+      "hasImage": false,
+      "options": {
+        "A": "36",
+        "B": "12",
+        "C": "1",
+        "D": "72"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The standard deviation of a set of data is",
+      "hasImage": false,
+      "options": {
+        "A": "always measured from the mode",
+        "B": "the most representative of averages",
+        "C": "always measured from the median",
+        "D": "a measure of dispersion"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The mean is the best measure of central tendency because it",
+      "hasImage": false,
+      "options": {
+        "A": "is not affected by extreme values in a data",
+        "B": "is a midpoint value in an array of data",
+        "C": "is a balancing point in an observation",
+        "D": "can be calculated from incomplete data"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The most popular sizes of dresses and shoes are determined by the",
+      "hasImage": false,
+      "options": {
+        "A": "range",
+        "B": "mean",
+        "C": "mode",
+        "D": "median"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If the demand for a good is more elastic than its supply, the tax burden is borne",
+      "hasImage": false,
+      "options": {
+        "A": "equally by consumers and producers",
+        "B": "more by producers",
+        "C": "more by consumers",
+        "D": "more by retailers and producers"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If the price of a commodity with elastic demand increases, the revenue accruing to the producer will",
+      "hasImage": false,
+      "options": {
+        "A": "double",
+        "B": "increase",
+        "C": "be constant",
+        "D": "decrease"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "An excess demand for beans will result from",
+      "hasImage": false,
+      "options": {
+        "A": "an increase in the price of beans",
+        "B": "a decrease in the price of beans",
+        "C": "an increase in the supply of beans",
+        "D": "a decrease in the supply of beans"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Consumer surplus tends to be higher when demand is",
+      "hasImage": false,
+      "options": {
+        "A": "inelastic",
+        "B": "perfectly elastic",
+        "C": "elastic",
+        "D": "unitarily elastic"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "One of the assumptions of ordinal utility theory is that",
+      "hasImage": false,
+      "options": {
+        "A": "choice is not consistent",
+        "B": "utility can be ranked",
+        "C": "total utility is a function of price",
+        "D": "satisfaction is measurable"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The law of diminishing marginal utility explains why",
+      "hasImage": false,
+      "options": {
+        "A": "the slope of a normal demand curve is negative",
+        "B": "an abnormal demand curve slopes upwards",
+        "C": "the slope of a normal demand curve is positive",
+        "D": "the consumption of inferior goods increases with income"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If a consumer plans to spend 120k on four oranges but spent 80k, his consumer surplus is",
+      "hasImage": false,
+      "options": {
+        "A": "₦1.50",
+        "B": "₦0.40",
+        "C": "₦1.00",
+        "D": "₦2.00"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A set of factors that can shift the supply curve are changes in",
+      "hasImage": false,
+      "options": {
+        "A": "weather, price and technology",
+        "B": "technology, weather and population",
+        "C": "technology, price and taste",
+        "D": "population, price and taste"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If the coefficient of price elasticity of supply is greater than one, the supply is said to be",
+      "hasImage": false,
+      "options": {
+        "A": "perfectly elastic",
+        "B": "fairly inelastic",
+        "C": "infinitely inelastic",
+        "D": "fairly elastic"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "If commodity X is a by-product of commodity Y, this implies that both commodities are",
+      "hasImage": false,
+      "options": {
+        "A": "in competitive supply",
+        "B": "in composite supply",
+        "C": "jointly supplied",
+        "D": "in excess supply"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "In perfect competition, price is determined by the",
+      "hasImage": false,
+      "options": {
+        "A": "government",
+        "B": "sellers",
+        "C": "buyers",
+        "D": "market"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "In order to reduce hardship faced by consumers due to high prices, government can introduce",
+      "hasImage": false,
+      "options": {
+        "A": "maximum prices",
+        "B": "commodity boards",
+        "C": "minimum prices",
+        "D": "price control boards"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Average product is less than marginal product when",
+      "hasImage": false,
+      "options": {
+        "A": "there is constant returns to scale",
+        "B": "there is increasing returns to scale",
+        "C": "there is decreasing returns to scale",
+        "D": "diminishing returns set in"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A firm enjoying economies of scale is said to be",
+      "hasImage": false,
+      "options": {
+        "A": "reducing average cost as production increases",
+        "B": "benefiting from the activities of other firms",
+        "C": "maximizing profits as production increases",
+        "D": "having an upward-sloping average cost curve"
+      },
+      "answer": "A"
+    }
+  ]
+}

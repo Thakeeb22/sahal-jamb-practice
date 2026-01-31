@@ -1,0 +1,258 @@
+{
+  "subject": "government",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "When did Nigeria gain her Independence?",
+      "hasImage": false,
+      "options": {
+        "A": "1st October 1963",
+        "B": "31st October 1690",
+        "C": "1st October 2012",
+        "D": "1st October 1960",
+        "E": "12th October 1992"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Democracy means a system of government in which",
+      "hasImage": false,
+      "options": {
+        "A": "The majority rules",
+        "B": "The minority rules",
+        "C": "There is no party system",
+        "D": "The people rule",
+        "E": "None of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A constitution is federal if",
+      "hasImage": false,
+      "options": {
+        "A": "It provides for a presidential system",
+        "B": "It is unwritten",
+        "C": "It is not unitary",
+        "D": "The central and component units or authorities are co-ordinate and equal",
+        "E": "There is a division of powers between a central and a number of other component authorities"
+      },
+      "answer": "E"
+    },
+    {
+      "question": "The Executive is",
+      "hasImage": false,
+      "options": {
+        "A": "A committee of the legislature",
+        "B": "The body that makes laws",
+        "C": "The body that executes the policies of government",
+        "D": "The highest organ of government",
+        "E": "None of the above"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Judiciary is",
+      "hasImage": false,
+      "options": {
+        "A": "An arm of the Executive",
+        "B": "The body which makes the law",
+        "C": "A body of lawyers",
+        "D": "The body which interprets the law",
+        "E": "The body which enforces the law"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The separation of powers means the same as",
+      "hasImage": false,
+      "options": {
+        "A": "A presidential system of government",
+        "B": "Checks and balances",
+        "C": "The rule of law",
+        "D": "Supremacy of the judiciary",
+        "E": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Rights are",
+      "hasImage": false,
+      "options": {
+        "A": "Claims which the law allows",
+        "B": "Claims against the state",
+        "C": "Claims against other individuals",
+        "D": "Claims which are natural to men",
+        "E": "What are written in the constitution"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Pressure groups are",
+      "hasImage": false,
+      "options": {
+        "A": "Organization which wants to overthrow the government",
+        "B": "Organizations which seek to influence the policies of the government",
+        "C": "Associations of people who share the same ideology",
+        "D": "Political parties",
+        "E": "Religious orders"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A cabinet system of government is practiced in",
+      "hasImage": false,
+      "options": {
+        "A": "The USSR",
+        "B": "The USA",
+        "C": "The People's Republic of China",
+        "D": "The United Kingdom",
+        "E": "North Korea"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The citizen's obligations are",
+      "hasImage": false,
+      "options": {
+        "A": "What the government orders",
+        "B": "Duties the individual imposes on himself",
+        "C": "What the law requires of the individual",
+        "D": "What the military decrees",
+        "E": "What political parties demand of their members"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "An electoral system is the system which governs",
+      "hasImage": false,
+      "options": {
+        "A": "The appointment of the Pope elections",
+        "B": "How people vote",
+        "C": "The conduct of elections",
+        "D": "The appointment of cabinet ministers",
+        "E": "The appointment of judges"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "An unwritten constitution is one which",
+      "hasImage": false,
+      "options": {
+        "A": "Is not subject to judicial review",
+        "B": "Is only partially written",
+        "C": "Is not written at all",
+        "D": "Is made up solely of a set of conventions",
+        "E": "None of the above"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Delegated legislation is legislation",
+      "hasImage": false,
+      "options": {
+        "A": "Which is not submitted to parliament",
+        "B": "Made by judicial tribunals",
+        "C": "Made by a minister acting under an Act of Parliament",
+        "D": "Made by local government",
+        "E": "Made by parastatals"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Before colonial rule, Yoruba traditional rulers were appointed by",
+      "hasImage": false,
+      "options": {
+        "A": "The people acting through their representatives",
+        "B": "The Ogboni",
+        "C": "Ifa (oracle) priests",
+        "D": "Odudwa",
+        "E": "Kingmakers"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The first political party properly so-called was formed in Nigeria in",
+      "hasImage": false,
+      "options": {
+        "A": "1916",
+        "B": "1923",
+        "C": "1944",
+        "D": "1948",
+        "E": "1951"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Lol Cadres, a major factor in the constitutional development of the French colonial territories, was introduced in",
+      "hasImage": false,
+      "options": {
+        "A": "1940",
+        "B": "1946",
+        "C": "1950",
+        "D": "1956",
+        "E": "1960"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Coussey Commission Report laid the groundwork for the eventual independence of",
+      "hasImage": false,
+      "options": {
+        "A": "Gambia",
+        "B": "Gold Coast (Ghana)",
+        "C": "Sierra Leone",
+        "D": "Liberia",
+        "E": "Nigeria"
+      },
+      "answer": "E"
+    },
+    {
+      "question": "The (former) Western Region of Nigeria became internally self-governing in",
+      "hasImage": false,
+      "options": {
+        "A": "1955",
+        "B": "1957",
+        "C": "1958",
+        "D": "1956",
+        "E": "1959"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The first Pan African conference was held in",
+      "hasImage": false,
+      "options": {
+        "A": "Paris",
+        "B": "Brussels",
+        "C": "London",
+        "D": "New York",
+        "E": "Manchester"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Public Service Commission (Nigeria) is responsible for the appointment of all",
+      "hasImage": false,
+      "options": {
+        "A": "Judges of the High Court",
+        "B": "Officials of public corporations",
+        "C": "Civil servants",
+        "D": "Military personnel",
+        "E": "University teachers"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Constitutional cases in Nigeria can only be raised in the first instance in",
+      "hasImage": false,
+      "options": {
+        "A": "The Supreme Court",
+        "B": "The High Courts",
+        "C": "The Courts of Appeal",
+        "D": "The Sharia Court of Appeal",
+        "E": "None of the above"
+      },
+      "answer": "B"
+    }
+  ]
+}

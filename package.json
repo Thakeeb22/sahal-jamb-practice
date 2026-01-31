@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5"
+  },
+  "name": "sahal-school-jamb-quiz-app",
+  "version": "1.0.0",
+  "description": "Sahal School JAMB Practice App is a lightweight Computer-Based Test (CBT) application for students preparing for JAMB exams. This is a frontend-only MVP built with vanilla HTML, CSS, and JavaScript, using browser localStorage for data persistence and static JSON files for questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thakeeb22/sahal-jamb-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Thakeeb22/sahal-jamb-practice/issues"
+  },
+  "homepage": "https://github.com/Thakeeb22/sahal-jamb-practice#readme"
+}

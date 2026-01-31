@@ -1,0 +1,243 @@
+{
+  "subject": "mathematics",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "Solve for x: 2x + 5 = 15",
+      "hasImage": false,
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "10",
+        "D": "15"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If x² − 9 = 0, find x.",
+      "hasImage": false,
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "±3",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The sum of four numbers is 12145. What is the average expressed in base five?",
+      "hasImage": false,
+      "options": {
+        "A": "411",
+        "B": "401",
+        "C": "141",
+        "D": "114"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Evaluate log₂4 + log₁/216 − log₄32",
+      "hasImage": false,
+      "options": {
+        "A": "-2.5",
+        "B": "5.5",
+        "C": "-5.5",
+        "D": "2.5"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Given U = {Even numbers between 0 and 30}, P = {Multiples of 6 between 0 and 30}, Q = {Multiples of 4 between 0 and 30}, find (P ∪ Q)c.",
+      "hasImage": false,
+      "options": {
+        "A": "{0, 2, 6, 22, 26}",
+        "B": "{2, 4, 14, 18, 26}",
+        "C": "{2, 10, 14, 22, 26}",
+        "D": "{0, 10, 14, 22, 26}"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "In a class of 40 students, 32 offer Mathematics, 24 offer Physics and 4 offer neither Mathematics nor Physics. How many offer both Mathematics and Physics?",
+      "hasImage": false,
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "20",
+        "D": "8"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Find (1/0.06 ÷ 1/0.042) - 1, correct to two decimal places",
+      "hasImage": false,
+      "options": {
+        "A": "4.42",
+        "B": "3.14",
+        "C": "1.53",
+        "D": "1.43"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "If 9²x − 1/27x + 1 = 1, find the value of x.",
+      "hasImage": false,
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "5",
+        "D": "3"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "If x + 2 and x − 1 are factors of the expression lx + 2kx² + 24, find the values of l and k.",
+      "hasImage": false,
+      "options": {
+        "A": "l = −6, k = −9",
+        "B": "l = −2, k = 1",
+        "C": "l = −2, k = −1",
+        "D": "l = 0, k = 1",
+        "E": "l = 6, k = 0"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Make T the subject of the equation: av = (3 / (1 − v)) + (2v / aT).",
+      "hasImage": false,
+      "options": {
+        "A": "3av / (1 − v)",
+        "B": "2v(1 − v)² − a²v² / 2a²v² − (1 − v)²",
+        "C": "2v(1 − v)² + a³v² / 2a²v² + (1 − v)²",
+        "D": "2v(1 − v)² − a⁴v³ / 2a³v³ − (1 − v)³",
+        "E": "2v(1 − v)³ − a⁴v³ / 2a³v³ + (1 − v)³"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "y varies partly as the square of x and partly as the inverse of the square root of x. Write down the expression for y if y = 2 when x = 1 and y = 6 when x = 4.",
+      "hasImage": false,
+      "options": {
+        "A": "y = 10x² + 5/√x",
+        "B": "y = x² + 1/√x",
+        "C": "y = x² + 1/x",
+        "D": "y = x² + 1",
+        "E": "y = 10(x² + 1)"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Simplify (x − 7) / (x² − 9) × (x² − 3x) / (x² − 49).",
+      "hasImage": false,
+      "options": {
+        "A": "x / (x − 3)(x + 7)",
+        "B": "(x + 3)(x + 7) / x",
+        "C": "x / (x − 3)(x − 7)",
+        "D": "x / (x + 3)(x + 7)",
+        "E": "x / (x + 4)(x + 7)"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The lengths of the sides of a right-angled triangle are (3x + 1) cm, (3x − 1) cm and x cm. Find the value of x.",
+      "hasImage": false,
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "18",
+        "D": "12",
+        "E": "0"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The scores of a set of final year students in the first semester examination are 41, 29, 55, 21, 47, 70, 70, 40, 43, 56, 73, 23, 50, 50. Find the median score.",
+      "hasImage": false,
+      "options": {
+        "A": "47",
+        "B": "48½",
+        "C": "50",
+        "D": "48",
+        "E": "49"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Find the remainder when 3x³ + 5x² − 11x + 1 is divided by x + 3.",
+      "hasImage": false,
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "−2",
+        "D": "−4"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Factorize completely ac − 2bc − a² + 4b².",
+      "hasImage": false,
+      "options": {
+        "A": "(a − 2b)(c + a − 2b)",
+        "B": "(a − 2b)(c − a − 2b)",
+        "C": "(a − 2b)(c + a + 2b)",
+        "D": "(a − 2b)(c − a + 2b)"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "y is inversely proportional to x and y = 4 when x = 1/2. Find x when y = 10.",
+      "hasImage": false,
+      "options": {
+        "A": "1/10",
+        "B": "1/5",
+        "C": "2",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The sum of four numbers is 12145. What is the average expressed in base five?",
+      "hasImage": false,
+      "options": {
+        "A": "411",
+        "B": "401",
+        "C": "141",
+        "D": "114"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Evaluate log₂4 + log₁/216 − log₄32",
+      "hasImage": false,
+      "options": {
+        "A": "-2.5",
+        "B": "5.5",
+        "C": "-5.5",
+        "D": "2.5"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Given U = {Even numbers between 0 and 30}, P = {Multiples of 6 between 0 and 30}, Q = {Multiples of 4 between 0 and 30}, find (P ∪ Q)c.",
+      "hasImage": false,
+      "options": {
+        "A": "{0, 2, 6, 22, 26}",
+        "B": "{2, 4, 14, 18, 26}",
+        "C": "{2, 10, 14, 22, 26}",
+        "D": "{0, 10, 14, 22, 26}"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "In a class of 40 students, 32 offer Mathematics, 24 offer Physics and 4 offer neither Mathematics nor Physics. How many offer both Mathematics and Physics?",
+      "hasImage": false,
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "20",
+        "D": "8"
+      },
+      "answer": "A"
+    }
+  ]
+}

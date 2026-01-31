@@ -1,17 +1,20 @@
 /* ===== LOAD SUBJECTS FROM JSON ===== */
-fetch("../data/questions.json")
+ffetch("../data/questions.json")
   .then((res) => res.json())
   .then((data) => {
     const subjectContainer = document.getElementById("subject-checkboxes");
     subjectContainer.innerHTML = "";
 
-    data.forEach((item) => {
+    // Get unique subjects
+    const uniqueSubjects = [...new Set(data.map((q) => q.subject))];
+
+    uniqueSubjects.forEach((subject) => {
       const label = document.createElement("label");
       label.className = "subject-label";
 
       label.innerHTML = `
-        <input type="checkbox" name="subject" value="${item.subject}">
-        <span>${item.subject}</span>
+        <input type="checkbox" name="subject" value="${subject}">
+        <span>${subject}</span>
       `;
 
       subjectContainer.appendChild(label);
@@ -21,6 +24,7 @@ fetch("../data/questions.json")
     console.error("Error loading subjects:", error);
     alert("Error loading subjects. Please refresh the page.");
   });
+
 
 const signupForm = document.getElementById("signup-form");
 

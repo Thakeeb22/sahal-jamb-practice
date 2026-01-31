@@ -1,0 +1,226 @@
+{
+  "subject": "principles_of_accounts",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "The term ‘accounting period’ is used to refer to the",
+      "hasImage": false,
+      "options": {
+        "A": "Time span during which taxes are paid to the Inland Revenue Board",
+        "B": "Budget period, usually one year, relied on by the accountant",
+        "C": "Time span, usually one year covered by financial statement",
+        "D": "Period within which debtors are expected to settle accounts"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Assigning revenues to the accounting period in which goods were sold or services rendered and expenses incurred is known as",
+      "hasImage": false,
+      "options": {
+        "A": "Passing of entries",
+        "B": "Consistency convention",
+        "C": "Matching concept",
+        "D": "Adjusting for revenue"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The accounting convention which states that ‘profit must not be recognized until realized while all losses should be adequately provided for’ is termed",
+      "hasImage": false,
+      "options": {
+        "A": "Materiality",
+        "B": "Objectivity",
+        "C": "Consistency",
+        "D": "Conservatism"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Accounting information is used by investors and creditors of a company to predict",
+      "hasImage": false,
+      "options": {
+        "A": "Future cash flows of the company",
+        "B": "Future tax payments of the company",
+        "C": "Potential merger candidates for the company",
+        "D": "Appropriate remuneration for the company’s staff"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Antics Electronics Company recently bought six generators. Which of the following is the correct method of recording this transaction?",
+      "hasImage": false,
+      "options": {
+        "A": "Debit generator account and credit cash account",
+        "B": "Debit purchases account and credit cash account",
+        "C": "Debit cash account and credit purchases account",
+        "D": "Debit cash account and credit generator account"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "When a business incurs labour costs in installing a fixed asset, the cost is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Additional cost to the asset",
+        "B": "Business wages and salaries",
+        "C": "Installation cost of the asset",
+        "D": "Business cost of the asset"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "What is the cardinal rule of the double entry system?",
+      "hasImage": false,
+      "options": {
+        "A": "Debit the increasing account and credit the decreasing account",
+        "B": "Debit the receiving account and credit the giving account",
+        "C": "Debit the asset account and credit the liability account",
+        "D": "Debit the revenue account and credit the expenditure account"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Malam Gambo bought a freezer for his shop costing N10,500. In recording, he debited office expenses account and credited the bank account. What bookkeeping error has he committed?",
+      "hasImage": false,
+      "options": {
+        "A": "Error of commission",
+        "B": "Error of reversal of entries",
+        "C": "Error of principle",
+        "D": "Compensation error"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The use of the folio in the ledger is for",
+      "hasImage": false,
+      "options": {
+        "A": "Referencing purposes",
+        "B": "Particulars of the transaction",
+        "C": "The account titles",
+        "D": "Only credit items"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The suspense account is used to correct bookkeeping errors where the",
+      "hasImage": false,
+      "options": {
+        "A": "Amount involved is quite significant",
+        "B": "Item involved is not material",
+        "C": "Item involved is unknown",
+        "D": "Error does not affect the agreement of the trial balance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The discount column of a three-column cashbook is not balanced off but periodically transferred to the discount accounts because discounts",
+      "hasImage": false,
+      "options": {
+        "A": "Are not important in cash book",
+        "B": "Are cash items only",
+        "C": "Do not form part of double entry",
+        "D": "Are used for bank reconciliation"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "When is a petty cash account debited?",
+      "hasImage": false,
+      "options": {
+        "A": "When the fund is established and every time money is spent",
+        "B": "When the fund is established and every time it is replenished",
+        "C": "When the fund is established and when the size of the float is decreased",
+        "D": "Every time money is drawn from the petty cash"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "When preparing a bank reconciliation statement, which of the following is deducted from the balance per bank statement?",
+      "hasImage": false,
+      "options": {
+        "A": "Bank charges",
+        "B": "Uncleared cheques",
+        "C": "Returned cheques",
+        "D": "Unpresented cheques"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The financial position of an organization at a particular time can be ascertained from the",
+      "hasImage": false,
+      "options": {
+        "A": "Statement of sources and application of funds",
+        "B": "Statement of retained earnings",
+        "C": "Balance sheet",
+        "D": "Profit and loss account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Given: Purchase N20,000; Sales N40,000; Carriage inwards N5,000; Carriage outwards N5,000; Opening stock N10,000; Closing stock N5,000. What is the cost of goods sold?",
+      "hasImage": false,
+      "options": {
+        "A": "N30,000",
+        "B": "N25,000",
+        "C": "N20,000",
+        "D": "N15,000"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The net profit or loss for the year is determined in the profit and loss account after",
+      "hasImage": false,
+      "options": {
+        "A": "Deducting purchases from sales",
+        "B": "Deducting cost of goods sold from sales and adding administrative expenses",
+        "C": "Adding commissions received to gross profit",
+        "D": "Eliminating all expenses from gross profit and adding any other income"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Using the table provided, determine the value of closing stock using LIFO.",
+      "hasImage": false,
+      "options": {
+        "A": "N9,600",
+        "B": "N7,600",
+        "C": "N6,000",
+        "D": "N2,000"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "What is the gross profit at the end of February, if the closing stock were valued at N20,000?",
+      "hasImage": false,
+      "options": {
+        "A": "N65,000",
+        "B": "N57,000",
+        "C": "N48,000",
+        "D": "N37,000"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A trial balance shows provision for doubtful debts, N190 and debtors, N6,000. It is required to write off further N320 as bad debts and maintain the provision at 2½% of debtors. To do this, the profit and loss should show a",
+      "hasImage": false,
+      "options": {
+        "A": "Credit of N20 and a debit of N100",
+        "B": "Credit of N28 and a debit of N300",
+        "C": "Credit of N48",
+        "D": "Debit entry of N414"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "If a bad debt previously written off is subsequently repaid, the amount collected is recorded as an",
+      "hasImage": false,
+      "options": {
+        "A": "Income in the profit and loss account",
+        "B": "Income in the balance sheet",
+        "C": "Addition to cash in the profit and loss account",
+        "D": "Expense in the balance sheet"
+      },
+      "answer": "A"
+    }
+  ]
+}
