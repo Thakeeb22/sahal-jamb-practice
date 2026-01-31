@@ -14,6 +14,8 @@ const questionTextEl = document.getElementById("question-text");
 const optionListEl = document.getElementById("option-list");
 const paletteEl = document.getElementById("palette");
 const tabContainer = document.getElementById("subject-tab");
+const passageContainer = document.getElementById("passage-container");
+const passageTextEl = document.getElementById("passage-text");
 
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
