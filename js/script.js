@@ -16,6 +16,10 @@ const paletteEl = document.getElementById("palette");
 const tabContainer = document.getElementById("subject-tab");
 const passageContainer = document.getElementById("passage-container");
 const passageTextEl = document.getElementById("passage-text");
+const questionImageContainer = document.getElementById(
+  "question-image-container",
+);
+const questionImageEl = document.getElementById("question-image");
 
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
@@ -54,6 +58,9 @@ async function loadAllQuestions() {
           question: q.question || q.q,
           options: options,
           answer: answerValue,
+          image: q.image,
+          imageDescription: q.imageDescription,
+          hasImage: q.hasImage,
         };
       });
     } catch (err) {
