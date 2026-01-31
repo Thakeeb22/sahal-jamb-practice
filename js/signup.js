@@ -17,7 +17,7 @@ async function loadSubjects() {
     "literature-in-english.json",
     "economics.json",
     "commerce.json",
-    "principles_of_accounts.json",
+    "principles-of-accounts.json",
   ];
 
   subjectContainer.innerHTML = "";
