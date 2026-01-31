@@ -47,6 +47,10 @@
                 <h3 id="question-count"></h3>
               </div>
               <div class="question-body">
+                <div id="passage-container" style="display: none">
+                  <h4>Passage:</h4>
+                  <p id="passage-text"></p>
+                </div>
                 <p class="question-text" id="question-text"></p>
                 <div class="option-list" id="option-list"></div>
               </div>
@@ -89,31 +93,31 @@
       </footer>
     </div>
     <!-- Calculator Modal -->
-<div id="calc-modal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <input type="text" id="calc-display" readonly />
-    <div class="calc-buttons">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>/</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>*</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>-</button>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
-      <button>+</button>
-      <button>C</button>
+    <div id="calc-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <input type="text" id="calc-display" readonly />
+        <div class="calc-buttons">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>/</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>*</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>-</button>
+          <button>0</button>
+          <button>.</button>
+          <button>=</button>
+          <button>+</button>
+          <button>C</button>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
     <script src="./js/script.js"></script>
   </body>

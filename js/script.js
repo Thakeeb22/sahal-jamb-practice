@@ -40,13 +40,20 @@ async function loadAllQuestions() {
         throw new Error("Invalid question format");
       }
 
-      questions[subject] = questionArray.map((q) => ({
-        question: q.question || q.q,
-        options: Array.isArray(q.options)
+      questions[subject] = questionArray.map((q) => {
+        const options = Array.isArray(q.options)
           ? q.options
-          : Object.values(q.options),
-        answer: q.answer,
-      }));
+          : Object.values(q.options);
+        const answerKey = q.answer;
+        const answerValue = Array.isArray(q.options)
+          ? options[answerKey.charCodeAt(0) - 65] // A=0, B=1, etc.
+          : q.options[answerKey];
+        return {
+          question: q.question || q.q,
+          options: options,
+          answer: answerValue,
+        };
+      });
     } catch (err) {
       console.error(err);
       questions[subject] = [];
@@ -93,6 +100,15 @@ function loadQuestion() {
   questionCountEl.textContent = `Question ${currentQuestionIndex + 1} of ${questions[subject].length}`;
   questionTextEl.textContent = q.question;
   optionListEl.innerHTML = "";
+
+  // Show passage for English subject
+  if (subject === "english") {
+    passageContainer.style.display = "block";
+    passageTextEl.textContent =
+      "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature, take her course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by the casualties of war, pestilence, and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own. But when once man has begun to interfere with nature, he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate and at the same time, allow the birthrate to go on taking nature's course. We must consciously try to establish an equilibrium, or sooner or later, famine will stalk abroad again";
+  } else {
+    passageContainer.style.display = "none";
+  }
 
   q.options.forEach((opt, i) => {
     const label = document.createElement("label");
