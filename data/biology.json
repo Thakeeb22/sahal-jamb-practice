@@ -3,15 +3,15 @@
   "exam": "jamb",
   "questions": [
     {
-      "question": "Which Biology Question Paper Type is given to you?",
+      "question": "A dilute solution of phenylthiocarbamide tastes bitter to some people and is tasteless to others. This is an example of",
       "hasImage": false,
       "options": {
-        "A": "Type A",
-        "B": "Type B",
-        "C": "Type C",
-        "D": "Type D"
+        "A": "taste bud variation",
+        "B": "discontinuous variation",
+        "C": "morphological variation",
+        "D": "continuous variation"
       },
-      "answer": "A"
+      "answer": "B"
     },
     {
       "question": "Which of the following characterizes a mature plant cell?",
@@ -58,28 +58,26 @@
       "answer": "D"
     },
     {
-      "question": "With respect to their decreasing dependence on aquatic conditions for reproduction, which of the following is the correct arrangement of the animals represented?",
-      "hasImage": true,
-      "imageDescription": "4-grid picture of rabbit, crocodile, frog, and fish",
+      "question": "In mammals, the exchange of nutrients and metabolic products occurs in the",
+      "hasImage": false,
       "options": {
-        "A": "I, IV, II and III",
-        "B": "IV, III, II and I",
-        "C": "I, II, IV and III",
-        "D": "III, II, IV and I"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Which of the animals represents the oldest creatures in terms of evolutionary history?",
-      "hasImage": true,
-      "imageDescription": "4-grid picture of rabbit, crocodile, frog, and fish",
-      "options": {
-        "A": "III",
-        "B": "II",
-        "C": "I",
-        "D": "IV"
+        "A": "lungs",
+        "B": "oesophagus",
+        "C": "trachea",
+        "D": "lymph"
       },
       "answer": "D"
+    },
+    {
+      "question": "An example of an endospermous seed is",
+      "hasImage": false,
+      "options": {
+        "A": "maize gain",
+        "B": "cashew nut",
+        "C": "cotton seed",
+        "D": "been seed"
+      },
+      "answer": "A"
     },
     {
       "question": "Which of the following groups of cells is devoid of true nuclei?",
