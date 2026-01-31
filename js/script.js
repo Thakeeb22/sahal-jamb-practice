@@ -28,7 +28,7 @@ async function loadAllQuestions() {
 
   for (const subject of subjects) {
     try {
-      const res = await fetch(`/data/${subject}.json`);
+      const res = await fetch(`/api/questions/${subject}`);
       if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
 
       const data = await res.json();

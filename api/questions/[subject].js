@@ -14,8 +14,9 @@ export default function handler(req, res) {
 
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
-    const questions = JSON.parse(raw);
-    res.status(200).json({ subject, questions });
+    const data = JSON.parse(raw);
+    const questions = data.questions || data;
+    res.status(200).json(questions);
   } catch (err) {
     res.status(500).json({ error: "Failed to read questions" });
   }
