@@ -7,10 +7,9 @@ const subjectContainer = document.getElementById("subject-checkboxes");
 
 /* ===== LOAD SUBJECTS FROM DATA FOLDER ===== */
 async function loadSubjects() {
-  // List all JSON files in your data folder
   const files = [
-    "mathematics.json",
     "english.json",
+    "mathematics.json",
     "biology.json",
     "chemistry.json",
     "physics.json",
@@ -19,21 +18,22 @@ async function loadSubjects() {
     "economics.json",
     "commerce.json",
     "principles_of_accounts.json",
+  ];
 
-  ]; // <-- add/remove files as needed
-
-  const subjects = files.map((file) =>
-    file.replace(".json", "").replace(/_/g, " "),
-  );
-
-  // Generate checkboxes
   subjectContainer.innerHTML = "";
-  subjects.forEach((subject) => {
+
+  files.forEach((file) => {
+    const value = file.replace(".json", ""); // SAFE VALUE
+    const labelText = value
+      .replace(/_/g, " ")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase()); // Pretty label
+
     const label = document.createElement("label");
     label.className = "subject-label";
     label.innerHTML = `
-      <input type="checkbox" name="subject" value="${subject}">
-      <span>${subject}</span>
+      <input type="checkbox" name="subject" value="${value}">
+      <span>${labelText}</span>
     `;
     subjectContainer.appendChild(label);
   });

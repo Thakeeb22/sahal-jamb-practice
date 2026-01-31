@@ -18,42 +18,44 @@ const tabContainer = document.getElementById("subject-tab");
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
   const user = JSON.parse(localStorage.getItem("jambUser"));
-  if (!user || !user.subjects) return alert("No subjects found for this user.");
+  if (!user || !user.subjects) {
+    alert("No subjects found for this user.");
+    return;
+  }
 
   subjects = user.subjects;
+  console.log("Subjects:", subjects);
 
   for (const subject of subjects) {
     try {
-      const res = await fetch(`/data/${encodeURIComponent(subject)}.json`);
-      if (!res.ok) throw new Error(`Failed to fetch ${subject}`);
+      const res = await fetch(`/data/${subject}.json`);
+      if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
+
       const data = await res.json();
+      console.log(`${subject} raw data:`, data);
 
-      // Map options to array
-      questions[subject] = data.map((q) => ({
-        question: q.question || q.q || "No question text",
-        options: Object.values(q.options || { A: q.A, B: q.B, C: q.C, D: q.D }),
-        answer: q.answer || q.correct_answer || "A",
-      }));
+      const questionArray = Array.isArray(data) ? data : data.questions;
 
-      // Handle empty subject file
-      if (!questions[subject].length) {
-        questions[subject] = [
-          { question: "No questions found.", options: [], answer: "" },
-        ];
+      if (!Array.isArray(questionArray)) {
+        throw new Error("Invalid question format");
       }
+
+      questions[subject] = questionArray.map((q) => ({
+        question: q.question || q.q,
+        options: Array.isArray(q.options)
+          ? q.options
+          : Object.values(q.options),
+        answer: q.answer,
+      }));
     } catch (err) {
       console.error(err);
-      alert(`Failed to load questions for ${subject}.`);
-      questions[subject] = [
-        { question: "No questions found.", options: [], answer: "" },
-      ];
+      questions[subject] = [];
     }
   }
 
-  // Initialize answers
-  subjects.forEach(
-    (sub) => (answers[sub] = new Array(questions[sub].length).fill(null)),
-  );
+  subjects.forEach((subject) => {
+    answers[subject] = new Array(questions[subject].length).fill(null);
+  });
 
   createSubjectTabs();
   loadQuestion();
@@ -109,6 +111,12 @@ function loadQuestion() {
   });
 
   updatePalette();
+  console.log(
+    "Current subject:",
+    subjects[currentSubjectIndex],
+    "Questions:",
+    questions[subjects[currentSubjectIndex]],
+  );
 }
 
 /* ===== QUESTION PALETTE ===== */
