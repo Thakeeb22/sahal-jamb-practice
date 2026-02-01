@@ -28,22 +28,46 @@ export default function handler(req, res) {
 
     if (subject.toLowerCase() === "english") {
       // Handle English sections
-      questions = [];
+      let comprehensionQuestions = [];
+      let otherQuestions = [];
+
       data.sections.forEach(section => {
-        section.questions.forEach(q => {
-          questions.push({
-            ...q,
-            section: section.section,
-            instruction: section.instruction,
-            passage: section.passage || null
+        if (section.section.toLowerCase() === "comprehension") {
+          section.questions.forEach(q => {
+            comprehensionQuestions.push({
+              ...q,
+              section: section.section,
+              instruction: section.instruction,
+              passage: section.passage || null
+            });
           });
-        });
+        } else {
+          section.questions.forEach(q => {
+            otherQuestions.push({
+              ...q,
+              section: section.section,
+              instruction: section.instruction,
+              passage: section.passage || null
+            });
+          });
+        }
       });
+
+      // Shuffle other sections
+      otherQuestions = shuffleArray(otherQuestions);
+
+      // Combine: Comprehension first, then shuffled others
+      questions = [...comprehensionQuestions, ...otherQuestions];
+
+      // Limit to 60 questions
+      questions = questions.slice(0, 60);
     } else {
       questions = data.questions || data;
+      // Limit to 40 questions
+      questions = questions.slice(0, 40);
     }
 
-    // Shuffle the questions array
+    // Shuffle the questions array (for non-English, or if needed)
     questions = shuffleArray(questions);
 
     res.status(200).json(questions);

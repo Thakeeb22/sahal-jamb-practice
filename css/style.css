@@ -228,11 +228,33 @@ footer {
     color: var(--secondary-color);
     font-weight: bold;
     cursor: pointer;
+    position: relative;
 }
 .login>input[type="submit"]:hover{
     background-color: var(--secondary-color);
     color: black;
     transition: var(--transition);
+}
+.login>input[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /* Calculator Modal */
 .modal {
