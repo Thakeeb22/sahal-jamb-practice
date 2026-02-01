@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    // Show spinner
+    const spinner = document.getElementById("login-spinner");
+    spinner.style.display = "block";
+
     try {
       const res = await fetch("/api/auth/login", {
         method: "POST",
@@ -42,6 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (err) {
       console.error(err);
       alert(err.message);
+    } finally {
+      // Hide spinner
+      spinner.style.display = "none";
     }
   });
 });

@@ -110,13 +110,26 @@ function loadQuestion() {
   questionTextEl.textContent = q.question;
   optionListEl.innerHTML = "";
 
-  // Show passage for English subject
-  if (subject === "english") {
+  // Show passage and instruction for English subject
+  if (subject.toLowerCase() === "english") {
     passageContainer.style.display = "block";
-    passageTextEl.textContent =
-      "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature, take her course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by the casualties of war, pestilence, and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own. But when once man has begun to interfere with nature, he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate and at the same time, allow the birthrate to go on taking nature's course. We must consciously try to establish an equilibrium, or sooner or later, famine will stalk abroad again";
+    if (q.passage) {
+      passageTextEl.textContent = q.passage;
+    } else {
+      passageTextEl.textContent = "";
+    }
+    // Display section instruction
+    const instructionEl = document.getElementById("section-instruction");
+    if (instructionEl) {
+      instructionEl.textContent = q.instruction || "";
+      instructionEl.style.display = "block";
+    }
   } else {
     passageContainer.style.display = "none";
+    const instructionEl = document.getElementById("section-instruction");
+    if (instructionEl) {
+      instructionEl.style.display = "none";
+    }
   }
 
   q.options.forEach((opt, i) => {
