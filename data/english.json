@@ -1,343 +1,246 @@
 {
-  "subject": "english",
-  "exam": "jamb",
-  "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature, take her course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by the casualties of war, pestilence, and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own. But when once man has begun to interfere with nature, he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate and at the same time, allow the birthrate to go on taking nature's course. We must consciously try to establish an equilibrium, or sooner or later, famine will stalk abroad again",
-  "questions": [
+  "subject": "English Language",
+  "exam": "JAMB",
+  "totalQuestions": 100,
+  "sections": [
     {
-      "question": "The author observes that",
-      "hasImage": false,
-      "options": {
-        "A": "war, pestilence and famine were caused by the extravagance of nature",
-        "B": "Nature was heartless and senseless",
-        "C": "there was a time when uncontrolled birth made sense",
-        "D": "It was wise at a time when mankind did not interfere with normal reproduction",
-        "E": "nature was heartless in its reproductive process"
-      },
-      "answer": "C"
+      "section": "Comprehension",
+      "instruction": "Read the passage carefully and answer the questions that follow.",
+      "passage": "Education remains one of the most powerful instruments for national development. A society that invests in education empowers its citizens to think critically, innovate and contribute meaningfully to economic growth. However, poor funding and lack of commitment often weaken educational systems in developing countries.",
+      "questions": [
+        {
+          "question": "The passage mainly discusses",
+          "hasImage": false,
+          "options": {
+            "A": "economic recession",
+            "B": "political instability",
+            "C": "the importance of education",
+            "D": "population growth"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "According to the passage, education helps citizens to",
+          "hasImage": false,
+          "options": {
+            "A": "migrate easily",
+            "B": "think critically",
+            "C": "avoid responsibility",
+            "D": "gain power"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The word \"instrument\" as used in the passage means",
+          "hasImage": false,
+          "options": {
+            "A": "weapon",
+            "B": "tool",
+            "C": "machine",
+            "D": "object"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "One major problem facing education in developing countries is",
+          "hasImage": false,
+          "options": {
+            "A": "innovation",
+            "B": "overpopulation",
+            "C": "poor funding",
+            "D": "migration"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The tone of the passage is",
+          "hasImage": false,
+          "options": {
+            "A": "humorous",
+            "B": "pessimistic",
+            "C": "informative",
+            "D": "sarcastic"
+          },
+          "answer": "C"
+        }
+      ]
     },
     {
-      "question": "Which of these statements does not express the opinion of the author?",
-      "hasImage": false,
-      "options": {
-        "A": "Mankind has started to interfere with the work of nature",
-        "B": "Many people had died in the past through want and disease",
-        "C": "Mankind should not have the maximum number of children possible",
-        "D": "Mankind should take care of its children",
-        "E": "Man's present relationship with nature in matters of birth and death is a happy one"
-      },
-      "answer": "E"
+      "section": "Lexis and Structure",
+      "instruction": "Choose the option that best completes each sentence or is nearest in meaning.",
+      "questions": [
+        {
+          "question": "She was accused ___ stealing the money.",
+          "hasImage": false,
+          "options": {
+            "A": "with",
+            "B": "for",
+            "C": "of",
+            "D": "about"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Neither the teacher nor the students ___ present.",
+          "hasImage": false,
+          "options": {
+            "A": "was",
+            "B": "is",
+            "C": "were",
+            "D": "has"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The antonym of scarce is",
+          "hasImage": false,
+          "options": {
+            "A": "rare",
+            "B": "few",
+            "C": "plenty",
+            "D": "short"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "He has lived in Kaduna ___ 2020.",
+          "hasImage": false,
+          "options": {
+            "A": "for",
+            "B": "since",
+            "C": "during",
+            "D": "by"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The manager, as well as his assistants, ___ arrived.",
+          "hasImage": false,
+          "options": {
+            "A": "have",
+            "B": "were",
+            "C": "has",
+            "D": "are"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Choose the word nearest in meaning to resilient",
+          "hasImage": false,
+          "options": {
+            "A": "weak",
+            "B": "strong",
+            "C": "careless",
+            "D": "shy"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Hardly had he arrived ___ the rain started.",
+          "hasImage": false,
+          "options": {
+            "A": "than",
+            "B": "when",
+            "C": "before",
+            "D": "while"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The plural of child-in-law is",
+          "hasImage": false,
+          "options": {
+            "A": "child-in-laws",
+            "B": "children-in-law",
+            "C": "childs-in-law",
+            "D": "childs-in-laws"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "He prefers rice ___ yam.",
+          "hasImage": false,
+          "options": {
+            "A": "than",
+            "B": "to",
+            "C": "over",
+            "D": "from"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "If she ___ earlier, she would not have missed the bus.",
+          "hasImage": false,
+          "options": {
+            "A": "leaves",
+            "B": "left",
+            "C": "had left",
+            "D": "has left"
+          },
+          "answer": "C"
+        }
+      ]
     },
     {
-      "question": "Humane, as used in the passage means",
-      "hasImage": false,
-      "options": {
-        "A": "sensible",
-        "B": "wise",
-        "C": "human",
-        "D": "benevolent",
-        "E": "thorough"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "'We must consciously try to establish an equilibrium,' implies that mankind must",
-      "hasImage": false,
-      "options": {
-        "A": "realistically find an equation",
-        "B": "strive not to be wasteful",
-        "C": "deliberately try to fight nature",
-        "D": "try to fight nature",
-        "E": "purposely find a balance"
-      },
-      "answer": "E"
-    },
-    {
-      "question": "The main idea of this passage is that",
-      "hasImage": false,
-      "options": {
-        "A": "nature is heartless",
-        "B": "man should control the birth rate",
-        "C": "mankind will soon perish of starvation",
-        "D": "pestilence causes more death than war",
-        "E": "man should change nature's course gradually"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "In the match against the uplanders team, the sub mariners turned out to be the dark horse",
-      "hasImage": false,
-      "options": {
-        "A": "played most brilliantly",
-        "B": "played below their usual form",
-        "C": "won unexpectedly",
-        "D": "lost as expected",
-        "E": "won as expected"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Only the small fry get punished for such social misdemeanors",
-      "hasImage": false,
-      "options": {
-        "A": "small boys",
-        "B": "unimportant people",
-        "C": "frightened people",
-        "D": "frivolous people",
-        "E": "inexperienced people"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "He spoke with his heart in his mouth",
-      "hasImage": false,
-      "options": {
-        "A": "courageously",
-        "B": "with such unusual cowardice",
-        "C": "with a lot of confusion in his speech",
-        "D": "without being able to make up his mind",
-        "E": "with fright and agitation"
-      },
-      "answer": "E"
-    },
-    {
-      "question": "The leader in today's issue of our popular newspaper focuses on inflation",
-      "hasImage": false,
-      "options": {
-        "A": "president",
-        "B": "headline",
-        "C": "editorial",
-        "D": "columnist",
-        "E": "proprietor"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "From the ways my friend talks, you can see he is such a bore",
-      "hasImage": false,
-      "options": {
-        "A": "rude",
-        "B": "brilliant",
-        "C": "uninteresting",
-        "D": "overbearing",
-        "E": "humorous"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "His jail terms were to run concurrently",
-      "hasImage": false,
-      "options": {
-        "A": "simultaneously",
-        "B": "uniformly",
-        "C": "laboriously",
-        "D": "consecutively",
-        "E": "judiciously"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "There is some obvious symmetry in the whole presentation",
-      "hasImage": false,
-      "options": {
-        "A": "confusion",
-        "B": "hesitation",
-        "C": "excitement",
-        "D": "orderliness",
-        "E": "dissatisfaction"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "The bill has to wait as we are now insolvent",
-      "hasImage": false,
-      "options": {
-        "A": "overworked",
-        "B": "bankrupt",
-        "C": "unsettled",
-        "D": "insoluble",
-        "E": "affluent"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "All his plans fell through",
-      "hasImage": false,
-      "options": {
-        "A": "failed",
-        "B": "were accomplished",
-        "C": "had to be reviewed",
-        "D": "were rejected",
-        "E": "fell"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "The balance sheet at the end of the business year shows that we broke even",
-      "hasImage": false,
-      "options": {
-        "A": "lost heavily",
-        "B": "made profit",
-        "C": "neither lost nor gained",
-        "D": "had no money to continue business",
-        "E": "were heavily indebted to our bankers"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "He was appointed specifically to put the recruits through",
-      "hasImage": false,
-      "options": {
-        "A": "assign them to work",
-        "B": "train them",
-        "C": "discipline them",
-        "D": "assist them at work",
-        "E": "supervise them at work"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The result of his experiment represents a breakthrough in medical science",
-      "hasImage": false,
-      "options": {
-        "A": "an outstanding success",
-        "B": "catastrophe",
-        "C": "an end to such experiments",
-        "D": "breaking point",
-        "E": "a colossal failure"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "Being an optimist, our professor always sees the bright side of most things",
-      "hasImage": false,
-      "options": {
-        "A": "charming",
-        "B": "illumined",
-        "C": "brilliant",
-        "D": "pleasing",
-        "E": "cheerful"
-      },
-      "answer": "E"
-    },
-    {
-      "question": "The traffic situation in Lagos can lead to disastrous consequences; a man lost a very lucrative job because he was held up by it",
-      "hasImage": false,
-      "options": {
-        "A": "confused",
-        "B": "delayed",
-        "C": "annoyed",
-        "D": "intrigued",
-        "E": "obstructed"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Mrs. Dada has been deserted by her husband because he feels she has a heart of stone",
-      "hasImage": false,
-      "options": {
-        "A": "she has a heavy heart",
-        "B": "she has little warmth of feeling",
-        "C": "she has a hard heart",
-        "D": "she is hard hearted",
-        "E": "she has a strong heart"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Mr. Jack could be a successful businessman if he paid more attention to the more intricate aspects of his account",
-      "hasImage": false,
-      "options": {
-        "A": "Mr. Jack will undoubtedly succeed",
-        "B": "Mr. Jack cannot succeed",
-        "C": "Jack will have a very good chance of succeeding",
-        "D": "Mr. Jack will find it difficult to succeed",
-        "E": "Mr. Jack will succeed in spite of all odds"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "If my father had not arrived, I would have starved. This sentence means",
-      "hasImage": false,
-      "options": {
-        "A": "My father did arrive and I didn't starve",
-        "B": "I had to starve because my father didn't come",
-        "C": "he did not care whether his parents were alive or had died long before",
-        "D": "I should have starved but I didn't",
-        "E": "I had starved before my father arrived"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "The two sprinters were running neck and neck",
-      "hasImage": false,
-      "options": {
-        "A": "exact level",
-        "B": "very slowly",
-        "C": "very fast",
-        "D": "with their necks together",
-        "E": "together"
-      },
-      "answer": "E"
-    },
-    {
-      "question": "He stared at her",
-      "hasImage": false,
-      "options": {
-        "A": "glanced",
-        "B": "peeped",
-        "C": "looked",
-        "D": "gazed",
-        "E": "fixed"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "We visited the home of one boy. That’s the boy I mean",
-      "hasImage": false,
-      "options": {
-        "A": "That’s the boy whom we visited his home",
-        "B": "That’s the boy whose home we visited",
-        "C": "That’s the boy to whose home we visited",
-        "D": "That’s the boy whom we visited the home",
-        "E": "That’s the boy the home of whom we visited"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The dog was limping. It appeared that one of its legs might have been injured",
-      "hasImage": false,
-      "options": {
-        "A": "The dog was limping as if it had an injured leg",
-        "B": "The dog was limping as it had an injured leg",
-        "C": "The dog was limping so it had an injured leg",
-        "D": "The dog was limping so as it had an injured leg",
-        "E": "The dog was limping for it had an injured leg"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "I can walk that distance and have done so many times",
-      "hasImage": false,
-      "options": {
-        "A": "I am used to walk that distance",
-        "B": "I used to walk that distance",
-        "C": "I used to walking that distance",
-        "D": "I am used to walking that distance",
-        "E": "I will walk that distance"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "For all he cared, his parent might have been dead for years",
-      "hasImage": false,
-      "options": {
-        "A": "although concern about his parent, he had been unable to find out if they were alive",
-        "B": "He cared for no one except his parents, and it was possible that they had died long before",
-        "C": "he did not care whether his parents were alive or had died long before",
-        "D": "He was concerned about everyone not just his parents, who might have died long before",
-        "E": "He cared very much for his parents even though they were dead"
-      },
-      "answer": "C"
+      "section": "Oral Forms",
+      "instruction": "Choose the option that best answers the question.",
+      "questions": [
+        {
+          "question": "Which word rhymes with 'suite'?",
+          "hasImage": false,
+          "options": {
+            "A": "tree",
+            "B": "breath",
+            "C": "bleat",
+            "D": "sweet"
+          },
+          "answer": "D"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'head'?",
+          "hasImage": false,
+          "options": {
+            "A": "said",
+            "B": "heard",
+            "C": "herd",
+            "D": "shirt"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same consonant sound as the underlined letters in 'clash'?",
+          "hasImage": false,
+          "options": {
+            "A": "sharp",
+            "B": "cheap",
+            "C": "leisure",
+            "D": "school"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Choose the correct stress pattern for 'departmental'",
+          "hasImage": false,
+          "options": {
+            "A": "DEpartmental",
+            "B": "dePARTmental",
+            "C": "departMENtal",
+            "D": "departmenTAL"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which option correctly interprets the emphatic stress in: 'Aderonke STATED she had a right to her privacy'?",
+          "hasImage": false,
+          "options": {
+            "A": "Did Omowunmi state she had a right to her privacy?",
+            "B": "Did Aderonke lament she had a right to her privacy?",
+            "C": "Did Aderonke state she had a right to her openness?",
+            "D": "Did Aderonke state she had a right to his privacy?"
+          },
+          "answer": "A"
+        }
+      ]
     }
   ]
 }
