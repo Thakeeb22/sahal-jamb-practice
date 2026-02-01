@@ -26,3 +26,10 @@ if (!resultData || !resultData.subjects) {
     container.appendChild(div);
   });
 }
+
+// Sign out functionality
+document.getElementById("signout-btn").addEventListener("click", () => {
+  localStorage.removeItem("jambUser");
+  localStorage.removeItem("jambResult");
+  window.location.href = "index.html";
+});
