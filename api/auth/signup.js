@@ -49,6 +49,7 @@ export default async function handler(req, res) {
       fullname,
       password: hashedPassword,
       licenseCode,
+      subjects,
     });
 
     // Generate JWT

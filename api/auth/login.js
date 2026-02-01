@@ -35,7 +35,7 @@ export default async function handler(req, res) {
     // Generate JWT
     const token = signToken({ userId: user._id, fullname: user.fullname });
 
-    res.status(200).json({ token, fullname: user.fullname });
+    res.status(200).json({ token, fullname: user.fullname, subjects: user.subjects });
   } catch (error) {
     console.error("Login error:", error);
     res.status(500).json({ message: "Internal server error" });
