@@ -28,36 +28,45 @@ export default function handler(req, res) {
 
     if (subject.toLowerCase() === "english") {
       // Handle English sections
-      let comprehensionQuestions = [];
-      let otherQuestions = [];
+      let comprehensionSection = null;
+      let otherSections = [];
 
       data.sections.forEach(section => {
         if (section.section.toLowerCase() === "comprehension") {
-          section.questions.forEach(q => {
-            comprehensionQuestions.push({
-              ...q,
-              section: section.section,
-              instruction: section.instruction,
-              passage: section.passage || null
-            });
-          });
+          comprehensionSection = section;
         } else {
-          section.questions.forEach(q => {
-            otherQuestions.push({
-              ...q,
-              section: section.section,
-              instruction: section.instruction,
-              passage: section.passage || null
-            });
-          });
+          otherSections.push(section);
         }
       });
 
       // Shuffle other sections
-      otherQuestions = shuffleArray(otherQuestions);
+      otherSections = shuffleArray(otherSections);
 
-      // Combine: Comprehension first, then shuffled others
-      questions = [...comprehensionQuestions, ...otherQuestions];
+      questions = [];
+
+      // Add comprehension questions first
+      if (comprehensionSection) {
+        comprehensionSection.questions.forEach(q => {
+          questions.push({
+            ...q,
+            section: comprehensionSection.section,
+            instruction: comprehensionSection.instruction,
+            passage: comprehensionSection.passage || null
+          });
+        });
+      }
+
+      // Add questions from shuffled other sections
+      otherSections.forEach(section => {
+        section.questions.forEach(q => {
+          questions.push({
+            ...q,
+            section: section.section,
+            instruction: section.instruction,
+            passage: section.passage || null
+          });
+        });
+      });
 
       // Limit to 60 questions
       questions = questions.slice(0, 60);
