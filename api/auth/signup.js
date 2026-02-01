@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       // Index might not exist, ignore error
     }
 
-    const { fullname, password, licenseCode } = req.body;
+    const { fullname, password, licenseCode, subjects } = req.body;
 
     // Validate input
     if (!fullname || !password || !licenseCode) {
