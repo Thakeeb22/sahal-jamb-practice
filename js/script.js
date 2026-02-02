@@ -126,7 +126,8 @@ function loadQuestion() {
   }
 
   questionCountEl.textContent = `Question ${currentQuestionIndex + 1} of ${questions[subject].length}`;
-  questionTextEl.textContent = q.question;
+  questionTextEl.textContent = q.question || q.q || "";
+
   optionListEl.innerHTML = "";
 
   // Show image if hasImage is true
@@ -152,10 +153,13 @@ function loadQuestion() {
     }
   }
 
-  if (passage || instruction) {
+  if (passage) {
     passageContainer.style.display = "block";
     passageTextEl.textContent = passage;
-
+  } else {
+    passageContainer.style.display = "none";
+  }
+  if (instruction) {
     const instructionEl = document.getElementById("section-instruction");
     if (instructionEl) {
       instructionEl.textContent = instruction;
