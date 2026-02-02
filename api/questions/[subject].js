@@ -79,8 +79,11 @@ export default function handler(req, res) {
       questions = questions.slice(0, 40);
     }
 
-    // Shuffle the questions array (for non-English, or if needed)
-    questions = shuffleArray(questions);
+    // Shuffle ONLY non-English subjects
+if (subject.toLowerCase() !== "english") {
+  questions = shuffleArray(questions);
+}
+
 
     res.status(200).json(questions);
   } catch (err) {
