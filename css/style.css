@@ -105,6 +105,7 @@ main {
   display: grid;
   grid-template-columns: 3fr 1fr;
   place-items: center;
+  width: 80%;
 }
 .question-area {
   display: flex;
