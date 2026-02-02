@@ -1,0 +1,15 @@
+{
+  "name": "Sahal JAMB Practice",
+  "short_name": "JAMB Practice",
+  "start_url": "./practice.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4caf50",
+  "icons": [
+    {
+      "src": "./img/sahal favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}

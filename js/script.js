@@ -34,40 +34,43 @@ async function loadAllQuestions() {
 
   for (const subject of subjects) {
     try {
-      const res = await fetch(`/api/questions/${subject}`);
-      if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
+      // 1️⃣ Check localStorage first
+      let storedQuestions = localStorage.getItem(`questions-${subject}`);
+      let questionArray;
 
-      const data = await res.json();
-      console.log(`${subject} raw data:`, data);
+      if (storedQuestions) {
+        questionArray = JSON.parse(storedQuestions);
+        console.log(`Loaded ${subject} questions from localStorage`);
+      } else {
+        // 2️⃣ Fetch from server / data folder
+        const res = await fetch(`/data/${subject}.json`);
+        if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
 
-      const questionArray = Array.isArray(data) ? data : data.questions;
+        const data = await res.json();
+        questionArray = Array.isArray(data) ? data : data.questions;
 
-      if (!Array.isArray(questionArray)) {
-        throw new Error("Invalid question format");
+        // 3️⃣ Save to localStorage for offline use
+        localStorage.setItem(`questions-${subject}`, JSON.stringify(questionArray));
+        console.log(`Fetched and saved ${subject} questions`);
       }
 
+      // 4️⃣ Map questions as before
       questions[subject] = questionArray.map((q) => {
-        const options = Array.isArray(q.options)
-          ? q.options
-          : Object.values(q.options);
+        const options = Array.isArray(q.options) ? q.options : Object.values(q.options);
         const answerKey = q.answer;
         const answerValue = Array.isArray(q.options)
-          ? options[answerKey.charCodeAt(0) - 65] // A=0, B=1, etc.
+          ? options[answerKey.charCodeAt(0) - 65]
           : q.options[answerKey];
+
         return {
           question: q.question || q.q,
           options: options,
           answer: answerValue,
-
-          // ✅ English-specific fields
-          passage: q.passage || null,
-          section: q.section || null,
-          instruction: q.instruction || null,
-
-          // Images (other subjects)
-          image: q.image || null,
-          imageDescription: q.imageDescription || null,
-          hasImage: q.hasImage || false,
+          image: q.image,
+          imageDescription: q.imageDescription,
+          hasImage: q.hasImage,
+          passage: q.passage,
+          instruction: q.instruction,
         };
       });
     } catch (err) {
@@ -76,6 +79,7 @@ async function loadAllQuestions() {
     }
   }
 
+  // Initialize answers array
   subjects.forEach((subject) => {
     answers[subject] = new Array(questions[subject].length).fill(null);
   });
@@ -83,6 +87,7 @@ async function loadAllQuestions() {
   createSubjectTabs();
   loadQuestion();
 }
+
 
 /* ===== CREATE SUBJECT TABS ===== */
 function createSubjectTabs() {
@@ -126,25 +131,36 @@ function loadQuestion() {
     questionImageContainer.style.display = "none";
   }
 
-  // Show passage and instruction for English subject
-  if (subject.toLowerCase() === "english" && q.passage) {
-    passageContainer.style.display = "block";
-    passageTextEl.textContent = q.passage;
+  // ===== PASSAGE & INSTRUCTION (offline-safe) =====
+  const storedQuestions = localStorage.getItem(`questions-${subject}`);
+  let passage = q.passage || "";
+  let instruction = q.instruction || "";
 
-    const instructionEl = document.getElementById("section-instruction");
-    if (instructionEl) {
-      instructionEl.textContent = q.instruction || "";
-      instructionEl.style.display = "block";
-    }
-  } else {
-    passageContainer.style.display = "none";
-
-    const instructionEl = document.getElementById("section-instruction");
-    if (instructionEl) {
-      instructionEl.style.display = "none";
+  if (storedQuestions) {
+    const questionList = JSON.parse(storedQuestions);
+    const currentQ = questionList[currentQuestionIndex];
+    if (currentQ) {
+      passage = currentQ.passage || passage;
+      instruction = currentQ.instruction || instruction;
     }
   }
 
+  if (passage || instruction) {
+    passageContainer.style.display = "block";
+    passageTextEl.textContent = passage;
+
+    const instructionEl = document.getElementById("section-instruction");
+    if (instructionEl) {
+      instructionEl.textContent = instruction;
+      instructionEl.style.display = instruction ? "block" : "none";
+    }
+  } else {
+    passageContainer.style.display = "none";
+    const instructionEl = document.getElementById("section-instruction");
+    if (instructionEl) instructionEl.style.display = "none";
+  }
+
+  // ===== LOAD OPTIONS =====
   q.options.forEach((opt, i) => {
     const label = document.createElement("label");
     label.className = "options";
@@ -162,13 +178,8 @@ function loadQuestion() {
   });
 
   updatePalette();
-  console.log(
-    "Current subject:",
-    subjects[currentSubjectIndex],
-    "Questions:",
-    questions[subjects[currentSubjectIndex]],
-  );
 }
+
 
 /* ===== QUESTION PALETTE ===== */
 function updatePalette() {
