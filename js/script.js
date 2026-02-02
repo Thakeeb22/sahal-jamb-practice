@@ -55,13 +55,21 @@ async function loadAllQuestions() {
           ? options[answerKey.charCodeAt(0) - 65] // A=0, B=1, etc.
           : q.options[answerKey];
         return {
-          question: q.question || q.q,
-          options: options,
-          answer: answerValue,
-          image: q.image,
-          imageDescription: q.imageDescription,
-          hasImage: q.hasImage,
-        };
+  question: q.question || q.q,
+  options: options,
+  answer: answerValue,
+
+  // ✅ English-specific fields
+  passage: q.passage || null,
+  section: q.section || null,
+  instruction: q.instruction || null,
+
+  // Images (other subjects)
+  image: q.image || null,
+  imageDescription: q.imageDescription || null,
+  hasImage: q.hasImage || false,
+};
+
       });
     } catch (err) {
       console.error(err);
