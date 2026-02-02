@@ -110,7 +110,6 @@ main {
 .question-area {
   display: flex;
   width: 80%;
-  height: 600px;
   box-shadow: var(--box-shadow);
   border-radius: 20px;
 }
@@ -125,10 +124,10 @@ main {
   flex-direction: column;
   flex: 1 1 0;
   gap: 10px;
-  flex: 1;
+  /* flex: 1;
   overflow-y: auto;
   padding-right: 10px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; */
 }
 .question-body::-webkit-scrollbar {
   width: 6px;
