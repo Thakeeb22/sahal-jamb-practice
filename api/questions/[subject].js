@@ -68,10 +68,11 @@ export default function handler(req, res) {
         });
       });
 
-      // Limit to 60 questions
-      if (questions.length > 60) {
-        questions = questions.slice(0, 60);
+      // Ensure exactly 60 questions for English
+      while (questions.length < 60) {
+        questions = questions.concat(questions);
       }
+      questions = questions.slice(0, 60);
     } else {
       questions = data.questions || data;
       // Limit to 40 questions
