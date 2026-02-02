@@ -61,11 +61,15 @@ signupForm.addEventListener("submit", async (e) => {
     return;
   }
 
+  // Show spinner
+  const spinner = document.getElementById("signup-spinner");
+  spinner.style.display = "block";
+
   try {
     const res = await fetch("/api/auth/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fullname, password, licenseCode }),
+      body: JSON.stringify({ fullname, password, licenseCode, subjects }),
     });
 
     const data = await res.json();
@@ -76,14 +80,16 @@ signupForm.addEventListener("submit", async (e) => {
     }
 
     // Save JWT and user info + selected subjects
-    localStorage.setItem("jambUser", JSON.stringify({ fullname, subjects }));
-    localStorage.setItem("jambToken", data.token);
+    localStorage.setItem("jambUser", JSON.stringify({ fullname, subjects, token: data.token }));
 
     alert("Signup successful! Redirecting to practice page...");
     window.location.href = "practice.html";
   } catch (err) {
     console.error(err);
     alert("An error occurred during signup. Please try again.");
+  } finally {
+    // Hide spinner
+    spinner.style.display = "none";
   }
 });
 

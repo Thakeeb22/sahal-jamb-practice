@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Save JWT + minimal info
       localStorage.setItem(
-        "jambSession",
+        "jambUser",
         JSON.stringify({
           token: data.token,
           fullname: data.fullname,
