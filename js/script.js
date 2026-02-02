@@ -1,6 +1,7 @@
 /*********************************
  * SAHAL JAMB PRACTICE – CBT SERVERLESS
  *********************************/
+const EXAM_STATE_KEY = "jambExamState";
 
 let questions = {};
 let subjects = [];
@@ -23,14 +24,15 @@ const questionImageEl = document.getElementById("question-image");
 
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
-  const user = JSON.parse(localStorage.getItem("jambUser"));
-  if (!user || !user.subjects) {
-    alert("No subjects found for this user.");
+  const profile = JSON.parse(localStorage.getItem("jambProfile"));
+
+  if (!profile || !profile.subjects || profile.subjects.length === 0) {
+    alert("No subjects found. Please login again.");
+    window.location.href = "login.html";
     return;
   }
 
-  subjects = user.subjects;
-  console.log("Subjects:", subjects);
+  subjects = profile.subjects;
 
   for (const subject of subjects) {
     try {
@@ -50,13 +52,18 @@ async function loadAllQuestions() {
         questionArray = Array.isArray(data) ? data : data.questions;
 
         // 3️⃣ Save to localStorage for offline use
-        localStorage.setItem(`questions-${subject}`, JSON.stringify(questionArray));
+        localStorage.setItem(
+          `questions-${subject}`,
+          JSON.stringify(questionArray),
+        );
         console.log(`Fetched and saved ${subject} questions`);
       }
 
       // 4️⃣ Map questions as before
       questions[subject] = questionArray.map((q) => {
-        const options = Array.isArray(q.options) ? q.options : Object.values(q.options);
+        const options = Array.isArray(q.options)
+          ? q.options
+          : Object.values(q.options);
         const answerKey = q.answer;
         const answerValue = Array.isArray(q.options)
           ? options[answerKey.charCodeAt(0) - 65]
@@ -88,7 +95,6 @@ async function loadAllQuestions() {
   loadQuestion();
 }
 
-
 /* ===== CREATE SUBJECT TABS ===== */
 function createSubjectTabs() {
   tabContainer.innerHTML = "";
@@ -101,6 +107,7 @@ function createSubjectTabs() {
       currentQuestionIndex = 0;
       loadQuestion();
       updateActiveTab();
+      saveExamState();
     };
     tabContainer.appendChild(btn);
   });
@@ -173,13 +180,13 @@ function loadQuestion() {
     label.onclick = () => {
       answers[subject][currentQuestionIndex] = opt;
       updatePalette();
+      saveExamState();
     };
     optionListEl.appendChild(label);
   });
 
   updatePalette();
 }
-
 
 /* ===== QUESTION PALETTE ===== */
 function updatePalette() {
@@ -205,12 +212,14 @@ document.querySelector(".btn-next").onclick = () => {
   if (currentQuestionIndex < questions[subject].length - 1) {
     currentQuestionIndex++;
     loadQuestion();
+    saveExamState();
   }
 };
 document.querySelector(".btn-prev").onclick = () => {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     loadQuestion();
+    saveExamState();
   }
 };
 
@@ -250,6 +259,7 @@ document.querySelector(".btn-submit").onclick = () => {
 /* ===== SUBMIT ===== */
 function submitExam() {
   clearInterval(timerInterval);
+  localStorage.removeItem(EXAM_STATE_KEY);
 
   const result = {};
   let totalScore = 0;
@@ -306,5 +316,46 @@ calcButtons.forEach((btn) => {
   };
 });
 
+function restoreExamState() {
+  const saved = localStorage.getItem(EXAM_STATE_KEY);
+  if (!saved) return false;
+
+  try {
+    const state = JSON.parse(saved);
+
+    subjects = state.subjects;
+    currentSubjectIndex = state.currentSubjectIndex;
+    currentQuestionIndex = state.currentQuestionIndex;
+    answers = state.answers;
+    timeLeft = state.timeLeft;
+
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function saveExamState() {
+  const state = {
+    subjects,
+    currentSubjectIndex,
+    currentQuestionIndex,
+    answers,
+    timeLeft,
+    timestamp: Date.now(),
+  };
+
+  localStorage.setItem(EXAM_STATE_KEY, JSON.stringify(state));
+}
+
 /* ===== INIT ===== */
-loadAllQuestions();
+(async function initExam() {
+  await loadAllQuestions();
+
+  const resumed = restoreExamState();
+
+  if (resumed) {
+    createSubjectTabs();
+    loadQuestion();
+  }
+})();
