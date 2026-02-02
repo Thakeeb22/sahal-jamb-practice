@@ -110,6 +110,15 @@ function loadQuestion() {
   questionTextEl.textContent = q.question;
   optionListEl.innerHTML = "";
 
+  // Show image if hasImage is true
+  if (q.hasImage) {
+    questionImageEl.src = q.image;
+    questionImageEl.alt = q.imageDescription || "Question Image";
+    questionImageContainer.style.display = "block";
+  } else {
+    questionImageContainer.style.display = "none";
+  }
+
   // Show passage and instruction for English subject
   if (subject.toLowerCase() === "english") {
     passageContainer.style.display = "block";

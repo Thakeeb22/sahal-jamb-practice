@@ -29,6 +29,7 @@
     {
       "question": "Consider the three forces acting at O and in equilibrium as shown in Fig. 1. Which of the following equation(s) is/are correct? I. P1 cos O1 = P1 cos O2 II. P3 = P1 cos O1 + P2 cos O2 III. P1 sin O1 = P2 sin O2",
       "hasImage": true,
+      "image": "./img/questions/fig1.png",
       "options": {
         "A": "I only",
         "B": "II only",
@@ -53,6 +54,7 @@
     {
       "question": "A brick at rest on a horizontal table is pulled by a horizontal cord, as shown in Fig. 2. The force of friction on the brick",
       "hasImage": true,
+      "image": "./img/questions/fig2.png",
       "options": {
         "A": "Increases if the pull increases but the brick does not move",
         "B": "Is directly horizontal to the right",

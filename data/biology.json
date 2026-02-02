@@ -93,6 +93,7 @@
     {
       "question": "The main function of the feathers covering the part labelled I is to",
       "hasImage": true,
+      "image": "./img/questions/bird on a branch.png",
       "imageDescription": "bird on a branch",
       "options": {
         "A": "prevent ectoparasites from attacking the animal",
@@ -105,6 +106,7 @@
     {
       "question": "Based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on",
       "hasImage": true,
+      "image": "./img/questions/bird on a branch.png",
       "imageDescription": "bird on a branch",
       "options": {
         "A": "flesh",
@@ -128,6 +130,7 @@
     {
       "question": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
       "hasImage": true,
+      "image": "./img/questions/tree_diagram.png",
       "imageDescription": "tree diagram with leaf I, vine II, arrow III, root base IV",
       "options": {
         "A": "III and IV respectively",
@@ -140,6 +143,7 @@
     {
       "question": "During photosynthesis, the arrow labelled II represents the",
       "hasImage": true,
+      "image": "./img/questions/tree_diagram.png",
       "imageDescription": "tree diagram with leaf I, vine II, arrow III, root base IV",
       "options": {
         "A": "escape of mineral salts",
@@ -155,7 +159,8 @@
       "options": {
         "A": "vitamins",
         "B": "proteins",
-        "C": "carbohydrates"
+        "C": "carbohydrates",
+        "D": "nutrients"
       },
       "answer": "B"
     },
