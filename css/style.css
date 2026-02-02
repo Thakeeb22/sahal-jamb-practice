@@ -110,7 +110,7 @@ main {
 .question-area {
   display: flex;
   width: 80%;
-  height: 550px;
+  height: 600px;
   box-shadow: var(--box-shadow);
   border-radius: 20px;
 }
