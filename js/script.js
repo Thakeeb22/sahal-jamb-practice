@@ -55,21 +55,20 @@ async function loadAllQuestions() {
           ? options[answerKey.charCodeAt(0) - 65] // A=0, B=1, etc.
           : q.options[answerKey];
         return {
-  question: q.question || q.q,
-  options: options,
-  answer: answerValue,
+          question: q.question || q.q,
+          options: options,
+          answer: answerValue,
 
-  // ✅ English-specific fields
-  passage: q.passage || null,
-  section: q.section || null,
-  instruction: q.instruction || null,
+          // ✅ English-specific fields
+          passage: q.passage || null,
+          section: q.section || null,
+          instruction: q.instruction || null,
 
-  // Images (other subjects)
-  image: q.image || null,
-  imageDescription: q.imageDescription || null,
-  hasImage: q.hasImage || false,
-};
-
+          // Images (other subjects)
+          image: q.image || null,
+          imageDescription: q.imageDescription || null,
+          hasImage: q.hasImage || false,
+        };
       });
     } catch (err) {
       console.error(err);
@@ -128,14 +127,10 @@ function loadQuestion() {
   }
 
   // Show passage and instruction for English subject
-  if (subject.toLowerCase() === "english") {
+  if (subject.toLowerCase() === "english" && q.passage) {
     passageContainer.style.display = "block";
-    if (q.passage) {
-      passageTextEl.textContent = q.passage;
-    } else {
-      passageTextEl.textContent = "";
-    }
-    // Display section instruction
+    passageTextEl.textContent = q.passage;
+
     const instructionEl = document.getElementById("section-instruction");
     if (instructionEl) {
       instructionEl.textContent = q.instruction || "";
@@ -143,6 +138,7 @@ function loadQuestion() {
     }
   } else {
     passageContainer.style.display = "none";
+
     const instructionEl = document.getElementById("section-instruction");
     if (instructionEl) {
       instructionEl.style.display = "none";
