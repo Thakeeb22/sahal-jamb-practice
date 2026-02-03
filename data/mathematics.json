@@ -227,351 +227,343 @@
       "answer": "A"
     },
     {
-      "questions": [
-        {
-          "question": "Simplify: (2x³y² × 3x²y³) / (6x⁴y²)",
-          "hasImage": false,
-          "options": { "A": "x y³", "B": "x y", "C": "x² y⁵", "D": "y³" },
-          "answer": "A"
-        },
-        {
-          "question": "Solve for x: 5x − 2 = 3x + 8",
-          "hasImage": false,
-          "options": { "A": "5", "B": "−5", "C": "10", "D": "2" },
-          "answer": "A"
-        },
-        {
-          "question": "The line passing through (1, 2) and (3, 6) has the equation",
-          "hasImage": false,
-          "options": {
-            "A": "y = 2x",
-            "B": "y = 3x − 1",
-            "C": "y = 2x + 0",
-            "D": "y = x + 1"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "If 2x + 3y = 12 and x = 3, find y.",
-          "hasImage": false,
-          "options": { "A": "2", "B": "3", "C": "1", "D": "0" },
-          "answer": "A"
-        },
-        {
-          "question": "If 7x − 5 = 16, find x.",
-          "hasImage": false,
-          "options": { "A": "3", "B": "2", "C": "4", "D": "5" },
-          "answer": "C"
-        },
-        {
-          "question": "The sum of angles in a polygon with n sides is",
-          "hasImage": false,
-          "options": {
-            "A": "(n − 2) × 180°",
-            "B": "n × 180°",
-            "C": "(n + 2) × 180°",
-            "D": "(2n − 4) × 90°"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "Find the distance between points (2, 3) and (5, 7).",
-          "hasImage": false,
-          "options": { "A": "5", "B": "6", "C": "√25", "D": "√34" },
-          "answer": "D"
-        },
-        {
-          "question": "The line y = 3x + 2 is parallel to",
-          "hasImage": false,
-          "options": {
-            "A": "y = 3x − 1",
-            "B": "y = −3x + 2",
-            "C": "y = x + 5",
-            "D": "y = 1/3x + 2"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "If a = 5 and b = −2, evaluate 3a − 4b.",
-          "hasImage": false,
-          "options": { "A": "23", "B": "7", "C": "3", "D": "11" },
-          "answer": "A"
-        },
-        {
-          "question": "Find the value of x: x/3 + 5 = 12",
-          "hasImage": false,
-          "options": { "A": "15", "B": "21", "C": "25", "D": "12" },
-          "answer": "B"
-        },
-        {
-          "question": "If f(x) = x² − 4x + 5, find f(3).",
-          "hasImage": false,
-          "options": { "A": "2", "B": "0", "C": "3", "D": "5" },
-          "answer": "A"
-        },
-        {
-          "question": "The perimeter of a rectangle is 30 cm. If the length is 10 cm, find the breadth.",
-          "hasImage": false,
-          "options": { "A": "5 cm", "B": "10 cm", "C": "15 cm", "D": "20 cm" },
-          "answer": "A"
-        },
-        {
-          "question": "Find the roots of x² − 7x + 10 = 0.",
-          "hasImage": false,
-          "options": { "A": "2, 5", "B": "−2, −5", "C": "5, 10", "D": "1, 10" },
-          "answer": "A"
-        },
-        {
-          "question": "If sin θ = 1/2 and θ is in the first quadrant, then θ = ?",
-          "hasImage": false,
-          "options": { "A": "30°", "B": "45°", "C": "60°", "D": "90°" },
-          "answer": "A"
-        },
-        {
-          "question": "The volume of a cube with side 4 cm is",
-          "hasImage": false,
-          "options": {
-            "A": "64 cm³",
-            "B": "16 cm³",
-            "C": "48 cm³",
-            "D": "32 cm³"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "The sum of interior angles of a hexagon is",
-          "hasImage": false,
-          "options": { "A": "720°", "B": "540°", "C": "360°", "D": "600°" },
-          "answer": "B"
-        },
-        {
-          "question": "If a die is thrown once, what is the probability of getting an even number?",
-          "hasImage": false,
-          "options": { "A": "1/2", "B": "1/3", "C": "1/6", "D": "2/3" },
-          "answer": "A"
-        },
-        {
-          "question": "The sum of the first 15 positive integers is",
-          "hasImage": false,
-          "options": { "A": "120", "B": "105", "C": "100", "D": "115" },
-          "answer": "B"
-        },
-        {
-          "question": "The 5th term in the arithmetic progression 2, 5, 8, ... is",
-          "hasImage": false,
-          "options": { "A": "14", "B": "17", "C": "20", "D": "23" },
-          "answer": "B"
-        },
-        {
-          "question": "If 3x + 7 = 19, then x = ?",
-          "hasImage": false,
-          "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
-          "answer": "B"
-        },
-        {
-          "question": "The length of the hypotenuse of a right-angled triangle with sides 6 cm and 8 cm is",
-          "hasImage": false,
-          "options": { "A": "10 cm", "B": "12 cm", "C": "14 cm", "D": "15 cm" },
-          "answer": "A"
-        },
-        {
-          "question": "Simplify: √50 + √18",
-          "hasImage": false,
-          "options": { "A": "5√2 + 3√2", "B": "7√2", "C": "8√2", "D": "9√2" },
-          "answer": "B"
-        },
-        {
-          "question": "If cos θ = 1/2 and θ is in the first quadrant, then θ = ?",
-          "hasImage": false,
-          "options": { "A": "60°", "B": "30°", "C": "45°", "D": "90°" },
-          "answer": "A"
-        },
-        {
-          "question": "The simple interest on N10,000 for 2 years at 5% per annum is",
-          "hasImage": false,
-          "options": {
-            "A": "N1,000",
-            "B": "N1,500",
-            "C": "N500",
-            "D": "N2,000"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "Solve for x: 2x² − 8x = 0",
-          "hasImage": false,
-          "options": { "A": "0, 4", "B": "2, 4", "C": "−2, 4", "D": "0, 2" },
-          "answer": "A"
-        },
-        {
-          "question": "The sum of exterior angles of any polygon is",
-          "hasImage": false,
-          "options": { "A": "360°", "B": "180°", "C": "540°", "D": "720°" },
-          "answer": "A"
-        },
-        {
-          "question": "If x varies directly as y and x = 10 when y = 2, find x when y = 5.",
-          "hasImage": false,
-          "options": { "A": "25", "B": "20", "C": "15", "D": "12" },
-          "answer": "A"
-        },
-        {
-          "question": "A bag contains 3 red balls, 4 blue balls and 5 white balls. The probability of picking a red or blue ball is",
-          "hasImage": false,
-          "options": { "A": "7/12", "B": "1/3", "C": "1/2", "D": "5/12" },
-          "answer": "A"
-        },
-        {
-          "question": "If the sides of a triangle are in the ratio 3:4:5 and the perimeter is 36 cm, find the longest side.",
-          "hasImage": false,
-          "options": { "A": "15 cm", "B": "12 cm", "C": "9 cm", "D": "18 cm" },
-          "answer": "A"
-        }
-      ]
+      "question": "Simplify: (2x³y² × 3x²y³) / (6x⁴y²)",
+      "hasImage": false,
+      "options": { "A": "x y³", "B": "x y", "C": "x² y⁵", "D": "y³" },
+      "answer": "A"
     },
     {
-      "questions": [
-        {
-          "question": "Solve for x: 4x − 7 = 9",
-          "hasImage": false,
-          "options": { "A": "4", "B": "3", "C": "2", "D": "5" },
-          "answer": "B"
-        },
-        {
-          "question": "If 5x + 2 = 17, find x.",
-          "hasImage": false,
-          "options": { "A": "3", "B": "2", "C": "4", "D": "5" },
-          "answer": "A"
-        },
-        {
-          "question": "If the sum of n terms of an arithmetic progression is 45 and the first term is 5 and the common difference is 2, find n.",
-          "hasImage": false,
-          "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
-          "answer": "B"
-        },
-        {
-          "question": "The product of the roots of x² − 7x + 10 = 0 is",
-          "hasImage": false,
-          "options": { "A": "10", "B": "7", "C": "−10", "D": "−7" },
-          "answer": "A"
-        },
-        {
-          "question": "If tan θ = 1, find θ in the first quadrant.",
-          "hasImage": false,
-          "options": { "A": "45°", "B": "30°", "C": "60°", "D": "90°" },
-          "answer": "A"
-        },
-        {
-          "question": "A die is thrown twice. The probability of getting a double six is",
-          "hasImage": false,
-          "options": { "A": "1/36", "B": "1/6", "C": "1/12", "D": "1/18" },
-          "answer": "A"
-        },
-        {
-          "question": "Find the 10th term of the arithmetic progression 3, 7, 11, ...",
-          "hasImage": false,
-          "options": { "A": "39", "B": "35", "C": "37", "D": "41" },
-          "answer": "A"
-        },
-        {
-          "question": "If the sides of a rectangle are in the ratio 2:3 and the area is 72 cm², find the length of the longer side.",
-          "hasImage": false,
-          "options": { "A": "12 cm", "B": "18 cm", "C": "24 cm", "D": "36 cm" },
-          "answer": "B"
-        },
-        {
-          "question": "Solve for x: 3(x − 2) = 2x + 5",
-          "hasImage": false,
-          "options": { "A": "11", "B": "−1", "C": "−11", "D": "1" },
-          "answer": "D"
-        },
-        {
-          "question": "If log₃ 27 = x, find x.",
-          "hasImage": false,
-          "options": { "A": "2", "B": "3", "C": "1", "D": "4" },
-          "answer": "B"
-        },
-        {
-          "question": "The sum of the interior angles of a decagon is",
-          "hasImage": false,
-          "options": { "A": "1440°", "B": "1260°", "C": "1080°", "D": "900°" },
-          "answer": "A"
-        },
-        {
-          "question": "Find the mean of 5, 7, 12, 15, 18.",
-          "hasImage": false,
-          "options": { "A": "11.4", "B": "12", "C": "13", "D": "10.5" },
-          "answer": "B"
-        },
-        {
-          "question": "If x + y = 10 and x − y = 4, find x and y.",
-          "hasImage": false,
-          "options": {
-            "A": "x = 7, y = 3",
-            "B": "x = 6, y = 4",
-            "C": "x = 8, y = 2",
-            "D": "x = 5, y = 5"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "The diagonal of a square is 10 cm. Find the area of the square.",
-          "hasImage": false,
-          "options": {
-            "A": "50 cm²",
-            "B": "100 cm²",
-            "C": "25 cm²",
-            "D": "75 cm²"
-          },
-          "answer": "A"
-        },
-        {
-          "question": "If 4/5 of a number is 16, find the number.",
-          "hasImage": false,
-          "options": { "A": "20", "B": "25", "C": "30", "D": "40" },
-          "answer": "B"
-        },
-        {
-          "question": "Find the first term of the arithmetic progression if the sum of the first 10 terms is 100 and the common difference is 2.",
-          "hasImage": false,
-          "options": { "A": "6", "B": "4", "C": "5", "D": "3" },
-          "answer": "B"
-        },
-        {
-          "question": "The sum of the first n terms of an arithmetic progression is 2n² + 3n. Find the 5th term.",
-          "hasImage": false,
-          "options": { "A": "23", "B": "28", "C": "25", "D": "30" },
-          "answer": "A"
-        },
-        {
-          "question": "The graph of y = x² is symmetric about",
-          "hasImage": false,
-          "options": {
-            "A": "x-axis",
-            "B": "y-axis",
-            "C": "y = x",
-            "D": "y = −x"
-          },
-          "answer": "B"
-        },
-        {
-          "question": "If f(x) = 3x − 2, find f(5).",
-          "hasImage": false,
-          "options": { "A": "13", "B": "15", "C": "12", "D": "11" },
-          "answer": "A"
-        },
-        {
-          "question": "The surface area of a cube with side 6 cm is",
-          "hasImage": false,
-          "options": {
-            "A": "216 cm²",
-            "B": "144 cm²",
-            "C": "36 cm²",
-            "D": "72 cm²"
-          },
-          "answer": "B"
-        }
-      ]
+      "question": "Solve for x: 5x − 2 = 3x + 8",
+      "hasImage": false,
+      "options": { "A": "5", "B": "−5", "C": "10", "D": "2" },
+      "answer": "A"
+    },
+    {
+      "question": "The line passing through (1, 2) and (3, 6) has the equation",
+      "hasImage": false,
+      "options": {
+        "A": "y = 2x",
+        "B": "y = 3x − 1",
+        "C": "y = 2x + 0",
+        "D": "y = x + 1"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If 2x + 3y = 12 and x = 3, find y.",
+      "hasImage": false,
+      "options": { "A": "2", "B": "3", "C": "1", "D": "0" },
+      "answer": "A"
+    },
+    {
+      "question": "If 7x − 5 = 16, find x.",
+      "hasImage": false,
+      "options": { "A": "3", "B": "2", "C": "4", "D": "5" },
+      "answer": "C"
+    },
+    {
+      "question": "The sum of angles in a polygon with n sides is",
+      "hasImage": false,
+      "options": {
+        "A": "(n − 2) × 180°",
+        "B": "n × 180°",
+        "C": "(n + 2) × 180°",
+        "D": "(2n − 4) × 90°"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Find the distance between points (2, 3) and (5, 7).",
+      "hasImage": false,
+      "options": { "A": "5", "B": "6", "C": "√25", "D": "√34" },
+      "answer": "D"
+    },
+    {
+      "question": "The line y = 3x + 2 is parallel to",
+      "hasImage": false,
+      "options": {
+        "A": "y = 3x − 1",
+        "B": "y = −3x + 2",
+        "C": "y = x + 5",
+        "D": "y = 1/3x + 2"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If a = 5 and b = −2, evaluate 3a − 4b.",
+      "hasImage": false,
+      "options": { "A": "23", "B": "7", "C": "3", "D": "11" },
+      "answer": "A"
+    },
+    {
+      "question": "Find the value of x: x/3 + 5 = 12",
+      "hasImage": false,
+      "options": { "A": "15", "B": "21", "C": "25", "D": "12" },
+      "answer": "B"
+    },
+    {
+      "question": "If f(x) = x² − 4x + 5, find f(3).",
+      "hasImage": false,
+      "options": { "A": "2", "B": "0", "C": "3", "D": "5" },
+      "answer": "A"
+    },
+    {
+      "question": "The perimeter of a rectangle is 30 cm. If the length is 10 cm, find the breadth.",
+      "hasImage": false,
+      "options": { "A": "5 cm", "B": "10 cm", "C": "15 cm", "D": "20 cm" },
+      "answer": "A"
+    },
+    {
+      "question": "Find the roots of x² − 7x + 10 = 0.",
+      "hasImage": false,
+      "options": { "A": "2, 5", "B": "−2, −5", "C": "5, 10", "D": "1, 10" },
+      "answer": "A"
+    },
+    {
+      "question": "If sin θ = 1/2 and θ is in the first quadrant, then θ = ?",
+      "hasImage": false,
+      "options": { "A": "30°", "B": "45°", "C": "60°", "D": "90°" },
+      "answer": "A"
+    },
+    {
+      "question": "The volume of a cube with side 4 cm is",
+      "hasImage": false,
+      "options": {
+        "A": "64 cm³",
+        "B": "16 cm³",
+        "C": "48 cm³",
+        "D": "32 cm³"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The sum of interior angles of a hexagon is",
+      "hasImage": false,
+      "options": { "A": "720°", "B": "540°", "C": "360°", "D": "600°" },
+      "answer": "B"
+    },
+    {
+      "question": "If a die is thrown once, what is the probability of getting an even number?",
+      "hasImage": false,
+      "options": { "A": "1/2", "B": "1/3", "C": "1/6", "D": "2/3" },
+      "answer": "A"
+    },
+    {
+      "question": "The sum of the first 15 positive integers is",
+      "hasImage": false,
+      "options": { "A": "120", "B": "105", "C": "100", "D": "115" },
+      "answer": "B"
+    },
+    {
+      "question": "The 5th term in the arithmetic progression 2, 5, 8, ... is",
+      "hasImage": false,
+      "options": { "A": "14", "B": "17", "C": "20", "D": "23" },
+      "answer": "B"
+    },
+    {
+      "question": "If 3x + 7 = 19, then x = ?",
+      "hasImage": false,
+      "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
+      "answer": "B"
+    },
+    {
+      "question": "The length of the hypotenuse of a right-angled triangle with sides 6 cm and 8 cm is",
+      "hasImage": false,
+      "options": { "A": "10 cm", "B": "12 cm", "C": "14 cm", "D": "15 cm" },
+      "answer": "A"
+    },
+    {
+      "question": "Simplify: √50 + √18",
+      "hasImage": false,
+      "options": { "A": "5√2 + 3√2", "B": "7√2", "C": "8√2", "D": "9√2" },
+      "answer": "B"
+    },
+    {
+      "question": "If cos θ = 1/2 and θ is in the first quadrant, then θ = ?",
+      "hasImage": false,
+      "options": { "A": "60°", "B": "30°", "C": "45°", "D": "90°" },
+      "answer": "A"
+    },
+    {
+      "question": "The simple interest on N10,000 for 2 years at 5% per annum is",
+      "hasImage": false,
+      "options": {
+        "A": "N1,000",
+        "B": "N1,500",
+        "C": "N500",
+        "D": "N2,000"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Solve for x: 2x² − 8x = 0",
+      "hasImage": false,
+      "options": { "A": "0, 4", "B": "2, 4", "C": "−2, 4", "D": "0, 2" },
+      "answer": "A"
+    },
+    {
+      "question": "The sum of exterior angles of any polygon is",
+      "hasImage": false,
+      "options": { "A": "360°", "B": "180°", "C": "540°", "D": "720°" },
+      "answer": "A"
+    },
+    {
+      "question": "If x varies directly as y and x = 10 when y = 2, find x when y = 5.",
+      "hasImage": false,
+      "options": { "A": "25", "B": "20", "C": "15", "D": "12" },
+      "answer": "A"
+    },
+    {
+      "question": "A bag contains 3 red balls, 4 blue balls and 5 white balls. The probability of picking a red or blue ball is",
+      "hasImage": false,
+      "options": { "A": "7/12", "B": "1/3", "C": "1/2", "D": "5/12" },
+      "answer": "A"
+    },
+    {
+      "question": "If the sides of a triangle are in the ratio 3:4:5 and the perimeter is 36 cm, find the longest side.",
+      "hasImage": false,
+      "options": { "A": "15 cm", "B": "12 cm", "C": "9 cm", "D": "18 cm" },
+      "answer": "A"
+    },
+    {
+      "question": "Solve for x: 4x − 7 = 9",
+      "hasImage": false,
+      "options": { "A": "4", "B": "3", "C": "2", "D": "5" },
+      "answer": "B"
+    },
+    {
+      "question": "If 5x + 2 = 17, find x.",
+      "hasImage": false,
+      "options": { "A": "3", "B": "2", "C": "4", "D": "5" },
+      "answer": "A"
+    },
+    {
+      "question": "If the sum of n terms of an arithmetic progression is 45 and the first term is 5 and the common difference is 2, find n.",
+      "hasImage": false,
+      "options": { "A": "5", "B": "6", "C": "7", "D": "8" },
+      "answer": "B"
+    },
+    {
+      "question": "The product of the roots of x² − 7x + 10 = 0 is",
+      "hasImage": false,
+      "options": { "A": "10", "B": "7", "C": "−10", "D": "−7" },
+      "answer": "A"
+    },
+    {
+      "question": "If tan θ = 1, find θ in the first quadrant.",
+      "hasImage": false,
+      "options": { "A": "45°", "B": "30°", "C": "60°", "D": "90°" },
+      "answer": "A"
+    },
+    {
+      "question": "A die is thrown twice. The probability of getting a double six is",
+      "hasImage": false,
+      "options": { "A": "1/36", "B": "1/6", "C": "1/12", "D": "1/18" },
+      "answer": "A"
+    },
+    {
+      "question": "Find the 10th term of the arithmetic progression 3, 7, 11, ...",
+      "hasImage": false,
+      "options": { "A": "39", "B": "35", "C": "37", "D": "41" },
+      "answer": "A"
+    },
+    {
+      "question": "If the sides of a rectangle are in the ratio 2:3 and the area is 72 cm², find the length of the longer side.",
+      "hasImage": false,
+      "options": { "A": "12 cm", "B": "18 cm", "C": "24 cm", "D": "36 cm" },
+      "answer": "B"
+    },
+    {
+      "question": "Solve for x: 3(x − 2) = 2x + 5",
+      "hasImage": false,
+      "options": { "A": "11", "B": "−1", "C": "−11", "D": "1" },
+      "answer": "D"
+    },
+    {
+      "question": "If log₃ 27 = x, find x.",
+      "hasImage": false,
+      "options": { "A": "2", "B": "3", "C": "1", "D": "4" },
+      "answer": "B"
+    },
+    {
+      "question": "The sum of the interior angles of a decagon is",
+      "hasImage": false,
+      "options": { "A": "1440°", "B": "1260°", "C": "1080°", "D": "900°" },
+      "answer": "A"
+    },
+    {
+      "question": "Find the mean of 5, 7, 12, 15, 18.",
+      "hasImage": false,
+      "options": { "A": "11.4", "B": "12", "C": "13", "D": "10.5" },
+      "answer": "B"
+    },
+    {
+      "question": "If x + y = 10 and x − y = 4, find x and y.",
+      "hasImage": false,
+      "options": {
+        "A": "x = 7, y = 3",
+        "B": "x = 6, y = 4",
+        "C": "x = 8, y = 2",
+        "D": "x = 5, y = 5"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The diagonal of a square is 10 cm. Find the area of the square.",
+      "hasImage": false,
+      "options": {
+        "A": "50 cm²",
+        "B": "100 cm²",
+        "C": "25 cm²",
+        "D": "75 cm²"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "If 4/5 of a number is 16, find the number.",
+      "hasImage": false,
+      "options": { "A": "20", "B": "25", "C": "30", "D": "40" },
+      "answer": "B"
+    },
+    {
+      "question": "Find the first term of the arithmetic progression if the sum of the first 10 terms is 100 and the common difference is 2.",
+      "hasImage": false,
+      "options": { "A": "6", "B": "4", "C": "5", "D": "3" },
+      "answer": "B"
+    },
+    {
+      "question": "The sum of the first n terms of an arithmetic progression is 2n² + 3n. Find the 5th term.",
+      "hasImage": false,
+      "options": { "A": "23", "B": "28", "C": "25", "D": "30" },
+      "answer": "A"
+    },
+    {
+      "question": "The graph of y = x² is symmetric about",
+      "hasImage": false,
+      "options": {
+        "A": "x-axis",
+        "B": "y-axis",
+        "C": "y = x",
+        "D": "y = −x"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If f(x) = 3x − 2, find f(5).",
+      "hasImage": false,
+      "options": { "A": "13", "B": "15", "C": "12", "D": "11" },
+      "answer": "A"
+    },
+    {
+      "question": "The surface area of a cube with side 6 cm is",
+      "hasImage": false,
+      "options": {
+        "A": "216 cm²",
+        "B": "144 cm²",
+        "C": "36 cm²",
+        "D": "72 cm²"
+      },
+      "answer": "B"
     }
   ]
 }

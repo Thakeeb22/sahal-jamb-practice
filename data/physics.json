@@ -242,8 +242,6 @@
       },
       "answer": "C"
     },
-    {
-      "questions": [
         {
           "question": "If a body moves with uniform acceleration, the distance travelled in the nth second is given by",
           "hasImage": false,
@@ -558,5 +556,3 @@
         }
       ]
     }
-  ]
-}
