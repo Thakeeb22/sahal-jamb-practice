@@ -346,11 +346,27 @@ function restoreExamState() {
   try {
     const state = JSON.parse(saved);
 
-    subjects = state.subjects;
-    currentSubjectIndex = state.currentSubjectIndex;
-    currentQuestionIndex = state.currentQuestionIndex;
-    answers = state.answers;
-    timeLeft = state.timeLeft;
+    // Always use fresh subjects
+    const profile = JSON.parse(localStorage.getItem("jambProfile"));
+    if (!profile || !profile.subjects || profile.subjects.length === 0)
+      return false;
+
+    subjects = profile.subjects;
+
+    // Only restore indexes, answers, timeLeft
+    currentSubjectIndex = state.currentSubjectIndex || 0;
+    currentQuestionIndex = state.currentQuestionIndex || 0;
+
+    // Ensure answers object has all subjects
+    answers = {};
+    subjects.forEach((subject) => {
+      answers[subject] =
+        state.answers && state.answers[subject]
+          ? state.answers[subject]
+          : new Array(questions[subject].length).fill(null);
+    });
+
+    timeLeft = state.timeLeft || 2 * 60 * 60;
 
     return true;
   } catch {
