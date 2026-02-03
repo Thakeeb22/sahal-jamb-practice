@@ -102,7 +102,7 @@ async function loadAllQuestions() {
   }
 
   createSubjectTabs();
-  loadQuestion();
+  // loadQuestion();
 }
 
 /* ===== CREATE SUBJECT TABS ===== */
@@ -389,12 +389,12 @@ function saveExamState() {
 
 /* ===== INIT ===== */
 (async function initExam() {
-  await loadAllQuestions();
+  await loadAllQuestions(); // Load all questions and subjects
 
-  const resumed = restoreExamState();
+  const resumed = restoreExamState(); // Restore previous state if exists
 
-  if (resumed) {
-    createSubjectTabs();
-    loadQuestion();
-  }
+  createSubjectTabs(); // Always create tabs
+
+  // Load the correct question after everything is ready
+  loadQuestion();
 })();
