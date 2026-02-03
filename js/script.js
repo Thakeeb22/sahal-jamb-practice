@@ -126,7 +126,19 @@ function loadQuestion() {
   }
 
   questionCountEl.textContent = `Question ${currentQuestionIndex + 1} of ${questions[subject].length}`;
-  questionTextEl.textContent = q.question || q.q || "";
+  // ===== QUESTION TEXT LOGIC (JAMB SAFE) =====
+  let questionText = "";
+
+  if (q.question) {
+    questionText = q.question;
+  } else if (q.q) {
+    questionText = q.q;
+  } else if (!q.passage && q.instruction) {
+    // English questions without passage use instruction as the question
+    questionText = q.instruction;
+  }
+
+  questionTextEl.textContent = questionText;
 
   optionListEl.innerHTML = "";
 
@@ -165,11 +177,11 @@ function loadQuestion() {
       instructionEl.textContent = instruction;
       instructionEl.style.display = instruction ? "block" : "none";
     }
-  } else {
-    passageContainer.style.display = "none";
-    const instructionEl = document.getElementById("section-instruction");
-    if (instructionEl) instructionEl.style.display = "none";
-  }
+ } else {
+  const instructionEl = document.getElementById("section-instruction");
+  if (instructionEl) instructionEl.style.display = "none";
+}
+
 
   // ===== LOAD OPTIONS =====
   q.options.forEach((opt, i) => {
