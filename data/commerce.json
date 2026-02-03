@@ -337,7 +337,336 @@
         "D": "barter"
       },
       "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a function of commerce?",
+      "hasImage": false,
+      "options": {
+        "A": "exchange of goods",
+        "B": "distribution of goods",
+        "C": "manufacturing of goods",
+        "D": "aids to trade"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Trade that involves buying and selling within the same country is called",
+      "hasImage": false,
+      "options": {
+        "A": "foreign trade",
+        "B": "domestic trade",
+        "C": "bilateral trade",
+        "D": "multilateral trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Buying goods in large quantities directly from producers is known as",
+      "hasImage": false,
+      "options": {
+        "A": "retailing",
+        "B": "wholesaling",
+        "C": "hawking",
+        "D": "barter"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following documents shows the prices of goods offered for sale?",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "quotation",
+        "C": "receipt",
+        "D": "delivery note"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The movement of goods from producers to consumers is facilitated by",
+      "hasImage": false,
+      "options": {
+        "A": "production",
+        "B": "consumption",
+        "C": "distribution",
+        "D": "advertising"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an aid to trade?",
+      "hasImage": false,
+      "options": {
+        "A": "mining",
+        "B": "manufacturing",
+        "C": "transport",
+        "D": "farming"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The person who bears all the risks in a sole proprietorship is the",
+      "hasImage": false,
+      "options": {
+        "A": "manager",
+        "B": "government",
+        "C": "owner",
+        "D": "employee"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a feature of a public limited company?",
+      "hasImage": false,
+      "options": {
+        "A": "unlimited liability",
+        "B": "restriction of share transfer",
+        "C": "limited liability",
+        "D": "single ownership"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The reward for labour is known as",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "wages",
+        "D": "profit"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a factor of production?",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "transport",
+        "C": "labour",
+        "D": "insurance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The reward for capital invested in a business is known as",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "profit",
+        "D": "wages"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following businesses is owned by the government?",
+      "hasImage": false,
+      "options": {
+        "A": "sole proprietorship",
+        "B": "public corporation",
+        "C": "partnership",
+        "D": "private company"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The buying and selling of goods without the use of money is known as",
+      "hasImage": false,
+      "options": {
+        "A": "credit transaction",
+        "B": "foreign trade",
+        "C": "barter",
+        "D": "retailing"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following documents is issued after payment has been made?",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "receipt",
+        "C": "quotation",
+        "D": "delivery note"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An agent who sells goods on behalf of the owner and earns commission is called",
+      "hasImage": false,
+      "options": {
+        "A": "broker",
+        "B": "factor",
+        "C": "retailer",
+        "D": "consumer"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a function of money?",
+      "hasImage": false,
+      "options": {
+        "A": "medium of exchange",
+        "B": "store of value",
+        "C": "measure of weight",
+        "D": "unit of account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The risk of goods being damaged in transit can be minimized by",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "insurance",
+        "C": "banking",
+        "D": "warehousing"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an advantage of a partnership business?",
+      "hasImage": false,
+      "options": {
+        "A": "limited capital",
+        "B": "shared risk",
+        "C": "slow decision making",
+        "D": "unlimited liability"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The process of selling shares to the public is known as",
+      "hasImage": false,
+      "options": {
+        "A": "privatization",
+        "B": "capitalization",
+        "C": "public offer",
+        "D": "merger"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a disadvantage of sole proprietorship?",
+      "hasImage": false,
+      "options": {
+        "A": "quick decision making",
+        "B": "close customer relationship",
+        "C": "unlimited liability",
+        "D": "privacy of business"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Goods brought into a country from another country are called",
+      "hasImage": false,
+      "options": {
+        "A": "exports",
+        "B": "imports",
+        "C": "entrepot",
+        "D": "visible trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following promotes saving?",
+      "hasImage": false,
+      "options": {
+        "A": "high spending",
+        "B": "high interest rate",
+        "C": "inflation",
+        "D": "unemployment"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Central Bank controls commercial banks through",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "monetary policy",
+        "C": "foreign trade",
+        "D": "insurance"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of advertising?",
+      "hasImage": false,
+      "options": {
+        "A": "transporting goods",
+        "B": "storing goods",
+        "C": "creating awareness",
+        "D": "granting loans"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The place where buyers and sellers meet to exchange goods is called",
+      "hasImage": false,
+      "options": {
+        "A": "warehouse",
+        "B": "market",
+        "C": "factory",
+        "D": "bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a benefit of large-scale production?",
+      "hasImage": false,
+      "options": {
+        "A": "high cost per unit",
+        "B": "economies of scale",
+        "C": "limited output",
+        "D": "poor specialization"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The reward for entrepreneurship is",
+      "hasImage": false,
+      "options": {
+        "A": "wages",
+        "B": "interest",
+        "C": "profit",
+        "D": "rent"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a feature of co-operative societies?",
+      "hasImage": false,
+      "options": {
+        "A": "profit maximization",
+        "B": "one man one vote",
+        "C": "unlimited shares",
+        "D": "foreign ownership"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Trade between more than two countries is known as",
+      "hasImage": false,
+      "options": {
+        "A": "bilateral trade",
+        "B": "domestic trade",
+        "C": "multilateral trade",
+        "D": "retail trade"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following helps to determine profit or loss?",
+      "hasImage": false,
+      "options": {
+        "A": "balance sheet",
+        "B": "profit and loss account",
+        "C": "invoice",
+        "D": "receipt"
+      },
+      "answer": "B"
     }
-
   ]
 }
