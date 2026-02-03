@@ -1,8 +1,0 @@
-- Update README.md overview to accurately describe the project as a frontend-only JAMB practice app using vanilla JS and localStorage.
-- Correct repository layout to match actual file structure.
-- Update key features to reflect actual implementation (no backend, no MongoDB).
-- Revise prerequisites to only require a modern web browser.
-- Simplify getting started instructions to clone repo and open index.html.
-- Remove sections on API endpoints, database models, and backend setup.
-- Update data structure section to describe JSON question files and localStorage usage.
-- Ensure the description clearly explains what the app does: practice JAMB exams with multiple subjects, timer, calculator, results analysis.

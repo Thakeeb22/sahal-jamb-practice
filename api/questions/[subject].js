@@ -1,22 +1,20 @@
 import fs from "fs";
 import path from "path";
 
-// Function to shuffle an array
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
+// Shuffle helper
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  return array;
+  return arr;
 }
 
 export default function handler(req, res) {
   const { subject } = req.query;
-
   if (!subject) return res.status(400).json({ error: "Subject required" });
 
   const filePath = path.join(process.cwd(), "data", `${subject}.json`);
-
   if (!fs.existsSync(filePath)) {
     return res.status(404).json({ error: "Subject not found" });
   }
@@ -24,8 +22,11 @@ export default function handler(req, res) {
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
     const data = JSON.parse(raw);
-    let questions;
+    let questions = [];
 
+    /* =======================
+       ENGLISH (SPECIAL CASE)
+    ======================== */
     if (subject.toLowerCase() === "english") {
       let comprehension = [];
       let others = [];
@@ -38,26 +39,35 @@ export default function handler(req, res) {
           passage: section.passage || null,
         }));
 
-        if (section.section.toLowerCase() === "comprehension") {
+        if (section.section.toLowerCase().includes("comprehension")) {
           comprehension.push(...mapped);
         } else {
           others.push(...mapped);
         }
       });
 
-      comprehension = shuffleArray(comprehension).slice(0, 10); // JAMB style
+      // JAMB-style distribution
+      comprehension = shuffleArray(comprehension).slice(0, 10);
       others = shuffleArray(others).slice(0, 50);
 
-      questions = shuffleArray([...comprehension, ...others]);
+      // 🔒 Passage ALWAYS FIRST
+      questions = [...comprehension, ...others];
+
+      // Final guard
+      questions = questions.slice(0, 60);
     }
 
-    // Shuffle ONLY non-English subjects
-    if (subject.toLowerCase() !== "english") {
-      questions = shuffleArray(questions);
+    /* =======================
+       OTHER SUBJECTS
+    ======================== */
+    else {
+      const flat = data.questions || data;
+      questions = shuffleArray(flat).slice(0, 40);
     }
 
-    res.status(200).json(questions);
+    return res.status(200).json(questions);
   } catch (err) {
-    res.status(500).json({ error: "Failed to read questions" });
+    console.error(err);
+    return res.status(500).json({ error: "Failed to load questions" });
   }
 }
