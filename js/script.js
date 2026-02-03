@@ -39,19 +39,17 @@ async function loadAllQuestions() {
     try {
       let finalQuestions = [];
 
-      // 1️⃣ Try localStorage first
+      // Try localStorage first
       const cached = localStorage.getItem(`questions-${subject}`);
       if (cached) {
         finalQuestions = JSON.parse(cached);
         console.log(`Loaded ${subject} from localStorage`);
       } else {
-        // 2️⃣ Fetch from server/API
         const res = await fetch(`/api/questions/${subject}`);
         if (!res.ok) throw new Error(`Failed to fetch ${subject}`);
-
         const data = await res.json();
 
-        // 2a️⃣ Optional: order English passages first
+        // Order English passages first
         let orderedData = data;
         if (subject.toLowerCase() === "english") {
           const passages = data.filter((q) => q.passage);
@@ -59,32 +57,25 @@ async function loadAllQuestions() {
           orderedData = [...passages, ...others];
         }
 
-        // 3️⃣ Map questions safely
         finalQuestions = orderedData.map((q) => {
-          // Safe options handling
           const options = Array.isArray(q.options)
             ? q.options
             : q.options != null
             ? Object.values(q.options)
-            : []; // fallback empty array
-
-          if (!options.length) {
-            console.warn(`Question missing options for subject "${subject}":`, q);
-          }
+            : [];
 
           // Safe answer mapping
-          const answerKey = q.answer;
-          const answerValue =
-            options.length && answerKey
-              ? Array.isArray(q.options)
-                ? options[answerKey.charCodeAt(0) - 65]
-                : q.options[answerKey]
-              : null;
+          let answerValue = null;
+          if (options.length && q.answer) {
+            answerValue = Array.isArray(q.options)
+              ? options[q.answer.charCodeAt(0) - 65]
+              : q.options[q.answer] ?? null;
+          }
 
           return {
             question: q.question || q.q || "",
             options,
-            answer: answerValue,
+            answer: answerValue, // always null if no valid answer
             passage: q.passage || null,
             instruction: q.instruction || null,
             image: q.image || null,
@@ -93,17 +84,18 @@ async function loadAllQuestions() {
           };
         });
 
-        // 4️⃣ Cache in localStorage
+        // Cache for offline
         localStorage.setItem(
           `questions-${subject}`,
           JSON.stringify(finalQuestions)
         );
-
         console.log(`Fetched & cached ${subject}`);
       }
 
-      // 5️⃣ Save questions & initialize answers
+      // Save questions
       questions[subject] = finalQuestions;
+
+      // ✅ Initialize answers array with nulls, exact same length as questions
       answers[subject] = new Array(finalQuestions.length).fill(null);
     } catch (err) {
       console.error(`Error loading ${subject}`, err);
@@ -112,7 +104,6 @@ async function loadAllQuestions() {
     }
   }
 
-  // 6️⃣ Create tabs & load first question
   createSubjectTabs();
   loadQuestion();
 }
@@ -302,7 +293,8 @@ function submitExam() {
   subjects.forEach((subject) => {
     let score = 0;
     questions[subject].forEach((q, i) => {
-      if (answers[subject][i] === q.answer) score++;
+      // Only count if user actually selected an answer
+      if (answers[subject][i] != null && answers[subject][i] === q.answer) score++;
     });
     result[subject] = score;
     totalScore += score;
@@ -310,7 +302,7 @@ function submitExam() {
 
   localStorage.setItem(
     "jambResult",
-    JSON.stringify({ subjects: result, totalScore }),
+    JSON.stringify({ subjects: result, totalScore })
   );
   window.location.href = "results.html";
 }
