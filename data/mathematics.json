@@ -238,6 +238,72 @@
         "D": "8"
       },
       "answer": "A"
+    },
+    {
+      "question": "The mean age of a group of students is 15 years. When the age of a teacher, 45 years old, is added to the ages of the students, the mean of their ages becomes 18 years. Find the number of students in the group.",
+      "hasImage": false,
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "15",
+        "D": "42"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The weights of 10 pupils in a class are 15kg, 16kg, 17kg, 18kg, 16kg, 17kg, 17kg, 17kg, 18kg and 16kg. What is the range of this distribution?",
+      "hasImage": false,
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Find the mean deviation of 1, 2, 3 and 4.",
+      "hasImage": false,
+      "options": {
+        "A": "1.0",
+        "B": "1.5",
+        "C": "2.0",
+        "D": "2.5"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "In how many ways can 2 students be selected from a group of 5 students in a debating competition?",
+      "hasImage": false,
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A committee of six is to be formed by a state governor from nine state commissioners and three members of the state house of assembly. In how many ways can the members of the committee be chosen so as to include one member of the house of assembly?",
+      "hasImage": false,
+      "options": {
+        "A": "924",
+        "B": "840",
+        "C": "462",
+        "D": "378"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Some white balls were put in a basket containing twelve red balls and sixteen black balls. If the probability of picking a white ball from the basket is 3/7, how many white balls were introduced?",
+      "hasImage": false,
+      "options": {
+        "A": "32",
+        "B": "28",
+        "C": "21",
+        "D": "12"
+      },
+      "answer": "C"
     }
   ]
 }
