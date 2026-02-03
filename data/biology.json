@@ -113,7 +113,6 @@
       "answer": "B"
     },
 
-
     {
       "question": "Which of the following diseases is caused by bacteria?",
       "hasImage": false,
@@ -340,6 +339,439 @@
         "D": "Potassium"
       },
       "answer": "B"
+    },
+    {
+      "questions": [
+        {
+          "question": "Which part of the brain controls balance and coordination?",
+          "hasImage": false,
+          "options": {
+            "A": "Cerebrum",
+            "B": "Cerebellum",
+            "C": "Medulla oblongata",
+            "D": "Hypothalamus"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The primary site of nutrient absorption in humans is the",
+          "hasImage": false,
+          "options": {
+            "A": "Stomach",
+            "B": "Small intestine",
+            "C": "Large intestine",
+            "D": "Liver"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following blood cells is involved in immunity?",
+          "hasImage": false,
+          "options": {
+            "A": "Red blood cells",
+            "B": "White blood cells",
+            "C": "Platelets",
+            "D": "Plasma cells"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which vitamin is essential for normal blood clotting?",
+          "hasImage": false,
+          "options": {
+            "A": "Vitamin A",
+            "B": "Vitamin B12",
+            "C": "Vitamin K",
+            "D": "Vitamin D"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The process by which plants make their own food is called",
+          "hasImage": false,
+          "options": {
+            "A": "Respiration",
+            "B": "Photosynthesis",
+            "C": "Transpiration",
+            "D": "Germination"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is a nitrogenous waste product in humans?",
+          "hasImage": false,
+          "options": {
+            "A": "Carbon dioxide",
+            "B": "Urea",
+            "C": "Oxygen",
+            "D": "Glucose"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an example of an omnivore?",
+          "hasImage": false,
+          "options": {
+            "A": "Cow",
+            "B": "Tiger",
+            "C": "Human",
+            "D": "Sheep"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which of the following is a function of the skeleton?",
+          "hasImage": false,
+          "options": {
+            "A": "Production of hormones",
+            "B": "Movement support and protection",
+            "C": "Synthesis of proteins",
+            "D": "Transport of nutrients"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following organisms is a saprophyte?",
+          "hasImage": false,
+          "options": {
+            "A": "Mushroom",
+            "B": "Grass",
+            "C": "Lion",
+            "D": "Goat"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which part of the plant transports food?",
+          "hasImage": false,
+          "options": {
+            "A": "Xylem",
+            "B": "Phloem",
+            "C": "Cortex",
+            "D": "Cambium"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which organ produces bile in humans?",
+          "hasImage": false,
+          "options": {
+            "A": "Pancreas",
+            "B": "Liver",
+            "C": "Stomach",
+            "D": "Gallbladder"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which part of the nephron is responsible for ultrafiltration?",
+          "hasImage": false,
+          "options": {
+            "A": "Bowman's capsule",
+            "B": "Loop of Henle",
+            "C": "Distal convoluted tubule",
+            "D": "Collecting duct"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following hormones is secreted by the adrenal gland?",
+          "hasImage": false,
+          "options": {
+            "A": "Insulin",
+            "B": "Adrenaline",
+            "C": "Thyroxine",
+            "D": "Growth hormone"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an adaptation for water conservation in xerophytes?",
+          "hasImage": false,
+          "options": {
+            "A": "Thin cuticle",
+            "B": "Large leaves",
+            "C": "Sunken stomata",
+            "D": "Shallow roots"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The type of reproduction involving fusion of gametes is",
+          "hasImage": false,
+          "options": {
+            "A": "Asexual",
+            "B": "Sexual",
+            "C": "Binary fission",
+            "D": "Vegetative propagation"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an example of incomplete metamorphosis?",
+          "hasImage": false,
+          "options": {
+            "A": "Butterfly",
+            "B": "Cockroach",
+            "C": "Frog",
+            "D": "Beetle"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which part of the brain regulates involuntary actions like heartbeat?",
+          "hasImage": false,
+          "options": {
+            "A": "Cerebrum",
+            "B": "Medulla oblongata",
+            "C": "Cerebellum",
+            "D": "Hypothalamus"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is a characteristic of mammals?",
+          "hasImage": false,
+          "options": {
+            "A": "Lays eggs",
+            "B": "Has scales",
+            "C": "Has mammary glands",
+            "D": "Cold-blooded"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which process converts glucose to pyruvate in cells?",
+          "hasImage": false,
+          "options": {
+            "A": "Photosynthesis",
+            "B": "Glycolysis",
+            "C": "Fermentation",
+            "D": "Oxidative phosphorylation"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is a greenhouse gas?",
+          "hasImage": false,
+          "options": {
+            "A": "Oxygen",
+            "B": "Carbon dioxide",
+            "C": "Nitrogen",
+            "D": "Helium"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which organelle is responsible for protein synthesis?",
+          "hasImage": false,
+          "options": {
+            "A": "Ribosome",
+            "B": "Mitochondria",
+            "C": "Chloroplast",
+            "D": "Golgi apparatus"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following structures increases surface area for absorption in the small intestine?",
+          "hasImage": false,
+          "options": {
+            "A": "Villi",
+            "B": "Cilia",
+            "C": "Stomata",
+            "D": "Root hairs"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The presence of a backbone characterizes animals known as",
+          "hasImage": false,
+          "options": {
+            "A": "Invertebrates",
+            "B": "Vertebrates",
+            "C": "Arthropods",
+            "D": "Mollusks"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an abiotic factor in an ecosystem?",
+          "hasImage": false,
+          "options": {
+            "A": "Plants",
+            "B": "Animals",
+            "C": "Water",
+            "D": "Fungi"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which of the following best describes ecology?",
+          "hasImage": false,
+          "options": {
+            "A": "Study of cells",
+            "B": "Study of organisms in relation to their environment",
+            "C": "Study of bones",
+            "D": "Study of DNA"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which blood component helps in clotting?",
+          "hasImage": false,
+          "options": {
+            "A": "Platelets",
+            "B": "Red blood cells",
+            "C": "White blood cells",
+            "D": "Plasma"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a fibrous protein?",
+          "hasImage": false,
+          "options": {
+            "A": "Collagen",
+            "B": "Insulin",
+            "C": "Hemoglobin",
+            "D": "Enzyme"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of a gymnosperm?",
+          "hasImage": false,
+          "options": {
+            "A": "Pine",
+            "B": "Maize",
+            "C": "Bean",
+            "D": "Wheat"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is responsible for producing gametes in plants?",
+          "hasImage": false,
+          "options": {
+            "A": "Flower",
+            "B": "Root",
+            "C": "Stem",
+            "D": "Leaf"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following structures is part of the male reproductive system?",
+          "hasImage": false,
+          "options": {
+            "A": "Ovary",
+            "B": "Testis",
+            "C": "Uterus",
+            "D": "Fallopian tube"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is a parasitic plant?",
+          "hasImage": false,
+          "options": {
+            "A": "Mistletoe",
+            "B": "Grass",
+            "C": "Maize",
+            "D": "Mango"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following diseases is caused by a virus?",
+          "hasImage": false,
+          "options": {
+            "A": "Tuberculosis",
+            "B": "Measles",
+            "C": "Cholera",
+            "D": "Ringworm"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The process by which green plants convert light energy into chemical energy is called",
+          "hasImage": false,
+          "options": {
+            "A": "Photosynthesis",
+            "B": "Respiration",
+            "C": "Fermentation",
+            "D": "Transpiration"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which type of blood vessel has valves to prevent backflow?",
+          "hasImage": false,
+          "options": {
+            "A": "Arteries",
+            "B": "Veins",
+            "C": "Capillaries",
+            "D": "Venules"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which gas is essential for aerobic respiration?",
+          "hasImage": false,
+          "options": {
+            "A": "Oxygen",
+            "B": "Carbon dioxide",
+            "C": "Nitrogen",
+            "D": "Hydrogen"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a chemosynthetic organism?",
+          "hasImage": false,
+          "options": {
+            "A": "Nitrosomonas",
+            "B": "Grass",
+            "C": "Frog",
+            "D": "Fish"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a characteristic of reptiles?",
+          "hasImage": false,
+          "options": {
+            "A": "Warm-blooded",
+            "B": "Cold-blooded and scaly skin",
+            "C": "Feathers",
+            "D": "Hair"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an example of a decomposer in soil?",
+          "hasImage": false,
+          "options": {
+            "A": "Bacteria",
+            "B": "Grass",
+            "C": "Earthworm",
+            "D": "Frog"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The process of releasing energy from food in the absence of oxygen is called",
+          "hasImage": false,
+          "options": {
+            "A": "Aerobic respiration",
+            "B": "Anaerobic respiration",
+            "C": "Photosynthesis",
+            "D": "Transpiration"
+          },
+          "answer": "B"
+        }
+      ]
     }
   ]
 }
