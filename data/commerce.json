@@ -1,6 +1,7 @@
 {
-  "subject": "commerce",
-  "exam": "jamb",
+  "subject": "Commerce",
+  "exam": "JAMB",
+  "totalQuestions": 21,
   "questions": [
     {
       "question": "Commerce is defined as the study of how",

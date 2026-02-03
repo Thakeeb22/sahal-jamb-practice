@@ -25,7 +25,7 @@
       "answer": "C"
     },
     {
-      "question": "The accounting convention which states that ‘profit must not be recognized until realized while all losses should be adequately provided for’ is termed",
+      "question": "The accounting convention which states that profit must not be recognized until realized while all losses should be adequately provided for is termed",
       "hasImage": false,
       "options": {
         "A": "Materiality",
@@ -80,18 +80,18 @@
       "answer": "B"
     },
     {
-      "question": "Malam Gambo bought a freezer for his shop costing N10,500. In recording, he debited office expenses account and credited the bank account. What bookkeeping error has he committed?",
+      "question": "Malam Gambo bought a freezer for his shop costing ₦10,500. In recording, he debited office expenses account and credited the bank account. What bookkeeping error has he committed?",
       "hasImage": false,
       "options": {
         "A": "Error of commission",
         "B": "Error of reversal of entries",
         "C": "Error of principle",
-        "D": "Compensation error"
+        "D": "Compensating error"
       },
       "answer": "C"
     },
     {
-      "question": "The use of the folio in the ledger is for",
+      "question": "The use of the folio column in the ledger is for",
       "hasImage": false,
       "options": {
         "A": "Referencing purposes",
@@ -113,10 +113,10 @@
       "answer": "C"
     },
     {
-      "question": "The discount column of a three-column cashbook is not balanced off but periodically transferred to the discount accounts because discounts",
+      "question": "The discount column of a three-column cash book is not balanced off but periodically transferred because discounts",
       "hasImage": false,
       "options": {
-        "A": "Are not important in cash book",
+        "A": "Are not important in accounting",
         "B": "Are cash items only",
         "C": "Do not form part of double entry",
         "D": "Are used for bank reconciliation"
@@ -129,8 +129,8 @@
       "options": {
         "A": "When the fund is established and every time money is spent",
         "B": "When the fund is established and every time it is replenished",
-        "C": "When the fund is established and when the size of the float is decreased",
-        "D": "Every time money is drawn from the petty cash"
+        "C": "When the size of the float is reduced",
+        "D": "Whenever expenses are incurred"
       },
       "answer": "B"
     },
@@ -146,81 +146,312 @@
       "answer": "D"
     },
     {
-      "question": "The financial position of an organization at a particular time can be ascertained from the",
+      "question": "The financial position of a business at a particular date is shown by the",
       "hasImage": false,
       "options": {
         "A": "Statement of sources and application of funds",
-        "B": "Statement of retained earnings",
+        "B": "Trading account",
         "C": "Balance sheet",
         "D": "Profit and loss account"
       },
       "answer": "C"
     },
     {
-      "question": "Given: Purchase N20,000; Sales N40,000; Carriage inwards N5,000; Carriage outwards N5,000; Opening stock N10,000; Closing stock N5,000. What is the cost of goods sold?",
+      "question": "Given: Purchases ₦20,000; Opening stock ₦10,000; Closing stock ₦5,000; Carriage inwards ₦5,000. What is the cost of goods sold?",
       "hasImage": false,
       "options": {
-        "A": "N30,000",
-        "B": "N25,000",
-        "C": "N20,000",
-        "D": "N15,000"
+        "A": "₦30,000",
+        "B": "₦25,000",
+        "C": "₦20,000",
+        "D": "₦15,000"
       },
       "answer": "A"
     },
     {
-      "question": "The net profit or loss for the year is determined in the profit and loss account after",
+      "question": "The net profit of a business is determined by",
       "hasImage": false,
       "options": {
         "A": "Deducting purchases from sales",
-        "B": "Deducting cost of goods sold from sales and adding administrative expenses",
-        "C": "Adding commissions received to gross profit",
-        "D": "Eliminating all expenses from gross profit and adding any other income"
+        "B": "Deducting cost of goods sold from sales",
+        "C": "Deducting all expenses from gross profit and adding other income",
+        "D": "Adding expenses to gross profit"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If a bad debt previously written off is later recovered, it is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Capital receipt",
+        "B": "Income in the profit and loss account",
+        "C": "Liability in the balance sheet",
+        "D": "Reduction in expenses"
       },
       "answer": "B"
     },
     {
-      "question": "Using the table provided, determine the value of closing stock using LIFO.",
+      "question": "Which of the following accounts is a real account?",
       "hasImage": false,
       "options": {
-        "A": "N9,600",
-        "B": "N7,600",
-        "C": "N6,000",
-        "D": "N2,000"
+        "A": "Capital account",
+        "B": "Purchases account",
+        "C": "Motor vehicle account",
+        "D": "Rent account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following items is shown in the trading account?",
+      "hasImage": false,
+      "options": {
+        "A": "Carriage outwards",
+        "B": "Rent received",
+        "C": "Closing stock",
+        "D": "Bad debts"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Depreciation is charged on fixed assets in order to",
+      "hasImage": false,
+      "options": {
+        "A": "Increase profit",
+        "B": "Provide funds for replacement",
+        "C": "Show the true value of assets",
+        "D": "Reduce tax payable"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following errors will not affect the agreement of the trial balance?",
+      "hasImage": false,
+      "options": {
+        "A": "Error of omission",
+        "B": "Error of casting",
+        "C": "Error of one-sided entry",
+        "D": "Error of balancing"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The imprest system of petty cash is designed to",
+      "hasImage": false,
+      "options": {
+        "A": "Reduce fraud",
+        "B": "Control minor expenses",
+        "C": "Eliminate the cash book",
+        "D": "Increase cash sales"
       },
       "answer": "B"
     },
     {
-      "question": "What is the gross profit at the end of February, if the closing stock were valued at N20,000?",
+      "question": "Which of the following is a liability?",
       "hasImage": false,
       "options": {
-        "A": "N65,000",
-        "B": "N57,000",
-        "C": "N48,000",
-        "D": "N37,000"
+        "A": "Debtors",
+        "B": "Creditors",
+        "C": "Stock",
+        "D": "Cash at bank"
       },
       "answer": "B"
     },
     {
-      "question": "A trial balance shows provision for doubtful debts, N190 and debtors, N6,000. It is required to write off further N320 as bad debts and maintain the provision at 2½% of debtors. To do this, the profit and loss should show a",
+      "question": "A balance sheet balances because",
       "hasImage": false,
       "options": {
-        "A": "Credit of N20 and a debit of N100",
-        "B": "Credit of N28 and a debit of N300",
-        "C": "Credit of N48",
-        "D": "Debit entry of N414"
+        "A": "Assets equal liabilities",
+        "B": "Assets equal capital",
+        "C": "Assets equal liabilities plus capital",
+        "D": "Capital equals liabilities"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following best describes goodwill?",
+      "hasImage": false,
+      "options": {
+        "A": "An intangible asset",
+        "B": "A current asset",
+        "C": "A fictitious asset",
+        "D": "A liability"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a capital expenditure?",
+      "hasImage": false,
+      "options": {
+        "A": "Purchase of machinery",
+        "B": "Legal fees on purchase of land",
+        "C": "Major repairs on a building",
+        "D": "Purchase of goods for resale"
       },
       "answer": "D"
     },
     {
-      "question": "If a bad debt previously written off is subsequently repaid, the amount collected is recorded as an",
+      "question": "The book of original entry used to record credit purchases is the",
       "hasImage": false,
       "options": {
-        "A": "Income in the profit and loss account",
-        "B": "Income in the balance sheet",
-        "C": "Addition to cash in the profit and loss account",
-        "D": "Expense in the balance sheet"
+        "A": "Sales journal",
+        "B": "Purchases journal",
+        "C": "Cash book",
+        "D": "General journal"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which principle assumes that a business will continue to operate for the foreseeable future?",
+      "hasImage": false,
+      "options": {
+        "A": "Consistency",
+        "B": "Going concern",
+        "C": "Matching",
+        "D": "Materiality"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Rent paid in advance at the end of an accounting period is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Expense",
+        "B": "Income",
+        "C": "Asset",
+        "D": "Liability"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A trade discount allowed by a seller is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Revenue",
+        "B": "Capital",
+        "C": "Reduction in the invoice price",
+        "D": "Asset"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Provision for doubtful debts is created in order to",
+      "hasImage": false,
+      "options": {
+        "A": "Increase profit",
+        "B": "Adjust for expected losses",
+        "C": "Reduce liabilities",
+        "D": "Adjust closing stock"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If closing stock is undervalued, the net profit will be",
+      "hasImage": false,
+      "options": {
+        "A": "Overstated",
+        "B": "Understated",
+        "C": "Unaffected",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Cash received from debtors is recorded in the cash book on the",
+      "hasImage": false,
+      "options": {
+        "A": "Credit side",
+        "B": "Debit side",
+        "C": "Both sides",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Outstanding expenses are",
+      "hasImage": false,
+      "options": {
+        "A": "Expenses paid in advance",
+        "B": "Expenses incurred but not paid",
+        "C": "Income earned but not received",
+        "D": "Expenses canceled"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Accrued income refers to",
+      "hasImage": false,
+      "options": {
+        "A": "Income earned but not yet received",
+        "B": "Income received in advance",
+        "C": "Income recorded twice",
+        "D": "Income not yet earned"
       },
       "answer": "A"
+    },
+    {
+      "question": "Prepaid expenses are",
+      "hasImage": false,
+      "options": {
+        "A": "Expenses incurred but not yet paid",
+        "B": "Expenses paid in advance",
+        "C": "Expenses canceled",
+        "D": "Revenue"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The trial balance is prepared to",
+      "hasImage": false,
+      "options": {
+        "A": "Show profit or loss",
+        "B": "Check arithmetical accuracy of ledger accounts",
+        "C": "Show assets and liabilities",
+        "D": "Record daily transactions"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Purchase of office furniture is classified as",
+      "hasImage": false,
+      "options": {
+        "A": "Revenue expenditure",
+        "B": "Capital expenditure",
+        "C": "Deferred revenue expenditure",
+        "D": "Liability"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A general journal is used to record",
+      "hasImage": false,
+      "options": {
+        "A": "Only cash transactions",
+        "B": "All transactions not recorded in subsidiary books",
+        "C": "Only credit purchases",
+        "D": "Only sales of goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an intangible asset?",
+      "hasImage": false,
+      "options": {
+        "A": "Building",
+        "B": "Machinery",
+        "C": "Goodwill",
+        "D": "Stock"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a deferred revenue expenditure?",
+      "hasImage": false,
+      "options": {
+        "A": "Purchase of machinery",
+        "B": "Advertising pre-opening cost",
+        "C": "Salaries of staff",
+        "D": "Purchase of stock"
+      },
+      "answer": "B"
     }
   ]
 }

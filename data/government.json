@@ -18,11 +18,11 @@
       "question": "Democracy means a system of government in which",
       "hasImage": false,
       "options": {
-        "A": "The majority rules",
-        "B": "The minority rules",
-        "C": "There is no party system",
-        "D": "The people rule",
-        "E": "None of the above"
+        "A": "the majority rules",
+        "B": "the minority rules",
+        "C": "there is no party system",
+        "D": "the people rule",
+        "E": "none of the above"
       },
       "answer": "D"
     },
@@ -30,11 +30,11 @@
       "question": "A constitution is federal if",
       "hasImage": false,
       "options": {
-        "A": "It provides for a presidential system",
-        "B": "It is unwritten",
-        "C": "It is not unitary",
-        "D": "The central and component units or authorities are co-ordinate and equal",
-        "E": "There is a division of powers between a central and a number of other component authorities"
+        "A": "it provides for a presidential system",
+        "B": "it is unwritten",
+        "C": "it is not unitary",
+        "D": "the central and component units are equal",
+        "E": "there is a division of powers between central and component authorities"
       },
       "answer": "E"
     },
@@ -42,217 +42,205 @@
       "question": "The Executive is",
       "hasImage": false,
       "options": {
-        "A": "A committee of the legislature",
-        "B": "The body that makes laws",
-        "C": "The body that executes the policies of government",
-        "D": "The highest organ of government",
-        "E": "None of the above"
+        "A": "a committee of the legislature",
+        "B": "the body that makes laws",
+        "C": "the body that executes government policies",
+        "D": "the highest organ of government",
+        "E": "none of the above"
       },
       "answer": "C"
     },
     {
-      "question": "The Judiciary is",
+      "question": "The Judiciary is the arm of government that",
       "hasImage": false,
       "options": {
-        "A": "An arm of the Executive",
-        "B": "The body which makes the law",
-        "C": "A body of lawyers",
-        "D": "The body which interprets the law",
-        "E": "The body which enforces the law"
+        "A": "makes laws",
+        "B": "enforces laws",
+        "C": "interprets laws",
+        "D": "appoints ministers",
+        "E": "controls elections"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The principle of separation of powers was popularized by",
+      "hasImage": false,
+      "options": {
+        "A": "John Locke",
+        "B": "Jean Jacques Rousseau",
+        "C": "Montesquieu",
+        "D": "Thomas Hobbes",
+        "E": "Karl Marx"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Checks and balances are designed to",
+      "hasImage": false,
+      "options": {
+        "A": "make the executive supreme",
+        "B": "prevent abuse of power",
+        "C": "abolish the legislature",
+        "D": "strengthen dictatorship",
+        "E": "remove the judiciary"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Pressure groups differ from political parties because they",
+      "hasImage": false,
+      "options": {
+        "A": "contest elections",
+        "B": "aim to form government",
+        "C": "seek to influence government policies",
+        "D": "are always illegal",
+        "E": "control the legislature"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A cabinet system of government is also known as",
+      "hasImage": false,
+      "options": {
+        "A": "presidential system",
+        "B": "parliamentary system",
+        "C": "military system",
+        "D": "unitary system",
+        "E": "confederal system"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The head of government in a parliamentary system is the",
+      "hasImage": false,
+      "options": {
+        "A": "President",
+        "B": "Monarch",
+        "C": "Prime Minister",
+        "D": "Speaker",
+        "E": "Chief Justice"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Fundamental human rights are usually contained in the",
+      "hasImage": false,
+      "options": {
+        "A": "party manifesto",
+        "B": "constitution",
+        "C": "court rules",
+        "D": "electoral act",
+        "E": "government gazette"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Citizenship is best defined as",
+      "hasImage": false,
+      "options": {
+        "A": "residence in a country",
+        "B": "membership of a political party",
+        "C": "legal membership of a state",
+        "D": "holding public office",
+        "E": "payment of taxes"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "An electoral commission is responsible for",
+      "hasImage": false,
+      "options": {
+        "A": "making laws",
+        "B": "conducting elections",
+        "C": "interpreting the constitution",
+        "D": "appointing ministers",
+        "E": "forming political parties"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Universal adult suffrage means",
+      "hasImage": false,
+      "options": {
+        "A": "only educated people can vote",
+        "B": "only men can vote",
+        "C": "all adults can vote",
+        "D": "only taxpayers can vote",
+        "E": "only party members can vote"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The main function of the legislature is to",
+      "hasImage": false,
+      "options": {
+        "A": "interpret laws",
+        "B": "execute laws",
+        "C": "make laws",
+        "D": "enforce laws",
+        "E": "conduct elections"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A rigid constitution is one that",
+      "hasImage": false,
+      "options": {
+        "A": "cannot be amended",
+        "B": "is written",
+        "C": "is difficult to amend",
+        "D": "is flexible",
+        "E": "is unwritten"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The rule of law implies that",
+      "hasImage": false,
+      "options": {
+        "A": "the government is above the law",
+        "B": "the law is supreme",
+        "C": "judges rule the country",
+        "D": "only leaders obey the law",
+        "E": "the constitution can be ignored"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The 1979 Nigerian Constitution introduced the",
+      "hasImage": false,
+      "options": {
+        "A": "parliamentary system",
+        "B": "presidential system",
+        "C": "military system",
+        "D": "monarchical system",
+        "E": "confederal system"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The first political party in Nigeria was the",
+      "hasImage": false,
+      "options": {
+        "A": "NCNC",
+        "B": "NPC",
+        "C": "Action Group",
+        "D": "Nigerian National Democratic Party",
+        "E": "UPN"
       },
       "answer": "D"
     },
     {
-      "question": "The separation of powers means the same as",
+      "question": "Public opinion can best be described as",
       "hasImage": false,
       "options": {
-        "A": "A presidential system of government",
-        "B": "Checks and balances",
-        "C": "The rule of law",
-        "D": "Supremacy of the judiciary",
-        "E": "None of the above"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Rights are",
-      "hasImage": false,
-      "options": {
-        "A": "Claims which the law allows",
-        "B": "Claims against the state",
-        "C": "Claims against other individuals",
-        "D": "Claims which are natural to men",
-        "E": "What are written in the constitution"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "Pressure groups are",
-      "hasImage": false,
-      "options": {
-        "A": "Organization which wants to overthrow the government",
-        "B": "Organizations which seek to influence the policies of the government",
-        "C": "Associations of people who share the same ideology",
-        "D": "Political parties",
-        "E": "Religious orders"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "A cabinet system of government is practiced in",
-      "hasImage": false,
-      "options": {
-        "A": "The USSR",
-        "B": "The USA",
-        "C": "The People's Republic of China",
-        "D": "The United Kingdom",
-        "E": "North Korea"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "The citizen's obligations are",
-      "hasImage": false,
-      "options": {
-        "A": "What the government orders",
-        "B": "Duties the individual imposes on himself",
-        "C": "What the law requires of the individual",
-        "D": "What the military decrees",
-        "E": "What political parties demand of their members"
+        "A": "views held by the government",
+        "B": "views of political parties",
+        "C": "opinions shared by the majority of the people",
+        "D": "court judgments",
+        "E": "media reports"
       },
       "answer": "C"
-    },
-    {
-      "question": "An electoral system is the system which governs",
-      "hasImage": false,
-      "options": {
-        "A": "The appointment of the Pope elections",
-        "B": "How people vote",
-        "C": "The conduct of elections",
-        "D": "The appointment of cabinet ministers",
-        "E": "The appointment of judges"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "An unwritten constitution is one which",
-      "hasImage": false,
-      "options": {
-        "A": "Is not subject to judicial review",
-        "B": "Is only partially written",
-        "C": "Is not written at all",
-        "D": "Is made up solely of a set of conventions",
-        "E": "None of the above"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Delegated legislation is legislation",
-      "hasImage": false,
-      "options": {
-        "A": "Which is not submitted to parliament",
-        "B": "Made by judicial tribunals",
-        "C": "Made by a minister acting under an Act of Parliament",
-        "D": "Made by local government",
-        "E": "Made by parastatals"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Before colonial rule, Yoruba traditional rulers were appointed by",
-      "hasImage": false,
-      "options": {
-        "A": "The people acting through their representatives",
-        "B": "The Ogboni",
-        "C": "Ifa (oracle) priests",
-        "D": "Odudwa",
-        "E": "Kingmakers"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "The first political party properly so-called was formed in Nigeria in",
-      "hasImage": false,
-      "options": {
-        "A": "1916",
-        "B": "1923",
-        "C": "1944",
-        "D": "1948",
-        "E": "1951"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The Lol Cadres, a major factor in the constitutional development of the French colonial territories, was introduced in",
-      "hasImage": false,
-      "options": {
-        "A": "1940",
-        "B": "1946",
-        "C": "1950",
-        "D": "1956",
-        "E": "1960"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The Coussey Commission Report laid the groundwork for the eventual independence of",
-      "hasImage": false,
-      "options": {
-        "A": "Gambia",
-        "B": "Gold Coast (Ghana)",
-        "C": "Sierra Leone",
-        "D": "Liberia",
-        "E": "Nigeria"
-      },
-      "answer": "E"
-    },
-    {
-      "question": "The (former) Western Region of Nigeria became internally self-governing in",
-      "hasImage": false,
-      "options": {
-        "A": "1955",
-        "B": "1957",
-        "C": "1958",
-        "D": "1956",
-        "E": "1959"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "The first Pan African conference was held in",
-      "hasImage": false,
-      "options": {
-        "A": "Paris",
-        "B": "Brussels",
-        "C": "London",
-        "D": "New York",
-        "E": "Manchester"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "The Public Service Commission (Nigeria) is responsible for the appointment of all",
-      "hasImage": false,
-      "options": {
-        "A": "Judges of the High Court",
-        "B": "Officials of public corporations",
-        "C": "Civil servants",
-        "D": "Military personnel",
-        "E": "University teachers"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Constitutional cases in Nigeria can only be raised in the first instance in",
-      "hasImage": false,
-      "options": {
-        "A": "The Supreme Court",
-        "B": "The High Courts",
-        "C": "The Courts of Appeal",
-        "D": "The Sharia Court of Appeal",
-        "E": "None of the above"
-      },
-      "answer": "B"
     }
   ]
 }

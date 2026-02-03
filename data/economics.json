@@ -1,6 +1,7 @@
 {
-  "subject": "economics",
-  "exam": "jamb",
+  "subject": "Economics",
+  "exam": "JAMB",
+  "totalQuestions": 40,
   "questions": [
     {
       "question": "Economics is the study of human behaviour as it relates to the",
@@ -25,17 +26,6 @@
       "answer": "C"
     },
     {
-      "question": "If Σf = 6 and N = 6, determine the value of Σfx",
-      "hasImage": false,
-      "options": {
-        "A": "36",
-        "B": "12",
-        "C": "1",
-        "D": "72"
-      },
-      "answer": "A"
-    },
-    {
       "question": "The standard deviation of a set of data is",
       "hasImage": false,
       "options": {
@@ -50,15 +40,15 @@
       "question": "The mean is the best measure of central tendency because it",
       "hasImage": false,
       "options": {
-        "A": "is not affected by extreme values in a data",
-        "B": "is a midpoint value in an array of data",
-        "C": "is a balancing point in an observation",
+        "A": "is not affected by extreme values",
+        "B": "is a midpoint value",
+        "C": "is a balancing point",
         "D": "can be calculated from incomplete data"
       },
       "answer": "C"
     },
     {
-      "question": "The most popular sizes of dresses and shoes are determined by the",
+      "question": "The most popular size of shoes produced is determined by the",
       "hasImage": false,
       "options": {
         "A": "range",
@@ -75,31 +65,31 @@
         "A": "equally by consumers and producers",
         "B": "more by producers",
         "C": "more by consumers",
-        "D": "more by retailers and producers"
+        "D": "by retailers only"
       },
       "answer": "B"
     },
     {
-      "question": "If the price of a commodity with elastic demand increases, the revenue accruing to the producer will",
+      "question": "If the price of a commodity with elastic demand increases, total revenue will",
       "hasImage": false,
       "options": {
-        "A": "double",
-        "B": "increase",
-        "C": "be constant",
-        "D": "decrease"
+        "A": "increase",
+        "B": "remain constant",
+        "C": "decrease",
+        "D": "double"
       },
-      "answer": "D"
+      "answer": "C"
     },
     {
-      "question": "An excess demand for beans will result from",
+      "question": "An excess demand situation occurs when",
       "hasImage": false,
       "options": {
-        "A": "an increase in the price of beans",
-        "B": "a decrease in the price of beans",
-        "C": "an increase in the supply of beans",
-        "D": "a decrease in the supply of beans"
+        "A": "price is above equilibrium",
+        "B": "quantity supplied exceeds quantity demanded",
+        "C": "quantity demanded exceeds quantity supplied",
+        "D": "supply equals demand"
       },
-      "answer": "B"
+      "answer": "C"
     },
     {
       "question": "Consumer surplus tends to be higher when demand is",
@@ -108,18 +98,18 @@
         "A": "inelastic",
         "B": "perfectly elastic",
         "C": "elastic",
-        "D": "unitarily elastic"
+        "D": "unit elastic"
       },
       "answer": "C"
     },
     {
-      "question": "One of the assumptions of ordinal utility theory is that",
+      "question": "One assumption of ordinal utility theory is that",
       "hasImage": false,
       "options": {
-        "A": "choice is not consistent",
+        "A": "utility is measurable",
         "B": "utility can be ranked",
-        "C": "total utility is a function of price",
-        "D": "satisfaction is measurable"
+        "C": "choices are random",
+        "D": "prices are constant"
       },
       "answer": "B"
     },
@@ -127,100 +117,287 @@
       "question": "The law of diminishing marginal utility explains why",
       "hasImage": false,
       "options": {
-        "A": "the slope of a normal demand curve is negative",
-        "B": "an abnormal demand curve slopes upwards",
-        "C": "the slope of a normal demand curve is positive",
-        "D": "the consumption of inferior goods increases with income"
+        "A": "demand curves slope downward",
+        "B": "supply curves slope upward",
+        "C": "income increases demand",
+        "D": "prices fluctuate"
       },
       "answer": "A"
     },
     {
-      "question": "If a consumer plans to spend 120k on four oranges but spent 80k, his consumer surplus is",
+      "question": "A factor that shifts the demand curve is a change in",
       "hasImage": false,
       "options": {
-        "A": "₦1.50",
-        "B": "₦0.40",
-        "C": "₦1.00",
-        "D": "₦2.00"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "A set of factors that can shift the supply curve are changes in",
-      "hasImage": false,
-      "options": {
-        "A": "weather, price and technology",
-        "B": "technology, weather and population",
-        "C": "technology, price and taste",
-        "D": "population, price and taste"
+        "A": "price",
+        "B": "population",
+        "C": "quantity supplied",
+        "D": "cost of production"
       },
       "answer": "B"
     },
     {
-      "question": "If the coefficient of price elasticity of supply is greater than one, the supply is said to be",
+      "question": "A rightward shift of the supply curve may result from",
       "hasImage": false,
       "options": {
-        "A": "perfectly elastic",
-        "B": "fairly inelastic",
-        "C": "infinitely inelastic",
-        "D": "fairly elastic"
+        "A": "increase in taxes",
+        "B": "improved technology",
+        "C": "rise in wages",
+        "D": "increase in input prices"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "question": "If commodity X is a by-product of commodity Y, this implies that both commodities are",
+      "question": "If price elasticity of supply is greater than one, supply is",
       "hasImage": false,
       "options": {
-        "A": "in competitive supply",
-        "B": "in composite supply",
-        "C": "jointly supplied",
-        "D": "in excess supply"
+        "A": "perfectly inelastic",
+        "B": "inelastic",
+        "C": "elastic",
+        "D": "unit elastic"
       },
       "answer": "C"
     },
     {
-      "question": "In perfect competition, price is determined by the",
+      "question": "Jointly supplied goods are goods that",
+      "hasImage": false,
+      "options": {
+        "A": "are substitutes",
+        "B": "are complements",
+        "C": "are produced together",
+        "D": "compete in the market"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "In a perfectly competitive market, price is determined by",
       "hasImage": false,
       "options": {
         "A": "government",
-        "B": "sellers",
+        "B": "individual sellers",
         "C": "buyers",
-        "D": "market"
+        "D": "market forces"
       },
       "answer": "D"
     },
     {
-      "question": "In order to reduce hardship faced by consumers due to high prices, government can introduce",
+      "question": "A maximum price is introduced by government to",
       "hasImage": false,
       "options": {
-        "A": "maximum prices",
-        "B": "commodity boards",
-        "C": "minimum prices",
-        "D": "price control boards"
+        "A": "protect producers",
+        "B": "reduce inflation",
+        "C": "protect consumers",
+        "D": "increase revenue"
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
       "question": "Average product is less than marginal product when",
       "hasImage": false,
       "options": {
-        "A": "there is constant returns to scale",
-        "B": "there is increasing returns to scale",
-        "C": "there is decreasing returns to scale",
-        "D": "diminishing returns set in"
+        "A": "returns are constant",
+        "B": "returns are increasing",
+        "C": "returns are decreasing",
+        "D": "production stops"
       },
       "answer": "B"
     },
     {
-      "question": "A firm enjoying economies of scale is said to be",
+      "question": "Economies of scale occur when",
       "hasImage": false,
       "options": {
-        "A": "reducing average cost as production increases",
-        "B": "benefiting from the activities of other firms",
-        "C": "maximizing profits as production increases",
-        "D": "having an upward-sloping average cost curve"
+        "A": "output increases and average cost rises",
+        "B": "output increases and average cost falls",
+        "C": "output falls and cost rises",
+        "D": "cost remains constant"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The reward for labour as a factor of production is",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "wages",
+        "D": "profit"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The reward for entrepreneurship is",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "wages",
+        "D": "profit"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A good example of fixed cost is",
+      "hasImage": false,
+      "options": {
+        "A": "raw materials",
+        "B": "wages",
+        "C": "transport cost",
+        "D": "rent"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "National income measures the",
+      "hasImage": false,
+      "options": {
+        "A": "total output of a country",
+        "B": "total savings",
+        "C": "total imports",
+        "D": "population size"
       },
       "answer": "A"
+    },
+    {
+      "question": "Gross Domestic Product refers to the",
+      "hasImage": false,
+      "options": {
+        "A": "value of exports",
+        "B": "value of goods produced within a country",
+        "C": "income earned abroad",
+        "D": "government expenditure"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Inflation is best described as a",
+      "hasImage": false,
+      "options": {
+        "A": "rise in employment",
+        "B": "fall in output",
+        "C": "general rise in prices",
+        "D": "reduction in money supply"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Deflation is associated with",
+      "hasImage": false,
+      "options": {
+        "A": "falling prices",
+        "B": "rising wages",
+        "C": "increased demand",
+        "D": "economic boom"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Money performs all the following functions EXCEPT",
+      "hasImage": false,
+      "options": {
+        "A": "medium of exchange",
+        "B": "store of value",
+        "C": "measure of utility",
+        "D": "unit of account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Central Bank controls the supply of money mainly through",
+      "hasImage": false,
+      "options": {
+        "A": "commercial banks",
+        "B": "open market operations",
+        "C": "traders",
+        "D": "households"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Balance of trade refers to the difference between",
+      "hasImage": false,
+      "options": {
+        "A": "exports and imports",
+        "B": "revenue and expenditure",
+        "C": "savings and investment",
+        "D": "production and consumption"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A favourable balance of trade occurs when",
+      "hasImage": false,
+      "options": {
+        "A": "imports exceed exports",
+        "B": "exports equal imports",
+        "C": "exports exceed imports",
+        "D": "trade is restricted"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Specialization leads to higher productivity because of",
+      "hasImage": false,
+      "options": {
+        "A": "division of labour",
+        "B": "inflation",
+        "C": "taxation",
+        "D": "competition"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Opportunity cost is the",
+      "hasImage": false,
+      "options": {
+        "A": "total cost of production",
+        "B": "value of the next best alternative forgone",
+        "C": "cost of raw materials",
+        "D": "fixed cost"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Scarcity exists because",
+      "hasImage": false,
+      "options": {
+        "A": "resources are unlimited",
+        "B": "human wants are limited",
+        "C": "resources are limited relative to wants",
+        "D": "goods are evenly distributed"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A planned economy is one in which decisions are made by the",
+      "hasImage": false,
+      "options": {
+        "A": "consumers",
+        "B": "private firms",
+        "C": "government",
+        "D": "market forces"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "In a mixed economy, resources are owned by",
+      "hasImage": false,
+      "options": {
+        "A": "government only",
+        "B": "private individuals only",
+        "C": "both government and private individuals",
+        "D": "foreign investors only"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Unemployment refers to a situation where",
+      "hasImage": false,
+      "options": {
+        "A": "people are unwilling to work",
+        "B": "able and willing workers cannot find jobs",
+        "C": "wages are low",
+        "D": "prices are high"
+      },
+      "answer": "B"
     }
   ]
 }

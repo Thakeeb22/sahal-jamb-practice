@@ -63,18 +63,6 @@
       "answer": "D"
     },
     {
-      "question": "Some copper(II) sulphate pentahydrate (CuSO4·5H2O) was heated at 120°C with the following results: Wt of crucible = 10.00 g; Wt of crucible + CuSO4·5H2O = 14.98 g; Wt of crucible + residue = 13.54 g. How many molecules of water of crystallization were lost? [H=1, Cu=63.5, O=16, S=32]",
-      "hasImage": false,
-      "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4",
-        "E": "5"
-      },
-      "answer": "D"
-    },
-    {
       "question": "The three-dimensional shape of methane is",
       "hasImage": false,
       "options": {
@@ -87,160 +75,233 @@
       "answer": "D"
     },
     {
-      "question": "Compound W is",
+      "question": "Which compound is an ester?",
       "hasImage": false,
       "options": {
-        "A": "a soap",
-        "B": "an oil",
-        "C": "an alkane",
-        "D": "an ester",
-        "E": "sucrose"
+        "A": "C2H5OH",
+        "B": "CH3COOH",
+        "C": "CH3COOCH3",
+        "D": "C6H12O6",
+        "E": "NaOH"
       },
-      "answer": "D"
+      "answer": "C"
     },
     {
-      "question": "The molecular formula of X is",
+      "question": "The molecular formula of glucose is",
       "hasImage": false,
       "options": {
         "A": "C12H22O11",
         "B": "C6H12O6",
         "C": "C3H6O3",
-        "D": "C7H14O7",
-        "E": "C4H3O4"
+        "D": "C2H6O",
+        "E": "C5H10O5"
       },
       "answer": "B"
     },
     {
-      "question": "Reaction of X with yeast forms the basis of the",
+      "question": "Reaction of glucose with yeast forms the basis of the",
       "hasImage": false,
       "options": {
         "A": "plastic industry",
         "B": "textile industry",
         "C": "brewing industry",
         "D": "soap industry",
-        "E": "dyeing industry"
+        "E": "paint industry"
       },
       "answer": "C"
     },
     {
-      "question": "A mixture of common salt, ammonium chloride and barium sulphate can best be separated by",
+      "question": "A mixture of common salt, ammonium chloride and sand can best be separated by",
       "hasImage": false,
       "options": {
-        "A": "addition of water followed by filtration then sublimation",
-        "B": "addition of water followed by sublimation then filtration",
-        "C": "sublimation followed by addition of water then filtration",
-        "D": "fractional distillation",
-        "E": "fractional crystallization"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "Which of the following relationships between the pressure P, the volume V and the temperature T represents an ideal gas behaviour?",
-      "hasImage": false,
-      "options": {
-        "A": "P ∝ VT",
-        "B": "P ∝ T/V",
-        "C": "PT ∝ V",
-        "D": "PV ∝ VT",
-        "E": "P ∝ V/T"
+        "A": "filtration then sublimation",
+        "B": "sublimation, dissolution and filtration",
+        "C": "fractional distillation",
+        "D": "chromatography",
+        "E": "crystallization"
       },
       "answer": "B"
     },
     {
-      "question": "How many isomeric forms are there for the molecular formula C3H6Br2?",
+      "question": "Which expression represents Boyle’s law?",
       "hasImage": false,
       "options": {
-        "A": "1",
-        "B": "2",
-        "C": "3",
-        "D": "4",
-        "E": "5"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "A piece of burning sulphur will continue to burn in a gas jar of oxygen to give misty fumes which readily dissolve in water. The resulting liquid is",
-      "hasImage": false,
-      "options": {
-        "A": "sulphur (IV) trioxide",
-        "B": "Tetraoxosulphate acid (VI)",
-        "C": "Trioxosulphate (IV) acid",
-        "D": "Dioxosulphate (II) acid",
-        "E": "Hydrogen sulphide"
+        "A": "P ∝ T",
+        "B": "V ∝ T",
+        "C": "PV = constant",
+        "D": "P/V = constant",
+        "E": "PT = constant"
       },
       "answer": "C"
     },
     {
-      "question": "Sodium decahydrate (Na2SO4·10H2O) on exposure to air loses all its water of crystallization. The process of loss is known as",
+      "question": "Which of the following is an example of a saturated hydrocarbon?",
       "hasImage": false,
       "options": {
-        "A": "Efflorescence",
-        "B": "Hygroscopy",
-        "C": "Deliquescence",
-        "D": "Effervescence",
-        "E": "Dehydration"
+        "A": "ethene",
+        "B": "ethyne",
+        "C": "benzene",
+        "D": "ethane",
+        "E": "propene"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Which of these gases causes temporary hardness of water?",
+      "hasImage": false,
+      "options": {
+        "A": "carbon dioxide",
+        "B": "oxygen",
+        "C": "nitrogen",
+        "D": "hydrogen sulphide",
+        "E": "ammonia"
       },
       "answer": "A"
     },
     {
-      "question": "Which of the following happens during the electrolysis of molten sodium chloride?",
+      "question": "Rusting of iron is an example of",
       "hasImage": false,
       "options": {
-        "A": "Sodium ion loses an electron",
-        "B": "Chlorine atom gains an electron",
-        "C": "Chloride ion gains an electron",
-        "D": "Sodium ion is oxidized",
-        "E": "Chloride ion is oxidized"
+        "A": "neutralization",
+        "B": "oxidation",
+        "C": "reduction",
+        "D": "hydrolysis",
+        "E": "polymerization"
       },
-      "answer": "E"
+      "answer": "B"
     },
     {
-      "question": "Crude petroleum pollutant usually seen on some Nigeria creeks and waterways can be dispersed or removed by",
+      "question": "Which of the following is NOT a fossil fuel?",
       "hasImage": false,
       "options": {
-        "A": "heating the affected parts in order to boil off the petroleum",
-        "B": "mechanically stirring to dissolve the petroleum in water",
-        "C": "pouring organic solvents to dissolve the petroleum",
-        "D": "spraying the water with detergents",
-        "E": "cooling to freeze out the petroleum"
+        "A": "coal",
+        "B": "petroleum",
+        "C": "natural gas",
+        "D": "wood",
+        "E": "diesel"
+      },
+      "answer": "D"
+    },
+
+    {
+      "question": "The pH of a neutral solution at 25°C is",
+      "hasImage": false,
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "7",
+        "D": "10",
+        "E": "14"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which substance will turn blue litmus paper red?",
+      "hasImage": false,
+      "options": {
+        "A": "NaOH",
+        "B": "KOH",
+        "C": "NH3",
+        "D": "HCl",
+        "E": "Na2CO3"
       },
       "answer": "D"
     },
     {
-      "question": "An element is electronegative if",
+      "question": "The main ore of aluminium is",
       "hasImage": false,
       "options": {
-        "A": "it has a tendency to exist in the gaseous form",
-        "B": "its ions dissolve readily in water",
-        "C": "it has a tendency to lose electrons",
-        "D": "it has a tendency to gain electrons",
-        "E": "it readily forms covalent bonds"
+        "A": "haematite",
+        "B": "bauxite",
+        "C": "galena",
+        "D": "zinc blende",
+        "E": "cassiterite"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "question": "Solution X, Y, and Z have pH values 3.0, 5.0 and 9.0 respectively. Which of the following statements is correct?",
+      "question": "Which of the following particles has the least mass?",
       "hasImage": false,
       "options": {
-        "A": "All the solutions are acidic",
-        "B": "All solutions are basic",
-        "C": "Y and Z are more acidic than water",
-        "D": "Y is more acidic than X",
-        "E": "Z is the least acidic"
+        "A": "proton",
+        "B": "neutron",
+        "C": "electron",
+        "D": "alpha particle",
+        "E": "hydrogen atom"
       },
-      "answer": "E"
+      "answer": "C"
     },
     {
-      "question": "Which of these metals, Mg, Fe, Pb, and Cu will dissolve in dilute HCl?",
+      "question": "The catalyst used in the Haber process is",
       "hasImage": false,
       "options": {
-        "A": "All the metals",
-        "B": "Mg, Fe, and Cu",
-        "C": "Mg, Fe, and Pb",
-        "D": "Mg and Fe only",
-        "E": "Mg only"
+        "A": "nickel",
+        "B": "platinum",
+        "C": "iron",
+        "D": "copper",
+        "E": "aluminium"
       },
-      "answer": "D"
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following solutions is basic?",
+      "hasImage": false,
+      "options": {
+        "A": "NH4Cl",
+        "B": "Na2CO3",
+        "C": "HCl",
+        "D": "HNO3",
+        "E": "CH3COOH"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An element that readily gains electrons is said to be",
+      "hasImage": false,
+      "options": {
+        "A": "electropositive",
+        "B": "electronegative",
+        "C": "radioactive",
+        "D": "metallic",
+        "E": "basic"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a strong electrolyte?",
+      "hasImage": false,
+      "options": {
+        "A": "ethanol",
+        "B": "glucose",
+        "C": "sodium chloride",
+        "D": "ammonia solution",
+        "E": "acetic acid"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which gas is evolved when zinc reacts with dilute hydrochloric acid?",
+      "hasImage": false,
+      "options": {
+        "A": "oxygen",
+        "B": "hydrogen",
+        "C": "carbon dioxide",
+        "D": "nitrogen",
+        "E": "chlorine"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of an alkene?",
+      "hasImage": false,
+      "options": {
+        "A": "ethane",
+        "B": "ethene",
+        "C": "ethyne",
+        "D": "benzene",
+        "E": "butane"
+      },
+      "answer": "B"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "exam": "jamb",
   "questions": [
     {
-      "question": "In a resonance tube experiment, a tube of fixed length is closed at one end and several tuning forks of increasing frequency are used to obtain resonance at the open end. If the tuning fork with the lowest frequency which gave resonance had a frequency ƒ1 and the next tuning fork to give resonance had a frequency ƒ2, find the ratio ƒ2/ƒ1.",
+      "question": "In a resonance tube experiment, a tube of fixed length is closed at one end. If the lowest frequency giving resonance is f₁ and the next is f₂, find f₂/f₁.",
       "hasImage": false,
       "options": {
         "A": "8",
@@ -27,153 +27,139 @@
       "answer": "B"
     },
     {
-      "question": "Consider the three forces acting at O and in equilibrium as shown in Fig. 1. Which of the following equation(s) is/are correct? I. P1 cos O1 = P1 cos O2 II. P3 = P1 cos O1 + P2 cos O2 III. P1 sin O1 = P2 sin O2",
-      "hasImage": true,
-      "image": "./img/questions/fig1.png",
-      "options": {
-        "A": "I only",
-        "B": "II only",
-        "C": "III only",
-        "D": "II and III only",
-        "E": "I and III only"
-      },
-      "answer": "E"
-    },
-    {
       "question": "Which of the following statements about friction is NOT correct?",
       "hasImage": false,
       "options": {
-        "A": "The force of kinetic friction is less than the force of static friction",
-        "B": "The force of kinetic friction between two surfaces is independent of the areas in contact provided the normal reaction is unchanged",
-        "C": "The force of rolling friction between two surfaces is less than the force of sliding friction",
-        "D": "The angle of friction is the angle between the normal reaction and the force of friction",
-        "E": "Friction may be reduced by lubrication"
+        "A": "Kinetic friction is less than static friction",
+        "B": "Friction depends on the nature of surfaces",
+        "C": "Rolling friction is less than sliding friction",
+        "D": "Angle of friction is the angle between friction and surface",
+        "E": "Lubrication reduces friction"
       },
       "answer": "D"
     },
     {
-      "question": "A brick at rest on a horizontal table is pulled by a horizontal cord, as shown in Fig. 2. The force of friction on the brick",
-      "hasImage": true,
-      "image": "./img/questions/fig2.png",
-      "options": {
-        "A": "Increases if the pull increases but the brick does not move",
-        "B": "Is directly horizontal to the right",
-        "C": "Decreases if an identical brick is placed on the first",
-        "D": "Is zero if the brick is pulled hard enough to make it slide",
-        "E": "Changes if the brick is turned on its side"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "The force with which an object is attracted to the earth is called its",
+      "question": "The force with which the earth attracts a body is known as its",
       "hasImage": false,
       "options": {
-        "A": "Acceleration",
-        "B": "Mass",
-        "C": "Gravity",
-        "D": "Impulse",
-        "E": "Weight"
+        "A": "mass",
+        "B": "acceleration",
+        "C": "gravity",
+        "D": "impulse",
+        "E": "weight"
       },
       "answer": "E"
     },
     {
-      "question": "The refractive index of a liquid is 1.5. If the velocity of light in vacuum is 3.0 x 10^8 m/s, the velocity of light in the liquid is",
+      "question": "The refractive index of glass is 1.5. If the speed of light in vacuum is 3.0 × 10⁸ m/s, its speed in glass is",
       "hasImage": false,
       "options": {
-        "A": "1.5 x 10^3 m/s",
-        "B": "2.0 x 10^8 m/s",
-        "C": "3.0 x 10^3 m/s",
-        "D": "4.5 x 10^3 m/s",
-        "E": "9.0 x 10^3 m/s"
+        "A": "1.0 × 10⁸ m/s",
+        "B": "2.0 × 10⁸ m/s",
+        "C": "2.5 × 10⁸ m/s",
+        "D": "4.5 × 10⁸ m/s",
+        "E": "6.0 × 10⁸ m/s"
       },
       "answer": "B"
     },
     {
-      "question": "If the relative density of a metal is 19, what will be the mass of 20 cm³ of the metal when immersed in water?",
+      "question": "If the relative density of a metal is 19, find the mass of 20 cm³ of the metal.",
       "hasImage": false,
       "options": {
         "A": "380 g",
-        "B": "400 g",
-        "C": "360 g",
-        "D": "39 g",
-        "E": "180 g"
+        "B": "360 g",
+        "C": "400 g",
+        "D": "180 g",
+        "E": "39 g"
       },
       "answer": "A"
     },
     {
-      "question": "Which of the following statements about liquid pressure is NOT correct? The pressure",
+      "question": "Which of the following statements about liquid pressure is correct?",
       "hasImage": false,
       "options": {
-        "A": "At a point in a liquid is proportional to the depth",
-        "B": "At any point in a liquid is the same at the same level",
-        "C": "Is exerted equally in all directions at any point",
-        "D": "Of a liquid at any point on the wall of its container is zero",
-        "E": "All of the above are correct except D"
+        "A": "Pressure decreases with depth",
+        "B": "Pressure is zero at container walls",
+        "C": "Pressure depends on surface area",
+        "D": "Pressure increases with depth",
+        "E": "Pressure acts only downward"
       },
       "answer": "D"
     },
     {
-      "question": "A ship traveling towards a cliff receives the echo of its whistle after 3.5 seconds. A short while later, it receives the echo after 2.5 seconds. If the speed of sound in air under the prevailing conditions is 250 m/s, how much closer is the ship to the cliff?",
+      "question": "A ship receives an echo 3.5 s after sounding its horn and later after 2.5 s. If speed of sound is 250 m/s, how much nearer is the ship to the cliff?",
       "hasImage": false,
       "options": {
-        "A": "10 m",
+        "A": "100 m",
         "B": "125 m",
         "C": "175 m",
-        "D": "350 m",
-        "E": "1000 m"
+        "D": "250 m",
+        "E": "350 m"
       },
       "answer": "C"
     },
     {
-      "question": "Which of the following is NOT correct? I. The pitch of a sound note depends on the frequency of vibrations. II. The intensity of a sound note is proportional to the amplitude of vibrations. III. Beats are produced by two sources of sound because one wave is travelling faster than the other. IV. When two sources of sound of frequencies 500 Hz and 502 Hz are sounded together, a neat frequency of 2 Hz is observed. V. The first harmonic of a note has double the frequency of the fundamental note.",
+      "question": "Which of the following determines the pitch of a sound?",
       "hasImage": false,
       "options": {
-        "A": "I and II",
-        "B": "II and III",
-        "C": "I and II",
-        "D": "III and IV",
-        "E": "IV and V"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "Which of the following statements about defects of vision is/are CORRECT? I. For a long sighted person, close objects appear blurred. II. For a short sighted person, distant objects appear blurred. III. Short sight is corrected by using a pair of converging lenses.",
-      "hasImage": false,
-      "options": {
-        "A": "I only",
-        "B": "II only",
-        "C": "I and II only",
-        "D": "II and III only",
-        "E": "I, II and III"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "The range of wavelengths of the visible spectrum is 400nm–700nm. The wavelength of gamma rays is",
-      "hasImage": false,
-      "options": {
-        "A": "Longer than 700 nm",
-        "B": "Shorter than 700 nm but longer than 400 nm",
-        "C": "550 nm",
-        "D": "Shorter than 400 nm",
-        "E": "Infinite"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "If the pressure on 1000 cm³ of an ideal gas is doubled while its Kelvin temperature is halved, then the new volume of the gas will become",
-      "hasImage": false,
-      "options": {
-        "A": "25 cm³",
-        "B": "50 cm³",
-        "C": "100 cm³",
-        "D": "200 cm³",
-        "E": "400 cm³"
+        "A": "Amplitude",
+        "B": "Frequency",
+        "C": "Velocity",
+        "D": "Wavelength",
+        "E": "Intensity"
       },
       "answer": "B"
     },
     {
-      "question": "A train has an initial velocity of 44 m/s and an acceleration of –4 m/s². Its velocity after 10 seconds is",
+      "question": "A sound of frequency 500 Hz is sounded together with another of 502 Hz. The beat frequency produced is",
+      "hasImage": false,
+      "options": {
+        "A": "1 Hz",
+        "B": "2 Hz",
+        "C": "500 Hz",
+        "D": "1002 Hz",
+        "E": "250 Hz"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which defect of vision is corrected using a diverging lens?",
+      "hasImage": false,
+      "options": {
+        "A": "Long sight",
+        "B": "Short sight",
+        "C": "Astigmatism",
+        "D": "Colour blindness",
+        "E": "Cataract"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Gamma rays have wavelengths that are",
+      "hasImage": false,
+      "options": {
+        "A": "longer than visible light",
+        "B": "equal to visible light",
+        "C": "shorter than visible light",
+        "D": "equal to infrared",
+        "E": "infinite"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If pressure on a fixed mass of gas is doubled while its temperature is halved, the volume will",
+      "hasImage": false,
+      "options": {
+        "A": "double",
+        "B": "remain constant",
+        "C": "reduce to one-quarter",
+        "D": "reduce to half",
+        "E": "increase four times"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A train moving at 44 m/s decelerates uniformly at 4 m/s². Its speed after 10 s is",
       "hasImage": false,
       "options": {
         "A": "2 m/s",
@@ -185,63 +171,76 @@
       "answer": "B"
     },
     {
-      "question": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media? I. Light is passing from optically denser medium to optically less dense medium. II. Light is passing from optically less dense medium to optically denser medium. III. Angle of incidence is greater. IV. Angle of incidence is lesser.",
+      "question": "Total internal reflection occurs when light travels from",
       "hasImage": false,
       "options": {
-        "A": "I and II only",
-        "B": "II and II only",
-        "C": "III and IV only",
-        "D": "I and III only",
-        "E": "II and IV only"
+        "A": "less dense to denser medium",
+        "B": "denser to less dense medium at small angle",
+        "C": "denser to less dense medium beyond critical angle",
+        "D": "air to water only",
+        "E": "any medium at normal incidence"
       },
-      "answer": "D"
+      "answer": "C"
     },
     {
-      "question": "A man of mass 50 kg ascends a flight of stairs 5 m high in 5 seconds. If acceleration due to gravity is 10 m/s², the power expended is",
+      "question": "A man of mass 50 kg climbs a height of 5 m in 5 s. If g = 10 m/s², calculate the power developed.",
       "hasImage": false,
       "options": {
         "A": "100 W",
-        "B": "300 W",
+        "B": "200 W",
         "C": "250 W",
-        "D": "400 W",
+        "D": "300 W",
         "E": "500 W"
       },
       "answer": "C"
     },
     {
-      "question": "Which of the following arrangements in the sequence shown can be used to obtain a pure spectrum of white light? Source, slit, prism, diverging lens, screen.",
+      "question": "Which instrument is used to detect electric current?",
       "hasImage": false,
       "options": {
-        "A": "Source, slit, converging lens, prism, converging lens, screen",
-        "B": "Source, slit, diverging lens, screen",
-        "C": "Source, converging lens, prism, diverging lens, screen",
-        "D": "Source, slit, prism, diverging lens, screen"
+        "A": "Voltmeter",
+        "B": "Ammeter",
+        "C": "Galvanometer",
+        "D": "Thermometer",
+        "E": "Barometer"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Electric power is transmitted at high voltage mainly to",
+      "hasImage": false,
+      "options": {
+        "A": "increase current",
+        "B": "reduce resistance",
+        "C": "reduce energy loss",
+        "D": "increase speed",
+        "E": "reduce voltage drop"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The SI unit of electric charge is",
+      "hasImage": false,
+      "options": {
+        "A": "volt",
+        "B": "ampere",
+        "C": "ohm",
+        "D": "coulomb",
+        "E": "joule"
       },
       "answer": "D"
     },
     {
-      "question": "A milliammeter with full scale deflection of 100 mA has an internal resistance of 5 ohms. It would be converted to an ammeter with a full scale deflection of 1 A by connecting a resistance of",
+      "question": "A transformer works on the principle of",
       "hasImage": false,
       "options": {
-        "A": "5/99 ohm in series with it",
-        "B": "5/99 ohm in parallel with it",
-        "C": "99/5 ohm in parallel with it",
-        "D": "99/5 ohm in series with it",
-        "E": "2 ohms in series with it"
+        "A": "electrolysis",
+        "B": "electrostatic induction",
+        "C": "mutual induction",
+        "D": "self induction",
+        "E": "resistance heating"
       },
-      "answer": "B"
-    },
-    {
-      "question": "It is usual to transmit electric power at high voltage and low current. Which of the following are possible advantages of the method? I. Heat losses are reduced because the currents are small. II. Thin wires can be used because small currents are flowing. III. The power can flow faster because the voltage is high.",
-      "hasImage": false,
-      "options": {
-        "A": "I only",
-        "B": "I and II only",
-        "C": "II and III only",
-        "D": "I and III only",
-        "E": "I, II and III"
-      },
-      "answer": "B"
+      "answer": "C"
     }
   ]
 }

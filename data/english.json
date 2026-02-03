@@ -62,9 +62,234 @@
             "D": "sarcastic"
           },
           "answer": "C"
+        },
+
+        {
+          "question": "Education contributes to economic growth by",
+          "hasImage": false,
+          "options": {
+            "A": "increasing population",
+            "B": "producing innovators",
+            "C": "reducing taxes",
+            "D": "eliminating schools"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The writer believes education should be",
+          "hasImage": false,
+          "options": {
+            "A": "ignored",
+            "B": "well funded",
+            "C": "restricted",
+            "D": "privatized only"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The passage is addressed mainly to",
+          "hasImage": false,
+          "options": {
+            "A": "students",
+            "B": "teachers",
+            "C": "policy makers",
+            "D": "farmers"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The word \"empowers\" means",
+          "hasImage": false,
+          "options": {
+            "A": "weakens",
+            "B": "limits",
+            "C": "strengthens",
+            "D": "controls"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Poor funding leads to",
+          "hasImage": false,
+          "options": {
+            "A": "strong systems",
+            "B": "innovation",
+            "C": "weak education",
+            "D": "rapid growth"
+          },
+          "answer": "C"
+        },
+
+        {
+          "question": "Education helps citizens to contribute",
+          "hasImage": false,
+          "options": {
+            "A": "emotionally",
+            "B": "meaningfully",
+            "C": "casually",
+            "D": "carelessly"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The passage supports the idea that education is",
+          "hasImage": false,
+          "options": {
+            "A": "optional",
+            "B": "irrelevant",
+            "C": "essential",
+            "D": "harmful"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Developing countries struggle due to",
+          "hasImage": false,
+          "options": {
+            "A": "over-teaching",
+            "B": "lack of commitment",
+            "C": "too many teachers",
+            "D": "technology"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The word closest in meaning to \"weaken\" is",
+          "hasImage": false,
+          "options": {
+            "A": "strengthen",
+            "B": "damage",
+            "C": "repair",
+            "D": "support"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Critical thinking is promoted by",
+          "hasImage": false,
+          "options": {
+            "A": "education",
+            "B": "poverty",
+            "C": "migration",
+            "D": "ignorance"
+          },
+          "answer": "A"
+        },
+
+        {
+          "question": "The writer’s purpose is to",
+          "hasImage": false,
+          "options": {
+            "A": "entertain",
+            "B": "inform",
+            "C": "mock",
+            "D": "threaten"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Education leads to innovation through",
+          "hasImage": false,
+          "options": {
+            "A": "memorization",
+            "B": "critical thinking",
+            "C": "repetition",
+            "D": "punishment"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "A society that invests in education is likely to",
+          "hasImage": false,
+          "options": {
+            "A": "decline",
+            "B": "prosper",
+            "C": "collapse",
+            "D": "struggle"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which word best describes the passage?",
+          "hasImage": false,
+          "options": {
+            "A": "Narrative",
+            "B": "Descriptive",
+            "C": "Expository",
+            "D": "Poetic"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The opposite of \"developing\" is",
+          "hasImage": false,
+          "options": {
+            "A": "advanced",
+            "B": "modern",
+            "C": "underdeveloped",
+            "D": "growing"
+          },
+          "answer": "C"
+        },
+
+        {
+          "question": "Education prepares citizens to",
+          "hasImage": false,
+          "options": {
+            "A": "complain",
+            "B": "depend",
+            "C": "contribute",
+            "D": "withdraw"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The passage does NOT mention",
+          "hasImage": false,
+          "options": {
+            "A": "funding",
+            "B": "innovation",
+            "C": "sports",
+            "D": "economic growth"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which is a result of poor education?",
+          "hasImage": false,
+          "options": {
+            "A": "progress",
+            "B": "weak systems",
+            "C": "prosperity",
+            "D": "unity"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The passage encourages governments to",
+          "hasImage": false,
+          "options": {
+            "A": "reduce schools",
+            "B": "invest in education",
+            "C": "ignore teachers",
+            "D": "privatize learning"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The central theme of the passage is",
+          "hasImage": false,
+          "options": {
+            "A": "migration",
+            "B": "technology",
+            "C": "education and development",
+            "D": "politics"
+          },
+          "answer": "C"
         }
       ]
     },
+
     {
       "section": "Lexis and Structure",
       "instruction": "Choose the option that best completes each sentence or is nearest in meaning.",
@@ -72,58 +297,34 @@
         {
           "question": "She was accused ___ stealing the money.",
           "hasImage": false,
-          "options": {
-            "A": "with",
-            "B": "for",
-            "C": "of",
-            "D": "about"
-          },
+          "options": { "A": "with", "B": "for", "C": "of", "D": "about" },
           "answer": "C"
         },
         {
           "question": "Neither the teacher nor the students ___ present.",
           "hasImage": false,
-          "options": {
-            "A": "was",
-            "B": "is",
-            "C": "were",
-            "D": "has"
-          },
+          "options": { "A": "was", "B": "is", "C": "were", "D": "has" },
           "answer": "C"
         },
         {
           "question": "The antonym of scarce is",
           "hasImage": false,
-          "options": {
-            "A": "rare",
-            "B": "few",
-            "C": "plenty",
-            "D": "short"
-          },
+          "options": { "A": "rare", "B": "few", "C": "plenty", "D": "short" },
           "answer": "C"
         },
         {
           "question": "He has lived in Kaduna ___ 2020.",
           "hasImage": false,
-          "options": {
-            "A": "for",
-            "B": "since",
-            "C": "during",
-            "D": "by"
-          },
+          "options": { "A": "for", "B": "since", "C": "during", "D": "by" },
           "answer": "B"
         },
         {
           "question": "The manager, as well as his assistants, ___ arrived.",
           "hasImage": false,
-          "options": {
-            "A": "have",
-            "B": "were",
-            "C": "has",
-            "D": "are"
-          },
+          "options": { "A": "have", "B": "were", "C": "has", "D": "are" },
           "answer": "C"
         },
+
         {
           "question": "Choose the word nearest in meaning to resilient",
           "hasImage": false,
@@ -138,12 +339,7 @@
         {
           "question": "Hardly had he arrived ___ the rain started.",
           "hasImage": false,
-          "options": {
-            "A": "than",
-            "B": "when",
-            "C": "before",
-            "D": "while"
-          },
+          "options": { "A": "than", "B": "when", "C": "before", "D": "while" },
           "answer": "B"
         },
         {
@@ -160,12 +356,7 @@
         {
           "question": "He prefers rice ___ yam.",
           "hasImage": false,
-          "options": {
-            "A": "than",
-            "B": "to",
-            "C": "over",
-            "D": "from"
-          },
+          "options": { "A": "than", "B": "to", "C": "over", "D": "from" },
           "answer": "B"
         },
         {
@@ -178,9 +369,133 @@
             "D": "has left"
           },
           "answer": "C"
+        },
+
+        {
+          "question": "The opposite of transparent is",
+          "hasImage": false,
+          "options": {
+            "A": "clear",
+            "B": "opaque",
+            "C": "bright",
+            "D": "smooth"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "She speaks English ___ fluently than her sister.",
+          "hasImage": false,
+          "options": { "A": "most", "B": "very", "C": "more", "D": "much" },
+          "answer": "C"
+        },
+        {
+          "question": "The correct plural of passer-by is",
+          "hasImage": false,
+          "options": {
+            "A": "passers-by",
+            "B": "passer-bys",
+            "C": "passers-bys",
+            "D": "passer-byes"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "He acted ___ the rules of the organization.",
+          "hasImage": false,
+          "options": { "A": "against", "B": "by", "C": "on", "D": "at" },
+          "answer": "A"
+        },
+        {
+          "question": "Choose the word nearest in meaning to reluctant",
+          "hasImage": false,
+          "options": {
+            "A": "eager",
+            "B": "unwilling",
+            "C": "happy",
+            "D": "fast"
+          },
+          "answer": "B"
+        },
+
+        {
+          "question": "She is not only intelligent ___ hardworking.",
+          "hasImage": false,
+          "options": { "A": "and", "B": "but also", "C": "or", "D": "as well" },
+          "answer": "B"
+        },
+        {
+          "question": "The man was punished ___ his crimes.",
+          "hasImage": false,
+          "options": { "A": "for", "B": "with", "C": "by", "D": "from" },
+          "answer": "A"
+        },
+        {
+          "question": "The word nearest in meaning to abolish is",
+          "hasImage": false,
+          "options": {
+            "A": "create",
+            "B": "cancel",
+            "C": "support",
+            "D": "build"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "He speaks as if he ___ the owner.",
+          "hasImage": false,
+          "options": { "A": "is", "B": "was", "C": "were", "D": "has been" },
+          "answer": "C"
+        },
+        {
+          "question": "The synonym of rapid is",
+          "hasImage": false,
+          "options": { "A": "slow", "B": "quick", "C": "lazy", "D": "weak" },
+          "answer": "B"
+        },
+
+        {
+          "question": "The teacher insisted ___ silence.",
+          "hasImage": false,
+          "options": { "A": "in", "B": "on", "C": "for", "D": "at" },
+          "answer": "B"
+        },
+        {
+          "question": "The word opposite of expand is",
+          "hasImage": false,
+          "options": {
+            "A": "increase",
+            "B": "extend",
+            "C": "reduce",
+            "D": "grow"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "He did the work ___ himself.",
+          "hasImage": false,
+          "options": { "A": "by", "B": "for", "C": "with", "D": "to" },
+          "answer": "A"
+        },
+        {
+          "question": "She was late ___ the traffic.",
+          "hasImage": false,
+          "options": {
+            "A": "because",
+            "B": "due to",
+            "C": "since",
+            "D": "for"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The antonym of generous is",
+          "hasImage": false,
+          "options": { "A": "kind", "B": "mean", "C": "polite", "D": "honest" },
+          "answer": "B"
         }
       ]
     },
+
     {
       "section": "Oral Forms",
       "instruction": "Choose the option that best answers the question.",
@@ -188,27 +503,17 @@
         {
           "question": "Which word rhymes with 'suite'?",
           "hasImage": false,
-          "options": {
-            "A": "tree",
-            "B": "breath",
-            "C": "bleat",
-            "D": "sweet"
-          },
+          "options": { "A": "tree", "B": "breath", "C": "bleat", "D": "sweet" },
           "answer": "D"
         },
         {
           "question": "Which word has the same vowel sound as 'head'?",
           "hasImage": false,
-          "options": {
-            "A": "said",
-            "B": "heard",
-            "C": "herd",
-            "D": "shirt"
-          },
+          "options": { "A": "said", "B": "heard", "C": "herd", "D": "shirt" },
           "answer": "A"
         },
         {
-          "question": "Which word has the same consonant sound as the underlined letters in 'clash'?",
+          "question": "Which word has the same consonant sound as 'clash'?",
           "hasImage": false,
           "options": {
             "A": "sharp",
@@ -230,7 +535,7 @@
           "answer": "B"
         },
         {
-          "question": "Which option correctly interprets the emphatic stress in: 'Aderonke STATED she had a right to her privacy'?",
+          "question": "Which option correctly interprets emphatic stress?",
           "hasImage": false,
           "options": {
             "A": "Did Omowunmi state she had a right to her privacy?",
@@ -238,6 +543,78 @@
             "C": "Did Aderonke state she had a right to her openness?",
             "D": "Did Aderonke state she had a right to his privacy?"
           },
+          "answer": "A"
+        },
+
+        {
+          "question": "Which word has the same vowel sound as 'seat'?",
+          "hasImage": false,
+          "options": { "A": "sit", "B": "said", "C": "see", "D": "set" },
+          "answer": "C"
+        },
+        {
+          "question": "Which word ends with a silent letter?",
+          "hasImage": false,
+          "options": { "A": "comb", "B": "cat", "C": "run", "D": "bed" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'cut'?",
+          "hasImage": false,
+          "options": { "A": "put", "B": "but", "C": "boot", "D": "caught" },
+          "answer": "B"
+        },
+        {
+          "question": "Choose the word with a silent 'k'",
+          "hasImage": false,
+          "options": { "A": "know", "B": "kite", "C": "kill", "D": "keen" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'boy'?",
+          "hasImage": false,
+          "options": { "A": "buy", "B": "boil", "C": "bay", "D": "bee" },
+          "answer": "B"
+        },
+
+        {
+          "question": "Which word has a different stress pattern?",
+          "hasImage": false,
+          "options": {
+            "A": "teacher",
+            "B": "doctor",
+            "C": "engineer",
+            "D": "farmer"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which word contains a diphthong?",
+          "hasImage": false,
+          "options": { "A": "cat", "B": "boy", "C": "sit", "D": "bed" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has the same consonant sound as 'vision'?",
+          "hasImage": false,
+          "options": {
+            "A": "measure",
+            "B": "mission",
+            "C": "nation",
+            "D": "fashion"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'bird'?",
+          "hasImage": false,
+          "options": { "A": "beard", "B": "heard", "C": "board", "D": "bed" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has a silent 'b'?",
+          "hasImage": false,
+          "options": { "A": "bomb", "B": "table", "C": "baby", "D": "rabbit" },
           "answer": "A"
         }
       ]

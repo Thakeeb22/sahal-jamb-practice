@@ -36,7 +36,7 @@
       "answer": "D"
     },
     {
-      "question": "The dominant phase in the life cycle of a fern is the?",
+      "question": "The dominant phase in the life cycle of a fern is the",
       "hasImage": false,
       "options": {
         "A": "gametophyte",
@@ -72,15 +72,15 @@
       "question": "An example of an endospermous seed is",
       "hasImage": false,
       "options": {
-        "A": "maize gain",
+        "A": "maize grain",
         "B": "cashew nut",
         "C": "cotton seed",
-        "D": "been seed"
+        "D": "bean seed"
       },
       "answer": "A"
     },
     {
-      "question": "Which of the following groups of cells is devoid of true nuclei?",
+      "question": "Which of the following groups of organisms is devoid of true nuclei?",
       "hasImage": false,
       "options": {
         "A": "algae",
@@ -91,144 +91,137 @@
       "answer": "B"
     },
     {
-      "question": "The main function of the feathers covering the part labelled I is to",
-      "hasImage": true,
-      "image": "./img/questions/bird on a branch.png",
-      "imageDescription": "bird on a branch",
+      "question": "Which of the following structures is responsible for transpiration in plants?",
+      "hasImage": false,
       "options": {
-        "A": "prevent ectoparasites from attacking the animal",
-        "B": "generate heat to keep the animal warm",
-        "C": "provide some power for flight",
-        "D": "serve as insulator to maintain body heat"
+        "A": "lenticel",
+        "B": "stomata",
+        "C": "xylem",
+        "D": "phloem"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "question": "Based on the shape and structure of the beak and feet, the bird represented is likely to feed mainly on",
-      "hasImage": true,
-      "image": "./img/questions/bird on a branch.png",
-      "imageDescription": "bird on a branch",
+      "question": "The main function of red blood cells is to",
+      "hasImage": false,
       "options": {
-        "A": "flesh",
-        "B": "fruits",
-        "C": "seeds",
-        "D": "nectar"
+        "A": "fight infection",
+        "B": "transport oxygen",
+        "C": "clot blood",
+        "D": "digest food"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which of the following diseases is caused by a virus?",
+      "hasImage": false,
+      "options": {
+        "A": "cholera",
+        "B": "tuberculosis",
+        "C": "measles",
+        "D": "typhoid"
       },
       "answer": "C"
     },
     {
-      "question": "Which of the following is true of the transverse section of a dicot system?",
+      "question": "The process by which green plants manufacture their food is called",
       "hasImage": false,
       "options": {
-        "A": "the epidermis is completely encircled by the cortex",
-        "B": "the xylem is more interiorly located than the phloem",
-        "C": "the cambium lies between the cortex and the vascular bundles",
-        "D": "the vascular bundles are randomly scattered within the cortex"
+        "A": "respiration",
+        "B": "transpiration",
+        "C": "photosynthesis",
+        "D": "excretion"
       },
       "answer": "C"
     },
     {
-      "question": "The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
-      "hasImage": true,
-      "image": "./img/questions/tree_diagram.png",
-      "imageDescription": "tree diagram with leaf I, vine II, arrow III, root base IV",
-      "options": {
-        "A": "III and IV respectively",
-        "B": "II and I respectively",
-        "C": "I and II respectively",
-        "D": "I and III respectively"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "During photosynthesis, the arrow labelled II represents the",
-      "hasImage": true,
-      "image": "./img/questions/tree_diagram.png",
-      "imageDescription": "tree diagram with leaf I, vine II, arrow III, root base IV",
-      "options": {
-        "A": "escape of mineral salts",
-        "B": "absorption of energy from the sun",
-        "C": "release of carbon (IV) oxide",
-        "D": "release of oxygen as a by-product"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Which of the following is lacking in the diet of a person with kwashiorkor?",
+      "question": "Which gas is released during photosynthesis?",
       "hasImage": false,
       "options": {
-        "A": "vitamins",
-        "B": "proteins",
-        "C": "carbohydrates",
-        "D": "nutrients"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The mode of nutrition of sun dew and bladder wort can be described as",
-      "hasImage": false,
-      "options": {
-        "A": "autotrophic",
-        "B": "saprophytic",
-        "C": "holozoic",
-        "D": "chemosynthetic"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "When the mixture of a food substance and Benedict's solution was warmed, the solution changed from blue to black-red. This indicates the presence of",
-      "hasImage": false,
-      "options": {
-        "A": "reducing sugar",
-        "B": "fatty acid",
-        "C": "sucrose",
-        "D": "amino acid"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "The primary structure responsible for pumping blood for circulation through the mammalian circulatory system is the",
-      "hasImage": false,
-      "options": {
-        "A": "veins",
-        "B": "right auricle",
-        "C": "arteries",
-        "D": "left ventricle"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "Circulation of blood to all parts of the body except the lungs is through",
-      "hasImage": false,
-      "options": {
-        "A": "the pulmonary artery",
-        "B": "systemic circulation",
-        "C": "the lymphatic system",
-        "D": "pulmonary circulation"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Yeast respires anaerobically to convert simple sugar to carbon (IV) oxide and",
-      "hasImage": false,
-      "options": {
-        "A": "alcohol",
-        "B": "acid",
+        "A": "carbon (IV) oxide",
+        "B": "nitrogen",
         "C": "oxygen",
-        "D": "water"
+        "D": "hydrogen"
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
-      "question": "The sheet of muscle that separates the thoracic and the abdominal cavities is the",
+      "question": "The smallest unit of life is the",
       "hasImage": false,
       "options": {
-        "A": "diaphragm",
-        "B": "intercostal muscle",
-        "C": "pleural membrane",
-        "D": "pericardium"
+        "A": "tissue",
+        "B": "organ",
+        "C": "cell",
+        "D": "system"
       },
-      "answer": "A"
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following organisms exhibits binary fission?",
+      "hasImage": false,
+      "options": {
+        "A": "hydra",
+        "B": "amoeba",
+        "C": "mushroom",
+        "D": "fern"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The removal of metabolic waste products from the body is known as",
+      "hasImage": false,
+      "options": {
+        "A": "respiration",
+        "B": "nutrition",
+        "C": "excretion",
+        "D": "reproduction"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a biotic factor in an ecosystem?",
+      "hasImage": false,
+      "options": {
+        "A": "temperature",
+        "B": "rainfall",
+        "C": "soil",
+        "D": "bacteria"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A food chain always begins with",
+      "hasImage": false,
+      "options": {
+        "A": "herbivores",
+        "B": "carnivores",
+        "C": "producers",
+        "D": "decomposers"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which vitamin is required for blood clotting?",
+      "hasImage": false,
+      "options": {
+        "A": "vitamin A",
+        "B": "vitamin B",
+        "C": "vitamin C",
+        "D": "vitamin K"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The functional unit of the kidney is the",
+      "hasImage": false,
+      "options": {
+        "A": "neuron",
+        "B": "nephron",
+        "C": "alveolus",
+        "D": "glomerulus"
+      },
+      "answer": "B"
     }
   ]
 }

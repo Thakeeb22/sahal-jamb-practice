@@ -3,18 +3,7 @@
   "exam": "jamb",
   "questions": [
     {
-      "question": "Which literature in English Question Paper Type is given to you?",
-      "hasImage": false,
-      "options": {
-        "A": "Type A",
-        "B": "Type B",
-        "C": "Type C",
-        "D": "Type D"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "„I simply don't understand what's the matter with everybody today. Everybody let me down,' the speaker above is referring to",
+      "question": "“I simply don't understand what's the matter with everybody today. Everybody let me down.” The speaker above is referring to",
       "hasImage": false,
       "options": {
         "A": "Fosuwa and Maidservant",
@@ -28,15 +17,15 @@
       "question": "Maanan expresses dislike for Lawyer B because of",
       "hasImage": false,
       "options": {
-        "A": "His condemnation of her choice of career",
-        "B": "His recent advances towards her",
-        "C": "The betrayal of her father's trust",
-        "D": "The betrayal of his wife's trust"
+        "A": "his condemnation of her choice of career",
+        "B": "his recent advances towards her",
+        "C": "the betrayal of her father's trust",
+        "D": "the betrayal of his wife's trust"
       },
       "answer": "C"
     },
     {
-      "question": "The traditional order in the play is represented by",
+      "question": "The traditional order in The Marriage of Anansewa is represented by the",
       "hasImage": false,
       "options": {
         "A": "Mrs. B",
@@ -47,7 +36,7 @@
       "answer": "D"
     },
     {
-      "question": "Where does the play take place?",
+      "question": "Where does the play The Marriage of Anansewa take place?",
       "hasImage": false,
       "options": {
         "A": "On the street",
@@ -58,29 +47,51 @@
       "answer": "C"
     },
     {
-      "question": "'O deadly sin! O rude unthankfulness! Thy fault our law calls death, but the kind Prince, Taking thy part, hath rushed aside the law And turned that black word...' Deadly sin refers to the",
+      "question": "Ananse's major weakness in The Marriage of Anansewa is his",
       "hasImage": false,
       "options": {
-        "A": "Suicide of Juliet",
-        "B": "Suicide of Romeo",
-        "C": "Murder of Paris",
-        "D": "Murder of Tybalt"
+        "A": "cowardice",
+        "B": "greed",
+        "C": "ignorance",
+        "D": "laziness"
       },
       "answer": "B"
     },
     {
-      "question": "The play Romeo and Juliet is mostly written in",
+      "question": "The central theme of The Marriage of Anansewa is",
       "hasImage": false,
       "options": {
-        "A": "Blank verse",
-        "B": "Free verse",
-        "C": "Metres",
-        "D": "Foot"
+        "A": "betrayal",
+        "B": "corruption",
+        "C": "materialism",
+        "D": "colonialism"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "“O deadly sin! O rude unthankfulness!” Deadly sin refers to the",
+      "hasImage": false,
+      "options": {
+        "A": "suicide of Juliet",
+        "B": "suicide of Romeo",
+        "C": "murder of Paris",
+        "D": "murder of Tybalt"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Romeo and Juliet is mostly written in",
+      "hasImage": false,
+      "options": {
+        "A": "blank verse",
+        "B": "free verse",
+        "C": "prose",
+        "D": "rhyming couplets only"
       },
       "answer": "A"
     },
     {
-      "question": "'O serpent heart, hid with a flowering face!' The statement above refers to",
+      "question": "“O serpent heart, hid with a flowering face!” refers to",
       "hasImage": false,
       "options": {
         "A": "Juliet",
@@ -105,120 +116,142 @@
       "question": "Romeo is banished to Mantua because he",
       "hasImage": false,
       "options": {
-        "A": "Kills Tybalt in a street duel",
-        "B": "Marries Juliet without parental consent",
-        "C": "Attends Capulet's party uninvited",
-        "D": "Attempts to kill Paris his rival"
+        "A": "kills Tybalt in a street duel",
+        "B": "marries Juliet secretly",
+        "C": "attends the Capulet feast",
+        "D": "kills Paris"
       },
       "answer": "A"
     },
     {
-      "question": "In The Joys of Motherhood, the society puts high value on",
+      "question": "The major cause of tragedy in Romeo and Juliet is",
       "hasImage": false,
       "options": {
-        "A": "Egalitarianism",
-        "B": "Male ascendancy",
-        "C": "Procreation",
-        "D": "Gender equity"
+        "A": "fate",
+        "B": "miscommunication",
+        "C": "family feud",
+        "D": "jealousy"
       },
       "answer": "C"
     },
     {
-      "question": "The medicine man links the lump discovered on the head of Nnu Ego at birth to the",
+      "question": "In The Joys of Motherhood, the society places the highest value on",
       "hasImage": false,
       "options": {
-        "A": "Possession of physical admirable qualities that makes her an epitome of perfection",
-        "B": "Wound inflicted on the slave woman buried with Agbadi‟s wife",
-        "C": "Coming back of the Agunwa to the society to live again",
-        "D": "Ill-luck and tragic events attributed to a predestined fate"
+        "A": "education",
+        "B": "wealth",
+        "C": "procreation",
+        "D": "romantic love"
       },
-      "answer": "D"
+      "answer": "C"
+    },
+    {
+      "question": "The lump discovered on Nnu Ego’s head at birth symbolizes",
+      "hasImage": false,
+      "options": {
+        "A": "future greatness",
+        "B": "rebirth of the Agunwa",
+        "C": "predestined suffering",
+        "D": "royal lineage"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Nnu Ego’s major tragedy lies in her",
+      "hasImage": false,
+      "options": {
+        "A": "childlessness",
+        "B": "blind devotion to motherhood",
+        "C": "hatred for tradition",
+        "D": "rebellion against culture"
+      },
+      "answer": "B"
     },
     {
       "question": "The constant companions of Nnaife's family are",
       "hasImage": false,
       "options": {
-        "A": "Togetherness and happiness",
-        "B": "Poverty and hunger",
-        "C": "Sickness and joblessness",
-        "D": "Disagreement and humiliation"
+        "A": "joy and unity",
+        "B": "poverty and hunger",
+        "C": "disease and violence",
+        "D": "comfort and wealth"
       },
       "answer": "B"
     },
     {
-      "question": "The disagreement between Mvondo and Nti centres on the latter‟s claim to have",
+      "question": "Meka in The Old Man and the Medal is best described as",
       "hasImage": false,
       "options": {
-        "A": "Assisted Meka in getting the medal",
-        "B": "Eaten the entire entrails of a sheep",
-        "C": "Eaten more than his share of the food",
-        "D": "Been in a white man‟s office"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "Meka can be best described as",
-      "hasImage": false,
-      "options": {
-        "A": "An egocentric old man",
-        "B": "A simple-hearted old man",
-        "C": "An impulsive old man",
-        "D": "An old religious bigot"
+        "A": "ambitious",
+        "B": "simple-hearted",
+        "C": "clever",
+        "D": "rebellious"
       },
       "answer": "B"
     },
     {
-      "question": "In The Old Man and the Medal, the colonialists treat the Africans with",
+      "question": "The colonialists in The Old Man and the Medal treat Africans with",
       "hasImage": false,
       "options": {
-        "A": "Kids' gloves",
-        "B": "Disdain",
-        "C": "Indifference",
-        "D": "Honour"
+        "A": "honour",
+        "B": "disdain",
+        "C": "sympathy",
+        "D": "admiration"
       },
       "answer": "B"
     },
     {
-      "question": "In Nineteen Eighty-four, the Ministry of Peace is concerned with making",
+      "question": "The medal in The Old Man and the Medal symbolizes",
       "hasImage": false,
       "options": {
-        "A": "Instruments",
-        "B": "Weapons",
-        "C": "Wars",
-        "D": "Reconciliation"
+        "A": "honour",
+        "B": "betrayal",
+        "C": "deception",
+        "D": "freedom"
       },
       "answer": "C"
     },
     {
-      "question": "The subject matter of Nineteen Eighty-four is",
+      "question": "In Nineteen Eighty-Four, the Ministry of Peace is responsible for",
       "hasImage": false,
       "options": {
-        "A": "Totalitarian dictatorship",
-        "B": "Exploitation and cruelty",
-        "C": "Retributive justice",
-        "D": "Class segregation"
+        "A": "peace talks",
+        "B": "weapons production",
+        "C": "war",
+        "D": "justice"
       },
-      "answer": "A"
+      "answer": "C"
     },
     {
-      "question": "How did Winston start his rebellion against the state?",
+      "question": "The central theme of Nineteen Eighty-Four is",
       "hasImage": false,
       "options": {
-        "A": "By engaging in anti-party activities",
-        "B": "By keeping a private diary",
-        "C": "When he started a secret affair",
-        "D": "When he spied on the party"
+        "A": "class struggle",
+        "B": "totalitarian dictatorship",
+        "C": "religious intolerance",
+        "D": "economic inequality"
       },
       "answer": "B"
     },
     {
-      "question": "In Nineteen Eighty-four, the Party seeks power for",
+      "question": "Winston Smith begins his rebellion by",
       "hasImage": false,
       "options": {
-        "A": "The nation",
-        "B": "Its own sake",
-        "C": "Its members",
-        "D": "People's sake"
+        "A": "joining the Brotherhood",
+        "B": "keeping a diary",
+        "C": "starting a riot",
+        "D": "leaking information"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Party in Nineteen Eighty-Four seeks power for",
+      "hasImage": false,
+      "options": {
+        "A": "national development",
+        "B": "its own sake",
+        "C": "economic growth",
+        "D": "public welfare"
       },
       "answer": "B"
     }
