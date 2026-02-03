@@ -113,113 +113,231 @@
       "answer": "B"
     },
 
+
     {
-      "question": "Which of the following diseases is caused by a virus?",
+      "question": "Which of the following diseases is caused by bacteria?",
       "hasImage": false,
       "options": {
-        "A": "cholera",
-        "B": "tuberculosis",
-        "C": "measles",
-        "D": "typhoid"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "The process by which green plants manufacture their food is called",
-      "hasImage": false,
-      "options": {
-        "A": "respiration",
-        "B": "transpiration",
-        "C": "photosynthesis",
-        "D": "excretion"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Which gas is released during photosynthesis?",
-      "hasImage": false,
-      "options": {
-        "A": "carbon (IV) oxide",
-        "B": "nitrogen",
-        "C": "oxygen",
-        "D": "hydrogen"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "The smallest unit of life is the",
-      "hasImage": false,
-      "options": {
-        "A": "tissue",
-        "B": "organ",
-        "C": "cell",
-        "D": "system"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Which of the following organisms exhibits binary fission?",
-      "hasImage": false,
-      "options": {
-        "A": "hydra",
-        "B": "amoeba",
-        "C": "mushroom",
-        "D": "fern"
+        "A": "Malaria",
+        "B": "Cholera",
+        "C": "Measles",
+        "D": "Influenza"
       },
       "answer": "B"
     },
     {
-      "question": "The removal of metabolic waste products from the body is known as",
+      "question": "Which organ is responsible for detoxification in humans?",
       "hasImage": false,
       "options": {
-        "A": "respiration",
-        "B": "nutrition",
-        "C": "excretion",
-        "D": "reproduction"
+        "A": "Kidney",
+        "B": "Heart",
+        "C": "Liver",
+        "D": "Lungs"
       },
       "answer": "C"
     },
     {
-      "question": "Which of the following is a biotic factor in an ecosystem?",
+      "question": "The green pigment responsible for photosynthesis is",
       "hasImage": false,
       "options": {
-        "A": "temperature",
-        "B": "rainfall",
-        "C": "soil",
-        "D": "bacteria"
+        "A": "haemoglobin",
+        "B": "chlorophyll",
+        "C": "melanin",
+        "D": "carotene"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "question": "A food chain always begins with",
+      "question": "The site of photosynthesis in plant cells is the",
       "hasImage": false,
       "options": {
-        "A": "herbivores",
-        "B": "carnivores",
-        "C": "producers",
-        "D": "decomposers"
+        "A": "nucleus",
+        "B": "mitochondrion",
+        "C": "chloroplast",
+        "D": "ribosome"
       },
       "answer": "C"
     },
     {
-      "question": "Which vitamin is required for blood clotting?",
+      "question": "Which blood vessels carry blood away from the heart?",
       "hasImage": false,
       "options": {
-        "A": "vitamin A",
-        "B": "vitamin B",
-        "C": "vitamin C",
-        "D": "vitamin K"
+        "A": "Veins",
+        "B": "Arteries",
+        "C": "Capillaries",
+        "D": "Venules"
       },
-      "answer": "D"
+      "answer": "B"
     },
     {
-      "question": "The functional unit of the kidney is the",
+      "question": "The breaking down of food into simpler substances is called",
       "hasImage": false,
       "options": {
-        "A": "neuron",
-        "B": "nephron",
-        "C": "alveolus",
-        "D": "glomerulus"
+        "A": "assimilation",
+        "B": "digestion",
+        "C": "absorption",
+        "D": "excretion"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which organelle is responsible for energy production in cells?",
+      "hasImage": false,
+      "options": {
+        "A": "Mitochondrion",
+        "B": "Golgi body",
+        "C": "Endoplasmic reticulum",
+        "D": "Vacuole"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is an example of a decomposer?",
+      "hasImage": false,
+      "options": {
+        "A": "Grasshopper",
+        "B": "Bacteria",
+        "C": "Goat",
+        "D": "Fish"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The process by which plants lose water through leaves is",
+      "hasImage": false,
+      "options": {
+        "A": "guttation",
+        "B": "transpiration",
+        "C": "respiration",
+        "D": "diffusion"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which structure protects the brain?",
+      "hasImage": false,
+      "options": {
+        "A": "Vertebral column",
+        "B": "Rib cage",
+        "C": "Skull",
+        "D": "Pelvic girdle"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Which hormone regulates blood sugar level?",
+      "hasImage": false,
+      "options": {
+        "A": "Adrenaline",
+        "B": "Insulin",
+        "C": "Thyroxine",
+        "D": "Progesterone"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The process by which organisms maintain a stable internal environment is",
+      "hasImage": false,
+      "options": {
+        "A": "adaptation",
+        "B": "homeostasis",
+        "C": "metabolism",
+        "D": "growth"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following organisms is a producer?",
+      "hasImage": false,
+      "options": {
+        "A": "Lion",
+        "B": "Grass",
+        "C": "Mushroom",
+        "D": "Bacteria"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The functional unit of the lung is the",
+      "hasImage": false,
+      "options": {
+        "A": "alveolus",
+        "B": "neuron",
+        "C": "bronchiole",
+        "D": "trachea"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "Which of the following is responsible for the transmission of malaria?",
+      "hasImage": false,
+      "options": {
+        "A": "Tsetse fly",
+        "B": "Anopheles mosquito",
+        "C": "Housefly",
+        "D": "Sandfly"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The type of reproduction involving only one parent is",
+      "hasImage": false,
+      "options": {
+        "A": "sexual reproduction",
+        "B": "asexual reproduction",
+        "C": "cross fertilization",
+        "D": "pollination"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which of the following is a vestigial organ in humans?",
+      "hasImage": false,
+      "options": {
+        "A": "Appendix",
+        "B": "Liver",
+        "C": "Heart",
+        "D": "Kidney"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "The movement of water molecules across a semi-permeable membrane is",
+      "hasImage": false,
+      "options": {
+        "A": "diffusion",
+        "B": "osmosis",
+        "C": "active transport",
+        "D": "translocation"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which part of the eye controls the amount of light entering?",
+      "hasImage": false,
+      "options": {
+        "A": "Lens",
+        "B": "Retina",
+        "C": "Iris",
+        "D": "Cornea"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Which mineral is essential for strong bones and teeth?",
+      "hasImage": false,
+      "options": {
+        "A": "Iron",
+        "B": "Calcium",
+        "C": "Sodium",
+        "D": "Potassium"
       },
       "answer": "B"
     }

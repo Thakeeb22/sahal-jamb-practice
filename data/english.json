@@ -31,7 +31,7 @@
           "answer": "B"
         },
         {
-          "question": "The word \"instrument\" as used in the passage means",
+          "question": "The word 'instrument' as used means",
           "hasImage": false,
           "options": {
             "A": "weapon",
@@ -63,7 +63,6 @@
           },
           "answer": "C"
         },
-
         {
           "question": "Education contributes to economic growth by",
           "hasImage": false,
@@ -98,7 +97,7 @@
           "answer": "C"
         },
         {
-          "question": "The word \"empowers\" means",
+          "question": "The word 'empowers' means",
           "hasImage": false,
           "options": {
             "A": "weakens",
@@ -119,7 +118,6 @@
           },
           "answer": "C"
         },
-
         {
           "question": "Education helps citizens to contribute",
           "hasImage": false,
@@ -154,7 +152,7 @@
           "answer": "B"
         },
         {
-          "question": "The word closest in meaning to \"weaken\" is",
+          "question": "The word closest in meaning to 'weaken' is",
           "hasImage": false,
           "options": {
             "A": "strengthen",
@@ -175,7 +173,6 @@
           },
           "answer": "A"
         },
-
         {
           "question": "The writer’s purpose is to",
           "hasImage": false,
@@ -221,7 +218,7 @@
           "answer": "C"
         },
         {
-          "question": "The opposite of \"developing\" is",
+          "question": "The opposite of 'developing' is",
           "hasImage": false,
           "options": {
             "A": "advanced",
@@ -231,7 +228,6 @@
           },
           "answer": "C"
         },
-
         {
           "question": "Education prepares citizens to",
           "hasImage": false,
@@ -284,6 +280,62 @@
             "B": "technology",
             "C": "education and development",
             "D": "politics"
+          },
+          "answer": "C"
+        },
+
+        {
+          "question": "Investment in education leads to",
+          "hasImage": false,
+          "options": {
+            "A": "ignorance",
+            "B": "innovation",
+            "C": "poverty",
+            "D": "laziness"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Educational systems weaken due to",
+          "hasImage": false,
+          "options": {
+            "A": "good funding",
+            "B": "strong leadership",
+            "C": "lack of commitment",
+            "D": "technology"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Citizens empowered by education are likely to",
+          "hasImage": false,
+          "options": {
+            "A": "avoid work",
+            "B": "contribute economically",
+            "C": "emigrate",
+            "D": "depend on aid"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Critical thinking helps citizens to",
+          "hasImage": false,
+          "options": {
+            "A": "innovate",
+            "B": "sleep",
+            "C": "ignore problems",
+            "D": "depend"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Educational investment benefits",
+          "hasImage": false,
+          "options": {
+            "A": "individuals only",
+            "B": "government only",
+            "C": "society",
+            "D": "foreigners only"
           },
           "answer": "C"
         }
@@ -492,6 +544,87 @@
           "hasImage": false,
           "options": { "A": "kind", "B": "mean", "C": "polite", "D": "honest" },
           "answer": "B"
+        },
+
+        {
+          "question": "We arrived ___ the meeting had started.",
+          "hasImage": false,
+          "options": {
+            "A": "after",
+            "B": "before",
+            "C": "until",
+            "D": "while"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Choose the synonym of diligent",
+          "hasImage": false,
+          "options": {
+            "A": "lazy",
+            "B": "hardworking",
+            "C": "slow",
+            "D": "weak"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "She insisted ___ paying the bill.",
+          "hasImage": false,
+          "options": { "A": "in", "B": "on", "C": "at", "D": "for" },
+          "answer": "B"
+        },
+        {
+          "question": "The students congratulated him ___ his success.",
+          "hasImage": false,
+          "options": { "A": "for", "B": "on", "C": "about", "D": "with" },
+          "answer": "B"
+        },
+        {
+          "question": "The meeting was postponed ___ further notice.",
+          "hasImage": false,
+          "options": { "A": "till", "B": "for", "C": "until", "D": "by" },
+          "answer": "C"
+        },
+        {
+          "question": "He is fond ___ music.",
+          "hasImage": false,
+          "options": { "A": "in", "B": "of", "C": "on", "D": "at" },
+          "answer": "B"
+        },
+        {
+          "question": "Choose the antonym of ancient",
+          "hasImage": false,
+          "options": {
+            "A": "modern",
+            "B": "old",
+            "C": "primitive",
+            "D": "historic"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "She is married ___ a doctor.",
+          "hasImage": false,
+          "options": { "A": "with", "B": "to", "C": "by", "D": "for" },
+          "answer": "B"
+        },
+        {
+          "question": "He is capable ___ solving the problem.",
+          "hasImage": false,
+          "options": { "A": "in", "B": "of", "C": "on", "D": "at" },
+          "answer": "B"
+        },
+        {
+          "question": "Choose the synonym of fragile",
+          "hasImage": false,
+          "options": {
+            "A": "strong",
+            "B": "delicate",
+            "C": "hard",
+            "D": "solid"
+          },
+          "answer": "B"
         }
       ]
     },
@@ -615,6 +748,98 @@
           "question": "Which word has a silent 'b'?",
           "hasImage": false,
           "options": { "A": "bomb", "B": "table", "C": "baby", "D": "rabbit" },
+          "answer": "A"
+        },
+
+        {
+          "question": "Which word rhymes with 'light'?",
+          "hasImage": false,
+          "options": { "A": "weight", "B": "height", "C": "bite", "D": "late" },
+          "answer": "C"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'food'?",
+          "hasImage": false,
+          "options": { "A": "good", "B": "mood", "C": "mud", "D": "god" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has a silent 't'?",
+          "hasImage": false,
+          "options": { "A": "castle", "B": "table", "C": "team", "D": "time" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'cake'?",
+          "hasImage": false,
+          "options": { "A": "pack", "B": "take", "C": "back", "D": "sack" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has the same consonant sound as 'ship'?",
+          "hasImage": false,
+          "options": { "A": "cheap", "B": "sip", "C": "lip", "D": "chip" },
+          "answer": "A"
+        },
+
+        {
+          "question": "Which word contains a triphthong?",
+          "hasImage": false,
+          "options": { "A": "fire", "B": "far", "C": "fat", "D": "fit" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'pen'?",
+          "hasImage": false,
+          "options": { "A": "pan", "B": "pin", "C": "hen", "D": "pun" },
+          "answer": "C"
+        },
+        {
+          "question": "Which word ends with a silent 'e'?",
+          "hasImage": false,
+          "options": { "A": "make", "B": "man", "C": "mat", "D": "map" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'home'?",
+          "hasImage": false,
+          "options": { "A": "come", "B": "dome", "C": "hum", "D": "sum" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has a silent 'w'?",
+          "hasImage": false,
+          "options": { "A": "write", "B": "wine", "C": "wet", "D": "wing" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'bag'?",
+          "hasImage": false,
+          "options": { "A": "beg", "B": "big", "C": "bag", "D": "bug" },
+          "answer": "C"
+        },
+        {
+          "question": "Which word rhymes with 'moon'?",
+          "hasImage": false,
+          "options": { "A": "soon", "B": "son", "C": "sun", "D": "sin" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same consonant sound as 'judge'?",
+          "hasImage": false,
+          "options": { "A": "badge", "B": "bag", "C": "back", "D": "bat" },
+          "answer": "A"
+        },
+        {
+          "question": "Which word has the same vowel sound as 'car'?",
+          "hasImage": false,
+          "options": { "A": "care", "B": "far", "C": "fur", "D": "fear" },
+          "answer": "B"
+        },
+        {
+          "question": "Which word has a silent 'l'?",
+          "hasImage": false,
+          "options": { "A": "calm", "B": "lamp", "C": "land", "D": "loud" },
           "answer": "A"
         }
       ]

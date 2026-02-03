@@ -1,7 +1,7 @@
 {
   "subject": "Commerce",
   "exam": "JAMB",
-  "totalQuestions": 21,
+  "totalQuestions": 100,
   "questions": [
     {
       "question": "Commerce is defined as the study of how",
@@ -36,203 +36,308 @@
       },
       "answer": "D"
     },
+
     {
-      "question": "A demonstration of social responsibility by a business is the payment of",
+      "question": "Which of the following is an example of extractive industry?",
       "hasImage": false,
       "options": {
-        "A": "taxes to government",
-        "B": "dividends to shareholders",
-        "C": "interest on loans",
-        "D": "premium for insurance"
+        "A": "furniture making",
+        "B": "fishing",
+        "C": "baking",
+        "D": "textile production"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The transformation of raw materials into finished goods is known as",
+      "hasImage": false,
+      "options": {
+        "A": "trade",
+        "B": "manufacturing",
+        "C": "commerce",
+        "D": "distribution"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A business owned and controlled by one person is",
+      "hasImage": false,
+      "options": {
+        "A": "partnership",
+        "B": "sole proprietorship",
+        "C": "co-operative society",
+        "D": "public company"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The document that gives a company legal authority to operate is called",
+      "hasImage": false,
+      "options": {
+        "A": "prospectus",
+        "B": "memorandum of association",
+        "C": "share certificate",
+        "D": "invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of a retailer?",
+      "hasImage": false,
+      "options": {
+        "A": "production of goods",
+        "B": "selling in bulk",
+        "C": "selling in small quantities",
+        "D": "exporting goods"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Trade carried out within a country is known as",
+      "hasImage": false,
+      "options": {
+        "A": "foreign trade",
+        "B": "domestic trade",
+        "C": "bilateral trade",
+        "D": "multilateral trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Trade between two countries is known as",
+      "hasImage": false,
+      "options": {
+        "A": "internal trade",
+        "B": "bilateral trade",
+        "C": "retail trade",
+        "D": "home trade"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The business document used to acknowledge receipt of goods is",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "receipt",
+        "C": "delivery note",
+        "D": "credit note"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an example of visible trade?",
+      "hasImage": false,
+      "options": {
+        "A": "tourism",
+        "B": "shipping",
+        "C": "export of crude oil",
+        "D": "banking services"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Advertising is mainly used to",
+      "hasImage": false,
+      "options": {
+        "A": "reduce production cost",
+        "B": "inform and persuade consumers",
+        "C": "increase taxation",
+        "D": "discourage competition"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The channel through which goods move from producers to consumers is",
+      "hasImage": false,
+      "options": {
+        "A": "market",
+        "B": "distribution channel",
+        "C": "advertising",
+        "D": "transport system"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Insurance protects businesses against",
+      "hasImage": false,
+      "options": {
+        "A": "profit making",
+        "B": "risk and uncertainty",
+        "C": "tax payment",
+        "D": "competition"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which of the following is an example of life assurance?",
+      "hasImage": false,
+      "options": {
+        "A": "fire insurance",
+        "B": "marine insurance",
+        "C": "whole life policy",
+        "D": "burglary insurance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which mode of transport is best suited for bulky goods over long distances?",
+      "hasImage": false,
+      "options": {
+        "A": "road",
+        "B": "air",
+        "C": "rail",
+        "D": "pipeline"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which financial institution accepts deposits and grants loans?",
+      "hasImage": false,
+      "options": {
+        "A": "insurance company",
+        "B": "commercial bank",
+        "C": "stock exchange",
+        "D": "warehouse"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Money paid regularly for insurance protection is called",
+      "hasImage": false,
+      "options": {
+        "A": "interest",
+        "B": "premium",
+        "C": "dividend",
+        "D": "commission"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of communication service?",
+      "hasImage": false,
+      "options": {
+        "A": "banking",
+        "B": "telecommunication",
+        "C": "insurance",
+        "D": "retailing"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The difference between selling price and cost price is known as",
+      "hasImage": false,
+      "options": {
+        "A": "capital",
+        "B": "profit",
+        "C": "revenue",
+        "D": "expenditure"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The document issued by a seller to reduce the amount owed by a buyer is",
+      "hasImage": false,
+      "options": {
+        "A": "debit note",
+        "B": "credit note",
+        "C": "invoice",
+        "D": "receipt"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A partnership business must have a minimum of",
+      "hasImage": false,
+      "options": {
+        "A": "one person",
+        "B": "two persons",
+        "C": "five persons",
+        "D": "seven persons"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main aim of warehousing is to",
+      "hasImage": false,
+      "options": {
+        "A": "advertise goods",
+        "B": "store goods",
+        "C": "transport goods",
+        "D": "manufacture goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following promotes international trade?",
+      "hasImage": false,
+      "options": {
+        "A": "tariffs",
+        "B": "quotas",
+        "C": "trade agreements",
+        "D": "import duties"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The organization that regulates stock trading in Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "Central Bank",
+        "B": "Nigerian Stock Exchange",
+        "C": "Commercial Bank",
+        "D": "Ministry of Trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a means of electronic payment?",
+      "hasImage": false,
+      "options": {
+        "A": "cheque",
+        "B": "mobile transfer",
+        "C": "cash",
+        "D": "draft"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a disadvantage of air transport?",
+      "hasImage": false,
+      "options": {
+        "A": "speed",
+        "B": "high cost",
+        "C": "comfort",
+        "D": "safety"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of the Central Bank?",
+      "hasImage": false,
+      "options": {
+        "A": "issue of currency",
+        "B": "retailing goods",
+        "C": "warehousing",
+        "D": "transporting goods"
       },
       "answer": "A"
     },
     {
-      "question": "A distinguishing characteristic of a limited liability company is that it",
+      "question": "The term used to describe goods sent to another country for sale is",
       "hasImage": false,
       "options": {
-        "A": "is a collection of many sole proprietors",
-        "B": "is a multiple partnership",
-        "C": "can sue and be sued",
-        "D": "has limited resources"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Which of the following takes place when firms producing at different stages in the same industry combine?",
-      "hasImage": false,
-      "options": {
-        "A": "Conglomeration",
-        "B": "Vertical integration",
-        "C": "Horizontal integration",
-        "D": "Cartel"
+        "A": "import",
+        "B": "export",
+        "C": "entrepot",
+        "D": "barter"
       },
       "answer": "B"
-    },
-    {
-      "question": "Which of the following groups is paid first when a firm liquidates?",
-      "hasImage": false,
-      "options": {
-        "A": "Preference shareholders",
-        "B": "Debenture holders",
-        "C": "Ordinary shareholders",
-        "D": "Cumulative preference shareholders"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "Compulsory dissolution of a business can arise from",
-      "hasImage": false,
-      "options": {
-        "A": "an agreement by the owners",
-        "B": "a declaration by a court of law",
-        "C": "the termination of its life",
-        "D": "an unfavourable economic climate"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "What is the working capital as at December 31, 1992?",
-      "hasImage": false,
-      "options": {
-        "A": "N65,250",
-        "B": "N60,000",
-        "C": "N48,650",
-        "D": "N41,950"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "A company earned a total revenue of N108 million with a total cost of N91 million in 1991. If it paid 45% tax on its gross profit for that year, determine its net profit.",
-      "hasImage": false,
-      "options": {
-        "A": "N24.65 million",
-        "B": "N17.00 million",
-        "C": "N9.35 million",
-        "D": "N7.65 million"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "What are fixtures and fittings in a balance sheet?",
-      "hasImage": false,
-      "options": {
-        "A": "Liquid capital",
-        "B": "Current assets",
-        "C": "Fixed assets",
-        "D": "Working capital"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Government impose import duties for the following reasons EXCEPT",
-      "hasImage": false,
-      "options": {
-        "A": "to raise revenue for other services",
-        "B": "to act as a retaliatory measure against other governments",
-        "C": "to discourage the redistribution of income at home",
-        "D": "to protect home industries from external competition"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Sole enterprise may flourish best in",
-      "hasImage": false,
-      "options": {
-        "A": "a mining business",
-        "B": "a retailing business",
-        "C": "an oil exploration business",
-        "D": "a car assembly business"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The use of coin-operated machines to sell goods is a form of",
-      "hasImage": false,
-      "options": {
-        "A": "personal selling",
-        "B": "retailing",
-        "C": "wholesaling",
-        "D": "mail-order selling"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "What is the major function of the wholesaler?",
-      "hasImage": false,
-      "options": {
-        "A": "Buying from small-scale producers and selling to exporters",
-        "B": "Buying in bulk and selling in small quantities",
-        "C": "Granting of credit facilities to retailers",
-        "D": "Providing information to manufacturers on market situation"
-      },
-      "answer": "B"
-    },
-    {
-      "question": "The rate at which a country’s exports exchange for its imports is called",
-      "hasImage": false,
-      "options": {
-        "A": "balance of payments",
-        "B": "balance of trade",
-        "C": "terms of payment",
-        "D": "terms of trade"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "The difference between the total payments for imports and the receipts from exports within a given period is referred to as",
-      "hasImage": false,
-      "options": {
-        "A": "balance of payments",
-        "B": "balance of trade",
-        "C": "comparative cost advantage",
-        "D": "comparative advantage"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "A pro forma invoice is NOT required when",
-      "hasImage": false,
-      "options": {
-        "A": "quoting for the supply of goods",
-        "B": "goods are sent on approval",
-        "C": "dealing regularly with a customer",
-        "D": "final prices are uncertain"
-      },
-      "answer": "C"
-    },
-    {
-      "question": "Which of the following statements is TRUE about sea transport?",
-      "hasImage": false,
-      "options": {
-        "A": "All ships have specific routes to ply",
-        "B": "All ships must be insured at every journey",
-        "C": "All ships are insured separately from the crew",
-        "D": "All ships normally arrive at their destination with goods"
-      },
-      "answer": "D"
-    },
-    {
-      "question": "The postal organization which preceded the Nigerian Postal Service is",
-      "hasImage": false,
-      "options": {
-        "A": "Post and Telecommunications",
-        "B": "Post and Telephone",
-        "C": "Post and Teleprinter",
-        "D": "Post and Telegraph"
-      },
-      "answer": "A"
-    },
-    {
-      "question": "Goods discharged from ships on which import duties have not been paid are kept in the",
-      "hasImage": false,
-      "options": {
-        "A": "ordinary warehouse",
-        "B": "public warehouse",
-        "C": "private warehouse",
-        "D": "bonded warehouse"
-      },
-      "answer": "D"
     }
+
   ]
 }
