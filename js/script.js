@@ -45,7 +45,8 @@ async function loadAllQuestions() {
         console.log(`Loaded ${subject} questions from localStorage`);
       } else {
         // 2️⃣ Fetch from server / data folder
-        const res = await fetch(`/data/${subject}.json`);
+        const res = await fetch(`/api/questions/${subject}`);
+
         if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
 
         const data = await res.json();
