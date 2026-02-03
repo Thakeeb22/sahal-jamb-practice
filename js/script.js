@@ -49,7 +49,25 @@ async function loadAllQuestions() {
         if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
 
         const data = await res.json();
-        questionArray = Array.isArray(data) ? data : data.questions;
+
+        if (data.sections) {
+          // ✅ ENGLISH STYLE (sections-based)
+          questionArray = [];
+
+          data.sections.forEach((section) => {
+            section.questions.forEach((q) => {
+              questionArray.push({
+                ...q,
+                section: section.section,
+                instruction: section.instruction,
+                passage: section.passage || null,
+              });
+            });
+          });
+        } else {
+          // ✅ OTHER SUBJECTS (flat)
+          questionArray = Array.isArray(data) ? data : data.questions;
+        }
 
         // 3️⃣ Save to localStorage for offline use
         localStorage.setItem(
@@ -177,11 +195,10 @@ function loadQuestion() {
       instructionEl.textContent = instruction;
       instructionEl.style.display = instruction ? "block" : "none";
     }
- } else {
-  const instructionEl = document.getElementById("section-instruction");
-  if (instructionEl) instructionEl.style.display = "none";
-}
-
+  } else {
+    const instructionEl = document.getElementById("section-instruction");
+    if (instructionEl) instructionEl.style.display = "none";
+  }
 
   // ===== LOAD OPTIONS =====
   q.options.forEach((opt, i) => {
