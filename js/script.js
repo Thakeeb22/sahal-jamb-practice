@@ -52,7 +52,15 @@ async function loadAllQuestions() {
         const data = await res.json();
 
         // API ALREADY returns correct number & order
-        finalQuestions = data.map((q) => {
+        let orderedData = data;
+
+        if (subject.toLowerCase() === "english") {
+          const passages = data.filter((q) => q.passage);
+          const others = data.filter((q) => !q.passage);
+          orderedData = [...passages, ...others];
+        }
+
+        finalQuestions = orderedData.map((q) => {
           const options = Array.isArray(q.options)
             ? q.options
             : Object.values(q.options);
@@ -131,16 +139,13 @@ function loadQuestion() {
 
   questionCountEl.textContent = `Question ${currentQuestionIndex + 1} of ${questions[subject].length}`;
   // ===== QUESTION TEXT LOGIC (JAMB SAFE) =====
-  let questionText = "";
+  // let questionText = "";
 
-  if (q.question) {
-    questionText = q.question;
-  } else if (q.q) {
-    questionText = q.q;
-  } else if (!q.passage && q.instruction) {
-    // English questions without passage use instruction as the question
-    questionText = q.instruction;
-  }
+  let questionText =
+    q.question ||
+    q.q ||
+    (q.instruction && !q.passage ? q.instruction : "") ||
+    "";
 
   questionTextEl.textContent = questionText;
 
@@ -177,15 +182,24 @@ function loadQuestion() {
   }
 
   // ===== LOAD OPTIONS =====
+  // ===== LOAD OPTIONS (SAFE) =====
+  optionListEl.innerHTML = "";
+
+  if (!Array.isArray(q.options) || q.options.length === 0) {
+    optionListEl.innerHTML =
+      "<p class='no-options'>Read the passage and proceed to the next question.</p>";
+    return;
+  }
+
   q.options.forEach((opt, i) => {
     const label = document.createElement("label");
     label.className = "options";
     label.innerHTML = `
-      <input type="radio" name="option"
-        ${answers[subject][currentQuestionIndex] === opt ? "checked" : ""}>
-      <span class="indicator">${String.fromCharCode(65 + i)}</span>
-      <span class="text">${opt}</span>
-    `;
+    <input type="radio" name="option"
+      ${answers[subject][currentQuestionIndex] === opt ? "checked" : ""}>
+    <span class="indicator">${String.fromCharCode(65 + i)}</span>
+    <span class="text">${opt}</span>
+  `;
     label.onclick = () => {
       answers[subject][currentQuestionIndex] = opt;
       updatePalette();
