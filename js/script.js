@@ -23,6 +23,7 @@ const questionImageContainer = document.getElementById(
 const questionImageEl = document.getElementById("question-image");
 
 /* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
+/* ===== LOAD QUESTIONS FOR SELECTED SUBJECTS ===== */
 async function loadAllQuestions() {
   const profile = JSON.parse(localStorage.getItem("jambProfile"));
 
@@ -38,40 +39,50 @@ async function loadAllQuestions() {
     try {
       let finalQuestions = [];
 
-      // 1️⃣ Try localStorage first (OFFLINE SUPPORT)
+      // 1️⃣ Try localStorage first
       const cached = localStorage.getItem(`questions-${subject}`);
-
       if (cached) {
         finalQuestions = JSON.parse(cached);
         console.log(`Loaded ${subject} from localStorage`);
       } else {
-        // 2️⃣ Fetch from API (SERVER)
+        // 2️⃣ Fetch from server/API
         const res = await fetch(`/api/questions/${subject}`);
         if (!res.ok) throw new Error(`Failed to fetch ${subject}`);
 
         const data = await res.json();
 
-        // API ALREADY returns correct number & order
+        // 2a️⃣ Optional: order English passages first
         let orderedData = data;
-
         if (subject.toLowerCase() === "english") {
           const passages = data.filter((q) => q.passage);
           const others = data.filter((q) => !q.passage);
           orderedData = [...passages, ...others];
         }
 
+        // 3️⃣ Map questions safely
         finalQuestions = orderedData.map((q) => {
+          // Safe options handling
           const options = Array.isArray(q.options)
             ? q.options
-            : Object.values(q.options);
+            : q.options != null
+            ? Object.values(q.options)
+            : []; // fallback empty array
 
+          if (!options.length) {
+            console.warn(`Question missing options for subject "${subject}":`, q);
+          }
+
+          // Safe answer mapping
           const answerKey = q.answer;
-          const answerValue = Array.isArray(q.options)
-            ? options[answerKey.charCodeAt(0) - 65]
-            : q.options[answerKey];
+          const answerValue =
+            options.length && answerKey
+              ? Array.isArray(q.options)
+                ? options[answerKey.charCodeAt(0) - 65]
+                : q.options[answerKey]
+              : null;
 
           return {
-            question: q.question || q.q,
+            question: q.question || q.q || "",
             options,
             answer: answerValue,
             passage: q.passage || null,
@@ -82,16 +93,16 @@ async function loadAllQuestions() {
           };
         });
 
-        // 3️⃣ SAVE EXACTLY WHAT YOU WILL USE
+        // 4️⃣ Cache in localStorage
         localStorage.setItem(
           `questions-${subject}`,
-          JSON.stringify(finalQuestions),
+          JSON.stringify(finalQuestions)
         );
 
         console.log(`Fetched & cached ${subject}`);
       }
 
-      // 4️⃣ Use the SAME data everywhere
+      // 5️⃣ Save questions & initialize answers
       questions[subject] = finalQuestions;
       answers[subject] = new Array(finalQuestions.length).fill(null);
     } catch (err) {
@@ -101,8 +112,9 @@ async function loadAllQuestions() {
     }
   }
 
+  // 6️⃣ Create tabs & load first question
   createSubjectTabs();
-  // loadQuestion();
+  loadQuestion();
 }
 
 /* ===== CREATE SUBJECT TABS ===== */
@@ -387,14 +399,22 @@ function saveExamState() {
   localStorage.setItem(EXAM_STATE_KEY, JSON.stringify(state));
 }
 
-/* ===== INIT ===== */
+/* ===== INIT EXAM ===== */
 (async function initExam() {
-  await loadAllQuestions(); // Load all questions and subjects
+  await loadAllQuestions();
 
-  const resumed = restoreExamState(); // Restore previous state if exists
+  // Restore previous exam state if exists
+  const resumed = restoreExamState();
 
-  createSubjectTabs(); // Always create tabs
-
-  // Load the correct question after everything is ready
-  loadQuestion();
+  if (resumed) {
+    // Make sure subjects tabs exist
+    createSubjectTabs();
+    // Load the saved question
+    loadQuestion();
+  } else {
+    // No saved state, start fresh
+    currentSubjectIndex = 0;
+    currentQuestionIndex = 0;
+    loadQuestion();
+  }
 })();
