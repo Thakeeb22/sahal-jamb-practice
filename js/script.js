@@ -36,79 +36,62 @@ async function loadAllQuestions() {
 
   for (const subject of subjects) {
     try {
-      // 1️⃣ Check localStorage first
-      let storedQuestions = localStorage.getItem(`questions-${subject}`);
-      let questionArray;
+      let finalQuestions = [];
 
-      if (storedQuestions) {
-        questionArray = JSON.parse(storedQuestions);
-        console.log(`Loaded ${subject} questions from localStorage`);
+      // 1️⃣ Try localStorage first (OFFLINE SUPPORT)
+      const cached = localStorage.getItem(`questions-${subject}`);
+
+      if (cached) {
+        finalQuestions = JSON.parse(cached);
+        console.log(`Loaded ${subject} from localStorage`);
       } else {
-        // 2️⃣ Fetch from server / data folder
+        // 2️⃣ Fetch from API (SERVER)
         const res = await fetch(`/api/questions/${subject}`);
-
-        if (!res.ok) throw new Error(`Cannot load ${subject}.json`);
+        if (!res.ok) throw new Error(`Failed to fetch ${subject}`);
 
         const data = await res.json();
 
-        if (data.sections) {
-          // ✅ ENGLISH STYLE (sections-based)
-          questionArray = [];
+        // API ALREADY returns correct number & order
+        finalQuestions = data.map((q) => {
+          const options = Array.isArray(q.options)
+            ? q.options
+            : Object.values(q.options);
 
-          data.sections.forEach((section) => {
-            section.questions.forEach((q) => {
-              questionArray.push({
-                ...q,
-                section: section.section,
-                instruction: section.instruction,
-                passage: section.passage || null,
-              });
-            });
-          });
-        } else {
-          // ✅ OTHER SUBJECTS (flat)
-          questionArray = Array.isArray(data) ? data : data.questions;
-        }
+          const answerKey = q.answer;
+          const answerValue = Array.isArray(q.options)
+            ? options[answerKey.charCodeAt(0) - 65]
+            : q.options[answerKey];
 
-        // 3️⃣ Save to localStorage for offline use
+          return {
+            question: q.question || q.q,
+            options,
+            answer: answerValue,
+            passage: q.passage || null,
+            instruction: q.instruction || null,
+            image: q.image || null,
+            imageDescription: q.imageDescription || "",
+            hasImage: !!q.image,
+          };
+        });
+
+        // 3️⃣ SAVE EXACTLY WHAT YOU WILL USE
         localStorage.setItem(
           `questions-${subject}`,
-          JSON.stringify(questionArray),
+          JSON.stringify(finalQuestions),
         );
-        console.log(`Fetched and saved ${subject} questions`);
+
+        console.log(`Fetched & cached ${subject}`);
       }
 
-      // 4️⃣ Map questions as before
-      questions[subject] = questionArray.map((q) => {
-        const options = Array.isArray(q.options)
-          ? q.options
-          : Object.values(q.options);
-        const answerKey = q.answer;
-        const answerValue = Array.isArray(q.options)
-          ? options[answerKey.charCodeAt(0) - 65]
-          : q.options[answerKey];
-
-        return {
-          question: q.question || q.q,
-          options: options,
-          answer: answerValue,
-          image: q.image,
-          imageDescription: q.imageDescription,
-          hasImage: q.hasImage,
-          passage: q.passage,
-          instruction: q.instruction,
-        };
-      });
+      // 4️⃣ Use the SAME data everywhere
+      questions[subject] = finalQuestions;
+      answers[subject] = new Array(finalQuestions.length).fill(null);
     } catch (err) {
-      console.error(err);
+      console.error(`Error loading ${subject}`, err);
       questions[subject] = [];
+      answers[subject] = [];
     }
   }
-
-  // Initialize answers array
-  subjects.forEach((subject) => {
-    answers[subject] = new Array(questions[subject].length).fill(null);
-  });
 
   createSubjectTabs();
   loadQuestion();
@@ -124,6 +107,8 @@ function createSubjectTabs() {
     btn.onclick = () => {
       currentSubjectIndex = i;
       currentQuestionIndex = 0;
+      passageContainer.style.display = "none";
+      questionImageContainer.style.display = "none";
       loadQuestion();
       updateActiveTab();
       saveExamState();
@@ -171,18 +156,8 @@ function loadQuestion() {
   }
 
   // ===== PASSAGE & INSTRUCTION (offline-safe) =====
-  const storedQuestions = localStorage.getItem(`questions-${subject}`);
-  let passage = q.passage || "";
-  let instruction = q.instruction || "";
-
-  if (storedQuestions) {
-    const questionList = JSON.parse(storedQuestions);
-    const currentQ = questionList[currentQuestionIndex];
-    if (currentQ) {
-      passage = currentQ.passage || passage;
-      instruction = currentQ.instruction || instruction;
-    }
-  }
+  const passage = q.passage;
+  const instruction = q.instruction;
 
   if (passage) {
     passageContainer.style.display = "block";
