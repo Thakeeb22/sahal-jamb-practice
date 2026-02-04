@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sahal School Jamb Practice</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0d6efd" />
+
     <link
       rel="shortcut icon"
       href="./img/sahal favicon.svg"
@@ -134,11 +136,14 @@
     <script src="./js/script.js"></script>
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("/sw.js")
-          .then(() => console.log("Service Worker registered"))
-          .catch((err) => console.error("Service Worker failed", err));
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then((reg) => console.log("SW registered", reg))
+            .catch((err) => console.error("SW failed", err));
+        });
       }
     </script>
+    
   </body>
 </html>
