@@ -1,0 +1,342 @@
+{
+  "subject": "Economics",
+  "exam": "JAMB",
+  "totalQuestions": 100,
+  "questions": [
+    {
+      "question": "Economics is the study of human behaviour as it relates to the",
+      "hasImage": false,
+      "options": {
+        "A": "efficient allocation of resources",
+        "B": "production of goods",
+        "C": "operation of companies",
+        "D": "generation of income"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The downturn in the prices of shares on stock markets is a highlight of",
+      "hasImage": false,
+      "options": {
+        "A": "efficient allocation of resources",
+        "B": "the invisible hand",
+        "C": "the regulatory nature of the market",
+        "D": "consumer rationality"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The standard deviation of a set of data is",
+      "hasImage": false,
+      "options": {
+        "A": "always measured from the mode",
+        "B": "the most representative of averages",
+        "C": "always measured from the median",
+        "D": "a measure of dispersion"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The mean is the best measure of central tendency because it",
+      "hasImage": false,
+      "options": {
+        "A": "is not affected by extreme values",
+        "B": "is a midpoint value",
+        "C": "is a balancing point",
+        "D": "can be calculated from incomplete data"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Which of the following is NOT a factor of production?",
+      "hasImage": false,
+      "options": {
+        "A": "Land",
+        "B": "Labour",
+        "C": "Capital",
+        "D": "Currency"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The basic economic problem arises because",
+      "hasImage": false,
+      "options": {
+        "A": "human wants are unlimited",
+        "B": "resources are unlimited",
+        "C": "labour is abundant",
+        "D": "capital is constant"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which economic system relies mainly on price mechanism?",
+      "hasImage": false,
+      "options": {
+        "A": "Socialist economy",
+        "B": "Traditional economy",
+        "C": "Market economy",
+        "D": "Planned economy"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "When demand increases while supply remains constant, price will",
+      "hasImage": false,
+      "options": {
+        "A": "fall",
+        "B": "remain constant",
+        "C": "rise",
+        "D": "fluctuate randomly"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The responsiveness of quantity demanded to price change is known as",
+      "hasImage": false,
+      "options": {
+        "A": "supply elasticity",
+        "B": "price elasticity of demand",
+        "C": "cross elasticity",
+        "D": "income elasticity"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A substitute good is one that",
+      "hasImage": false,
+      "options": {
+        "A": "is consumed with another good",
+        "B": "replaces another good",
+        "C": "is inferior",
+        "D": "has no demand"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Complementary goods are goods that",
+      "hasImage": false,
+      "options": {
+        "A": "are used together",
+        "B": "replace each other",
+        "C": "are produced jointly",
+        "D": "are luxury goods"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A fall in consumer income will normally reduce demand for",
+      "hasImage": false,
+      "options": {
+        "A": "inferior goods",
+        "B": "normal goods",
+        "C": "free goods",
+        "D": "essential goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The law of supply states that",
+      "hasImage": false,
+      "options": {
+        "A": "price and supply move in opposite direction",
+        "B": "supply is constant",
+        "C": "price and supply move in same direction",
+        "D": "supply is independent of price"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Equilibrium price occurs when",
+      "hasImage": false,
+      "options": {
+        "A": "supply exceeds demand",
+        "B": "demand equals supply",
+        "C": "government fixes price",
+        "D": "production stops"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Marginal cost is defined as",
+      "hasImage": false,
+      "options": {
+        "A": "total cost divided by output",
+        "B": "addition to total cost from producing one more unit",
+        "C": "fixed cost of production",
+        "D": "average cost of production"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which market structure has only one seller?",
+      "hasImage": false,
+      "options": {
+        "A": "Monopoly",
+        "B": "Oligopoly",
+        "C": "Perfect competition",
+        "D": "Monopolistic competition"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "In perfect competition, firms are",
+      "hasImage": false,
+      "options": {
+        "A": "price makers",
+        "B": "price takers",
+        "C": "monopolists",
+        "D": "government controlled"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Public goods are goods that are",
+      "hasImage": false,
+      "options": {
+        "A": "provided by private firms",
+        "B": "non-rival and non-excludable",
+        "C": "luxury goods",
+        "D": "inferior goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The circular flow of income shows the relationship between",
+      "hasImage": false,
+      "options": {
+        "A": "government and firms only",
+        "B": "firms and households",
+        "C": "banks and industries",
+        "D": "exports and imports"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Disposable income is income left after",
+      "hasImage": false,
+      "options": {
+        "A": "saving",
+        "B": "consumption",
+        "C": "tax payment",
+        "D": "investment"
+      },
+      "answer": "C"
+    },
+
+  
+    {
+      "question": "Propensity to consume refers to the",
+      "hasImage": false,
+      "options": {
+        "A": "ratio of saving to income",
+        "B": "ratio of consumption to income",
+        "C": "ratio of investment to income",
+        "D": "ratio of tax to income"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Investment in economics means",
+      "hasImage": false,
+      "options": {
+        "A": "purchase of shares only",
+        "B": "purchase of capital goods",
+        "C": "saving in banks",
+        "D": "government borrowing"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A progressive tax is one in which",
+      "hasImage": false,
+      "options": {
+        "A": "rate increases with income",
+        "B": "rate is constant",
+        "C": "rate decreases with income",
+        "D": "rate is optional"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Money that has intrinsic value is called",
+      "hasImage": false,
+      "options": {
+        "A": "fiat money",
+        "B": "commodity money",
+        "C": "token money",
+        "D": "paper money"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which institution provides long-term loans?",
+      "hasImage": false,
+      "options": {
+        "A": "Commercial bank",
+        "B": "Development bank",
+        "C": "Microfinance bank",
+        "D": "Central bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Economic growth refers to increase in",
+      "hasImage": false,
+      "options": {
+        "A": "population",
+        "B": "national output",
+        "C": "imports",
+        "D": "government workers"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main aim of fiscal policy is to",
+      "hasImage": false,
+      "options": {
+        "A": "control population",
+        "B": "control government spending and taxation",
+        "C": "control labour supply",
+        "D": "control exports"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Monetary policy deals with control of",
+      "hasImage": false,
+      "options": {
+        "A": "money supply",
+        "B": "taxation",
+        "C": "production",
+        "D": "employment only"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Devaluation of currency makes exports",
+      "hasImage": false,
+      "options": {
+        "A": "more expensive",
+        "B": "cheaper",
+        "C": "unavailable",
+        "D": "unchanged"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The major function of the World Bank is to",
+      "hasImage": false,
+      "options": {
+        "A": "promote international peace",
+        "B": "grant development loans",
+        "C": "regulate trade tariffs",
+        "D": "control currency exchange"
+      },
+      "answer": "B"
+    }
+  ]
+}

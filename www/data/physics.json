@@ -1,0 +1,558 @@
+{
+  "subject": "physics",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "In a resonance tube experiment, a tube of fixed length is closed at one end. If the lowest frequency giving resonance is f₁ and the next is f₂, find f₂/f₁.",
+      "hasImage": false,
+      "options": {
+        "A": "8",
+        "B": "3",
+        "C": "2",
+        "D": "1/2",
+        "E": "1/3"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a vector quantity?",
+      "hasImage": false,
+      "options": {
+        "A": "Force",
+        "B": "Altitude",
+        "C": "Weight",
+        "D": "Displacement",
+        "E": "Acceleration"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following statements about friction is NOT correct?",
+      "hasImage": false,
+      "options": {
+        "A": "Kinetic friction is less than static friction",
+        "B": "Friction depends on the nature of surfaces",
+        "C": "Rolling friction is less than sliding friction",
+        "D": "Angle of friction is the angle between friction and surface",
+        "E": "Lubrication reduces friction"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The force with which the earth attracts a body is known as its",
+      "hasImage": false,
+      "options": {
+        "A": "mass",
+        "B": "acceleration",
+        "C": "gravity",
+        "D": "impulse",
+        "E": "weight"
+      },
+      "answer": "E"
+    },
+    {
+      "question": "The refractive index of glass is 1.5. If the speed of light in vacuum is 3.0 × 10⁸ m/s, its speed in glass is",
+      "hasImage": false,
+      "options": {
+        "A": "1.0 × 10⁸ m/s",
+        "B": "2.0 × 10⁸ m/s",
+        "C": "2.5 × 10⁸ m/s",
+        "D": "4.5 × 10⁸ m/s",
+        "E": "6.0 × 10⁸ m/s"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If the relative density of a metal is 19, find the mass of 20 cm³ of the metal.",
+      "hasImage": false,
+      "options": {
+        "A": "380 g",
+        "B": "360 g",
+        "C": "400 g",
+        "D": "180 g",
+        "E": "39 g"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following statements about liquid pressure is correct?",
+      "hasImage": false,
+      "options": {
+        "A": "Pressure decreases with depth",
+        "B": "Pressure is zero at container walls",
+        "C": "Pressure depends on surface area",
+        "D": "Pressure increases with depth",
+        "E": "Pressure acts only downward"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A ship receives an echo 3.5 s after sounding its horn and later after 2.5 s. If speed of sound is 250 m/s, how much nearer is the ship to the cliff?",
+      "hasImage": false,
+      "options": {
+        "A": "100 m",
+        "B": "125 m",
+        "C": "175 m",
+        "D": "250 m",
+        "E": "350 m"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following determines the pitch of a sound?",
+      "hasImage": false,
+      "options": {
+        "A": "Amplitude",
+        "B": "Frequency",
+        "C": "Velocity",
+        "D": "Wavelength",
+        "E": "Intensity"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A sound of frequency 500 Hz is sounded together with another of 502 Hz. The beat frequency produced is",
+      "hasImage": false,
+      "options": {
+        "A": "1 Hz",
+        "B": "2 Hz",
+        "C": "500 Hz",
+        "D": "1002 Hz",
+        "E": "250 Hz"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which defect of vision is corrected using a diverging lens?",
+      "hasImage": false,
+      "options": {
+        "A": "Long sight",
+        "B": "Short sight",
+        "C": "Astigmatism",
+        "D": "Colour blindness",
+        "E": "Cataract"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Gamma rays have wavelengths that are",
+      "hasImage": false,
+      "options": {
+        "A": "longer than visible light",
+        "B": "equal to visible light",
+        "C": "shorter than visible light",
+        "D": "equal to infrared",
+        "E": "infinite"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If pressure on a fixed mass of gas is doubled while its temperature is halved, the volume will",
+      "hasImage": false,
+      "options": {
+        "A": "double",
+        "B": "remain constant",
+        "C": "reduce to one-quarter",
+        "D": "reduce to half",
+        "E": "increase four times"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A train moving at 44 m/s decelerates uniformly at 4 m/s². Its speed after 10 s is",
+      "hasImage": false,
+      "options": {
+        "A": "2 m/s",
+        "B": "4 m/s",
+        "C": "8 m/s",
+        "D": "12 m/s",
+        "E": "16 m/s"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Total internal reflection occurs when light travels from",
+      "hasImage": false,
+      "options": {
+        "A": "less dense to denser medium",
+        "B": "denser to less dense medium at small angle",
+        "C": "denser to less dense medium beyond critical angle",
+        "D": "air to water only",
+        "E": "any medium at normal incidence"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A man of mass 50 kg climbs a height of 5 m in 5 s. If g = 10 m/s², calculate the power developed.",
+      "hasImage": false,
+      "options": {
+        "A": "100 W",
+        "B": "200 W",
+        "C": "250 W",
+        "D": "300 W",
+        "E": "500 W"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which instrument is used to detect electric current?",
+      "hasImage": false,
+      "options": {
+        "A": "Voltmeter",
+        "B": "Ammeter",
+        "C": "Galvanometer",
+        "D": "Thermometer",
+        "E": "Barometer"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Electric power is transmitted at high voltage mainly to",
+      "hasImage": false,
+      "options": {
+        "A": "increase current",
+        "B": "reduce resistance",
+        "C": "reduce energy loss",
+        "D": "increase speed",
+        "E": "reduce voltage drop"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The SI unit of electric charge is",
+      "hasImage": false,
+      "options": {
+        "A": "volt",
+        "B": "ampere",
+        "C": "ohm",
+        "D": "coulomb",
+        "E": "joule"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A transformer works on the principle of",
+      "hasImage": false,
+      "options": {
+        "A": "electrolysis",
+        "B": "electrostatic induction",
+        "C": "mutual induction",
+        "D": "self induction",
+        "E": "resistance heating"
+      },
+      "answer": "C"
+    },
+        {
+          "question": "If a body moves with uniform acceleration, the distance travelled in the nth second is given by",
+          "hasImage": false,
+          "options": {
+            "A": "s = u + 1/2 a t²",
+            "B": "s = u + a t",
+            "C": "s = u + 1/2 a (2n − 1)",
+            "D": "s = u t + 1/2 a t²",
+            "E": "s = u t + a n²"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The velocity of a freely falling object after 3 seconds is (g = 10 m/s²)",
+          "hasImage": false,
+          "options": {
+            "A": "10 m/s",
+            "B": "20 m/s",
+            "C": "30 m/s",
+            "D": "40 m/s",
+            "E": "50 m/s"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The kinetic energy of a body of mass m moving at velocity v is",
+          "hasImage": false,
+          "options": {
+            "A": "1/2 mv²",
+            "B": "mv²",
+            "C": "mv",
+            "D": "1/2 mv",
+            "E": "2 mv²"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "A body of mass 2 kg is moving with a velocity of 5 m/s. Its momentum is",
+          "hasImage": false,
+          "options": {
+            "A": "10 kg m/s",
+            "B": "5 kg m/s",
+            "C": "7.5 kg m/s",
+            "D": "2.5 kg m/s",
+            "E": "20 kg m/s"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "A projectile is fired horizontally from a height of 20 m. The time of flight is (g = 10 m/s²)",
+          "hasImage": false,
+          "options": {
+            "A": "2 s",
+            "B": "4 s",
+            "C": "6 s",
+            "D": "8 s",
+            "E": "10 s"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "If a body floats in a liquid, the upthrust acting on it is equal to",
+          "hasImage": false,
+          "options": {
+            "A": "its weight",
+            "B": "its volume",
+            "C": "liquid density",
+            "D": "mass of liquid displaced",
+            "E": "gravity"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The pressure at a point in a liquid depends on",
+          "hasImage": false,
+          "options": {
+            "A": "depth, density, and gravity",
+            "B": "depth only",
+            "C": "density only",
+            "D": "temperature only",
+            "E": "surface area"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The specific heat capacity of a substance is the amount of heat required to raise the temperature of",
+          "hasImage": false,
+          "options": {
+            "A": "1 g of substance by 1°C",
+            "B": "1 kg of substance by 1°C",
+            "C": "1 mole of substance by 1°C",
+            "D": "1 kg of substance by 10°C",
+            "E": "1 g of substance by 10°C"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Heat transfer by molecular collision is called",
+          "hasImage": false,
+          "options": {
+            "A": "conduction",
+            "B": "convection",
+            "C": "radiation",
+            "D": "insulation",
+            "E": "diffusion"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of convection?",
+          "hasImage": false,
+          "options": {
+            "A": "Heating a metal rod",
+            "B": "Boiling water in a pan",
+            "C": "Sunlight warming a room",
+            "D": "Radiation from a lamp",
+            "E": "Touching a hot cup"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The pressure of a gas is 2 × 10⁵ Pa. If the area of piston is 0.1 m², the force on piston is",
+          "hasImage": false,
+          "options": {
+            "A": "2 × 10⁴ N",
+            "B": "2 × 10³ N",
+            "C": "2 × 10⁵ N",
+            "D": "2 × 10² N",
+            "E": "2 × 10¹ N"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The frequency of a wave is the reciprocal of its",
+          "hasImage": false,
+          "options": {
+            "A": "wavelength",
+            "B": "amplitude",
+            "C": "period",
+            "D": "speed",
+            "E": "intensity"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The velocity of sound in air at 0°C is approximately",
+          "hasImage": false,
+          "options": {
+            "A": "331 m/s",
+            "B": "340 m/s",
+            "C": "300 m/s",
+            "D": "250 m/s",
+            "E": "360 m/s"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The wavelength of a wave is 2 m and its frequency is 50 Hz. The speed of the wave is",
+          "hasImage": false,
+          "options": {
+            "A": "100 m/s",
+            "B": "50 m/s",
+            "C": "25 m/s",
+            "D": "200 m/s",
+            "E": "150 m/s"
+          },
+          "answer": "D"
+        },
+        {
+          "question": "When a ray of light passes from air into water, it bends",
+          "hasImage": false,
+          "options": {
+            "A": "towards the normal",
+            "B": "away from the normal",
+            "C": "parallel",
+            "D": "perpendicular",
+            "E": "randomly"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The image formed by a plane mirror is",
+          "hasImage": false,
+          "options": {
+            "A": "virtual and upright",
+            "B": "real and inverted",
+            "C": "virtual and inverted",
+            "D": "real and upright",
+            "E": "magnified"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The focal length of a concave mirror is 20 cm. Its radius of curvature is",
+          "hasImage": false,
+          "options": {
+            "A": "40 cm",
+            "B": "20 cm",
+            "C": "10 cm",
+            "D": "60 cm",
+            "E": "30 cm"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "A lens that is thicker at the edges than in the middle is called",
+          "hasImage": false,
+          "options": {
+            "A": "convex lens",
+            "B": "concave lens",
+            "C": "plane lens",
+            "D": "biconvex lens",
+            "E": "plano-concave lens"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The image produced by a convex lens for an object placed at infinity is",
+          "hasImage": false,
+          "options": {
+            "A": "at focus, real and inverted",
+            "B": "at focus, virtual and upright",
+            "C": "behind the lens, virtual",
+            "D": "at infinity",
+            "E": "on the lens surface"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "A current of 2 A flows through a resistor of 5 Ω. The voltage across the resistor is",
+          "hasImage": false,
+          "options": {
+            "A": "10 V",
+            "B": "7 V",
+            "C": "5 V",
+            "D": "2 V",
+            "E": "12 V"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The energy stored in a capacitor of 4 μF charged to 12 V is",
+          "hasImage": false,
+          "options": {
+            "A": "288 μJ",
+            "B": "200 μJ",
+            "C": "150 μJ",
+            "D": "250 μJ",
+            "E": "300 μJ"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "A bar magnet is cut into two equal parts along its length. The two pieces will have",
+          "hasImage": false,
+          "options": {
+            "A": "north and south poles",
+            "B": "no poles",
+            "C": "only north poles",
+            "D": "only south poles",
+            "E": "weaker magnetic field"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The unit of magnetic flux is",
+          "hasImage": false,
+          "options": {
+            "A": "Tesla",
+            "B": "Weber",
+            "C": "Ampere",
+            "D": "Coulomb",
+            "E": "Newton"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Radioactive decay follows",
+          "hasImage": false,
+          "options": {
+            "A": "Newton’s law",
+            "B": "Exponential law",
+            "C": "Ohm’s law",
+            "D": "Hooke’s law",
+            "E": "Kirchhoff’s law"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "An alpha particle has charge and mass approximately equal to",
+          "hasImage": false,
+          "options": {
+            "A": "2e, 4u",
+            "B": "e, 2u",
+            "C": "e, u",
+            "D": "0, 4u",
+            "E": "2e, 2u"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The half-life of a radioactive isotope is the time it takes for",
+          "hasImage": false,
+          "options": {
+            "A": "all nuclei to decay",
+            "B": "half of the nuclei to decay",
+            "C": "double the nuclei to decay",
+            "D": "one-fourth of nuclei to decay",
+            "E": "none to decay"
+          },
+          "answer": "B"
+        }
+      ]
+    }

@@ -1,0 +1,1275 @@
+{
+  "subject": "government",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "When did Nigeria gain her Independence?",
+      "hasImage": false,
+      "options": {
+        "A": "1st October 1963",
+        "B": "31st October 1690",
+        "C": "1st October 2012",
+        "D": "1st October 1960",
+        "E": "12th October 1992"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Democracy means a system of government in which",
+      "hasImage": false,
+      "options": {
+        "A": "the majority rules",
+        "B": "the minority rules",
+        "C": "there is no party system",
+        "D": "the people rule",
+        "E": "none of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "A constitution is federal if",
+      "hasImage": false,
+      "options": {
+        "A": "it provides for a presidential system",
+        "B": "it is unwritten",
+        "C": "it is not unitary",
+        "D": "the central and component units are equal",
+        "E": "there is a division of powers between central and component authorities"
+      },
+      "answer": "E"
+    },
+
+    {
+      "question": "The Executive is",
+      "hasImage": false,
+      "options": {
+        "A": "a committee of the legislature",
+        "B": "the body that makes laws",
+        "C": "the body that executes government policies",
+        "D": "the highest organ of government",
+        "E": "none of the above"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Judiciary is the arm of government that",
+      "hasImage": false,
+      "options": {
+        "A": "makes laws",
+        "B": "enforces laws",
+        "C": "interprets laws",
+        "D": "appoints ministers",
+        "E": "controls elections"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The principle of separation of powers was popularized by",
+      "hasImage": false,
+      "options": {
+        "A": "John Locke",
+        "B": "Jean Jacques Rousseau",
+        "C": "Montesquieu",
+        "D": "Thomas Hobbes",
+        "E": "Karl Marx"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Checks and balances are designed to",
+      "hasImage": false,
+      "options": {
+        "A": "make the executive supreme",
+        "B": "prevent abuse of power",
+        "C": "abolish the legislature",
+        "D": "strengthen dictatorship",
+        "E": "remove the judiciary"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Pressure groups differ from political parties because they",
+      "hasImage": false,
+      "options": {
+        "A": "contest elections",
+        "B": "aim to form government",
+        "C": "seek to influence government policies",
+        "D": "are always illegal",
+        "E": "control the legislature"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "A cabinet system of government is also known as",
+      "hasImage": false,
+      "options": {
+        "A": "presidential system",
+        "B": "parliamentary system",
+        "C": "military system",
+        "D": "unitary system",
+        "E": "confederal system"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The head of government in a parliamentary system is the",
+      "hasImage": false,
+      "options": {
+        "A": "President",
+        "B": "Monarch",
+        "C": "Prime Minister",
+        "D": "Speaker",
+        "E": "Chief Justice"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Fundamental human rights are usually contained in the",
+      "hasImage": false,
+      "options": {
+        "A": "party manifesto",
+        "B": "constitution",
+        "C": "court rules",
+        "D": "electoral act",
+        "E": "government gazette"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Citizenship is best defined as",
+      "hasImage": false,
+      "options": {
+        "A": "residence in a country",
+        "B": "membership of a political party",
+        "C": "legal membership of a state",
+        "D": "holding public office",
+        "E": "payment of taxes"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "An electoral commission is responsible for",
+      "hasImage": false,
+      "options": {
+        "A": "making laws",
+        "B": "conducting elections",
+        "C": "interpreting the constitution",
+        "D": "appointing ministers",
+        "E": "forming political parties"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Universal adult suffrage means",
+      "hasImage": false,
+      "options": {
+        "A": "only educated people can vote",
+        "B": "only men can vote",
+        "C": "all adults can vote",
+        "D": "only taxpayers can vote",
+        "E": "only party members can vote"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The main function of the legislature is to",
+      "hasImage": false,
+      "options": {
+        "A": "interpret laws",
+        "B": "execute laws",
+        "C": "make laws",
+        "D": "enforce laws",
+        "E": "conduct elections"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "A rigid constitution is one that",
+      "hasImage": false,
+      "options": {
+        "A": "cannot be amended",
+        "B": "is written",
+        "C": "is difficult to amend",
+        "D": "is flexible",
+        "E": "is unwritten"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The rule of law implies that",
+      "hasImage": false,
+      "options": {
+        "A": "the government is above the law",
+        "B": "the law is supreme",
+        "C": "judges rule the country",
+        "D": "only leaders obey the law",
+        "E": "the constitution can be ignored"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The 1979 Nigerian Constitution introduced the",
+      "hasImage": false,
+      "options": {
+        "A": "parliamentary system",
+        "B": "presidential system",
+        "C": "military system",
+        "D": "monarchical system",
+        "E": "confederal system"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The first political party in Nigeria was the",
+      "hasImage": false,
+      "options": {
+        "A": "NCNC",
+        "B": "NPC",
+        "C": "Action Group",
+        "D": "Nigerian National Democratic Party",
+        "E": "UPN"
+      },
+      "answer": "D"
+    },
+
+    {
+      "question": "Public opinion can best be described as",
+      "hasImage": false,
+      "options": {
+        "A": "views held by the government",
+        "B": "views of political parties",
+        "C": "opinions shared by the majority of the people",
+        "D": "court judgments",
+        "E": "media reports"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Nigeria operates a federal system because",
+      "hasImage": false,
+      "options": {
+        "A": "it has a unitary government",
+        "B": "powers are divided between central and regional governments",
+        "C": "all powers belong to the president",
+        "D": "states are independent countries",
+        "E": "local governments are supreme"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The National Assembly in Nigeria consists of",
+      "hasImage": false,
+      "options": {
+        "A": "the President and Vice-President",
+        "B": "Senate and House of Representatives",
+        "C": "Supreme Court and Court of Appeal",
+        "D": "Governors and State Legislatures",
+        "E": "Ministers and Advisers"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Nigerian President is elected for a term of",
+      "hasImage": false,
+      "options": {
+        "A": "4 years",
+        "B": "5 years",
+        "C": "6 years",
+        "D": "3 years",
+        "E": "7 years"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The highest court in Nigeria is the",
+      "hasImage": false,
+      "options": {
+        "A": "Court of Appeal",
+        "B": "Supreme Court",
+        "C": "Federal High Court",
+        "D": "State High Court",
+        "E": "Constitutional Court"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a function of the legislature?",
+      "hasImage": false,
+      "options": {
+        "A": "Making laws",
+        "B": "Amending the constitution",
+        "C": "Judging election disputes",
+        "D": "Approving budgets",
+        "E": "Oversight of the executive"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The principle of separation of powers ensures that",
+      "hasImage": false,
+      "options": {
+        "A": "all powers are with the president",
+        "B": "no single arm of government is supreme",
+        "C": "judges control the legislature",
+        "D": "ministers make laws",
+        "E": "military controls the government"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A pressure group can influence government policies by",
+      "hasImage": false,
+      "options": {
+        "A": "staging protests",
+        "B": "controlling the army",
+        "C": "making laws",
+        "D": "appointing ministers",
+        "E": "issuing court judgments"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The head of state in Nigeria is also the",
+      "hasImage": false,
+      "options": {
+        "A": "Chief Justice",
+        "B": "Speaker of the House",
+        "C": "President",
+        "D": "Governor",
+        "E": "Prime Minister"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Local governments in Nigeria are created by",
+      "hasImage": false,
+      "options": {
+        "A": "the constitution",
+        "B": "the president",
+        "C": "state governments",
+        "D": "traditional rulers",
+        "E": "citizens' referendum"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Nigerian constitution is the",
+      "hasImage": false,
+      "options": {
+        "A": "highest law of the land",
+        "B": "same as ordinary law",
+        "C": "unwritten tradition",
+        "D": "judicial precedent",
+        "E": "party manifesto"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a characteristic of democracy?",
+      "hasImage": false,
+      "options": {
+        "A": "Rule by one person",
+        "B": "Citizen participation in government",
+        "C": "No elections",
+        "D": "Suppression of opposition",
+        "E": "Military rule"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A unitary system of government is one in which",
+      "hasImage": false,
+      "options": {
+        "A": "power is concentrated in one central government",
+        "B": "states have more power than the center",
+        "C": "judges make laws",
+        "D": "the military governs",
+        "E": "local governments are independent"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The Nigerian Constitution of 1999 is",
+      "hasImage": false,
+      "options": {
+        "A": "rigid",
+        "B": "flexible",
+        "C": "unwritten",
+        "D": "parliamentary",
+        "E": "obsolete"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The judiciary protects citizens’ rights by",
+      "hasImage": false,
+      "options": {
+        "A": "enforcing laws",
+        "B": "making laws",
+        "C": "interpreting laws",
+        "D": "collecting taxes",
+        "E": "appointing governors"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The power to veto a bill in Nigeria lies with the",
+      "hasImage": false,
+      "options": {
+        "A": "Senate",
+        "B": "Speaker of the House",
+        "C": "President",
+        "D": "Supreme Court",
+        "E": "Governor"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which body approves the budget in Nigeria?",
+      "hasImage": false,
+      "options": {
+        "A": "The Judiciary",
+        "B": "The Legislature",
+        "C": "The Executive",
+        "D": "Electoral Commission",
+        "E": "Political Parties"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The concept of rule of law means that",
+      "hasImage": false,
+      "options": {
+        "A": "everyone is equal before the law",
+        "B": "only judges obey the law",
+        "C": "military controls the law",
+        "D": "the president is above the law",
+        "E": "laws can be ignored at will"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "The National Assembly can override a presidential veto by",
+      "hasImage": false,
+      "options": {
+        "A": "simple majority",
+        "B": "two-thirds majority",
+        "C": "unanimous vote",
+        "D": "Supreme Court decision",
+        "E": "Governor's approval"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Nigeria’s independence was achieved through",
+      "hasImage": false,
+      "options": {
+        "A": "military invasion",
+        "B": "peaceful negotiation",
+        "C": "foreign annexation",
+        "D": "internal conflict",
+        "E": "colonial conquest"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Vice-President’s main role is to",
+      "hasImage": false,
+      "options": {
+        "A": "lead the judiciary",
+        "B": "assume presidency in case of vacancy",
+        "C": "make laws",
+        "D": "conduct elections",
+        "E": "command the army independently"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which political party dominated Nigeria’s first republic?",
+      "hasImage": false,
+      "options": {
+        "A": "NCNC",
+        "B": "Action Group",
+        "C": "NPC",
+        "D": "UPN",
+        "E": "PDP"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "Nigeria’s federal character principle ensures",
+      "hasImage": false,
+      "options": {
+        "A": "equal representation of states in federal appointments",
+        "B": "only the majority ethnic group rules",
+        "C": "judges control appointments",
+        "D": "states have unlimited power",
+        "E": "president appoints without consultation"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "Political parties exist to",
+      "hasImage": false,
+      "options": {
+        "A": "contest elections and form government",
+        "B": "enforce laws",
+        "C": "interpret laws",
+        "D": "collect taxes",
+        "E": "manage the military"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "Nigeria is a republic because",
+      "hasImage": false,
+      "options": {
+        "A": "it has a monarch",
+        "B": "leaders are elected, not hereditary",
+        "C": "the army controls government",
+        "D": "judges govern the country",
+        "E": "the constitution is unwritten"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Federalism in Nigeria is designed to",
+      "hasImage": false,
+      "options": {
+        "A": "give all power to the president",
+        "B": "allow states to act independently of the central government",
+        "C": "balance power between the central and state governments",
+        "D": "let local governments rule states",
+        "E": "create a monarchy"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Nigerian Senate has how many members?",
+      "hasImage": false,
+      "options": {
+        "A": "109",
+        "B": "360",
+        "C": "1090",
+        "D": "36",
+        "E": "469"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The House of Representatives in Nigeria consists of",
+      "hasImage": false,
+      "options": {
+        "A": "109 members",
+        "B": "360 members",
+        "C": "469 members",
+        "D": "500 members",
+        "E": "36 members"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Nigerian Constitution of 1999 is based on the",
+      "hasImage": false,
+      "options": {
+        "A": "Westminster model",
+        "B": "Presidential model",
+        "C": "Parliamentary model",
+        "D": "Military decrees",
+        "E": "Customary law"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main function of the judiciary is to",
+      "hasImage": false,
+      "options": {
+        "A": "execute laws",
+        "B": "make laws",
+        "C": "interpret laws",
+        "D": "conduct elections",
+        "E": "appoint ministers"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is NOT a feature of democracy?",
+      "hasImage": false,
+      "options": {
+        "A": "Periodic elections",
+        "B": "Citizen participation",
+        "C": "Rule of law",
+        "D": "Single-party dominance",
+        "E": "Fundamental freedoms"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Local government elections in Nigeria are usually supervised by",
+      "hasImage": false,
+      "options": {
+        "A": "INEC",
+        "B": "State Independent Electoral Commissions",
+        "C": "The President",
+        "D": "Supreme Court",
+        "E": "National Assembly"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The number of states in Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "32",
+        "D": "40",
+        "E": "25"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The capital of Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "Lagos",
+        "B": "Abuja",
+        "C": "Kano",
+        "D": "Port Harcourt",
+        "E": "Ibadan"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The President of Nigeria is both the",
+      "hasImage": false,
+      "options": {
+        "A": "head of state and head of government",
+        "B": "speaker of the National Assembly",
+        "C": "chief justice",
+        "D": "leader of the ruling party only",
+        "E": "commander of the Senate"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A political party must be registered with",
+      "hasImage": false,
+      "options": {
+        "A": "Supreme Court",
+        "B": "National Assembly",
+        "C": "Independent National Electoral Commission",
+        "D": "President",
+        "E": "State Government"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The National Assembly can impeach the President for",
+      "hasImage": false,
+      "options": {
+        "A": "economic policies",
+        "B": "gross misconduct",
+        "C": "appointing ministers",
+        "D": "signing treaties",
+        "E": "controlling the military"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Universal suffrage ensures that",
+      "hasImage": false,
+      "options": {
+        "A": "only adults can vote",
+        "B": "voting is restricted to educated people",
+        "C": "only members of parties vote",
+        "D": "only taxpayers vote",
+        "E": "only men vote"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The federal character principle prevents",
+      "hasImage": false,
+      "options": {
+        "A": "ethnic or regional domination",
+        "B": "citizen participation",
+        "C": "judicial review",
+        "D": "state governments",
+        "E": "the presidency"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Political parties in Nigeria are expected to",
+      "hasImage": false,
+      "options": {
+        "A": "contest elections and educate citizens",
+        "B": "rule the courts",
+        "C": "control the military",
+        "D": "appoint judges",
+        "E": "run local governments"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Nigeria is called a republic because",
+      "hasImage": false,
+      "options": {
+        "A": "there is a monarch",
+        "B": "leaders are elected, not hereditary",
+        "C": "judges govern the country",
+        "D": "the military controls power",
+        "E": "the constitution is unwritten"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The independence constitution of Nigeria was adopted in",
+      "hasImage": false,
+      "options": {
+        "A": "1960",
+        "B": "1963",
+        "C": "1979",
+        "D": "1999",
+        "E": "1954"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The main purpose of an electoral commission is to",
+      "hasImage": false,
+      "options": {
+        "A": "make laws",
+        "B": "conduct free and fair elections",
+        "C": "interpret the constitution",
+        "D": "appoint governors",
+        "E": "run political parties"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a responsibility of the President?",
+      "hasImage": false,
+      "options": {
+        "A": "Signing bills into law",
+        "B": "Appointing ministers",
+        "C": "Vetoing bills",
+        "D": "Interpreting the constitution",
+        "E": "Commanding the armed forces"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The first republic in Nigeria lasted from",
+      "hasImage": false,
+      "options": {
+        "A": "1960–1966",
+        "B": "1963–1966",
+        "C": "1966–1979",
+        "D": "1979–1983",
+        "E": "1999–2003"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Civil liberties are protected by",
+      "hasImage": false,
+      "options": {
+        "A": "political parties",
+        "B": "the constitution",
+        "C": "governors",
+        "D": "state assemblies",
+        "E": "local governments"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of a pressure group?",
+      "hasImage": false,
+      "options": {
+        "A": "Trade unions",
+        "B": "NPC",
+        "C": "NCNC",
+        "D": "Senate",
+        "E": "House of Representatives"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The Chief Justice of Nigeria is appointed by",
+      "hasImage": false,
+      "options": {
+        "A": "the President with Senate approval",
+        "B": "National Assembly",
+        "C": "Supreme Court",
+        "D": "Governor",
+        "E": "State House of Assembly"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A dictatorship is characterized by",
+      "hasImage": false,
+      "options": {
+        "A": "rule by the people",
+        "B": "rule by a single person or small group",
+        "C": "frequent elections",
+        "D": "separation of powers",
+        "E": "independent judiciary"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The impeachment of a President requires",
+      "hasImage": false,
+      "options": {
+        "A": "simple majority of the legislature",
+        "B": "two-thirds majority of the legislature",
+        "C": "approval by the courts",
+        "D": "military intervention",
+        "E": "approval by governors"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Nigerian Vice-President assists the President and",
+      "hasImage": false,
+      "options": {
+        "A": "commands the army",
+        "B": "presides over the Senate",
+        "C": "appoints judges",
+        "D": "enforces laws independently",
+        "E": "runs state governments"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Nigeria’s constitution can be amended by",
+      "hasImage": false,
+      "options": {
+        "A": "Presidential decree",
+        "B": "National Assembly with approval of 2/3 of states",
+        "C": "Supreme Court",
+        "D": "State Governors",
+        "E": "Political parties"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main source of law in Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "customary law",
+        "B": "judicial decisions",
+        "C": "the Constitution",
+        "D": "political party manifestos",
+        "E": "military decrees"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Nigeria became a republic in",
+      "hasImage": false,
+      "options": {
+        "A": "1960",
+        "B": "1963",
+        "C": "1979",
+        "D": "1999",
+        "E": "1954"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a duty of citizens?",
+      "hasImage": false,
+      "options": {
+        "A": "Pay taxes",
+        "B": "Form political parties",
+        "C": "Command the army",
+        "D": "Make laws",
+        "E": "Appoint judges"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Civil society organizations help in",
+      "hasImage": false,
+      "options": {
+        "A": "government formation",
+        "B": "public enlightenment and accountability",
+        "C": "judicial appointments",
+        "D": "budget approval",
+        "E": "military control"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Nigerian Constitution guarantees",
+      "hasImage": false,
+      "options": {
+        "A": "fundamental human rights",
+        "B": "military rule",
+        "C": "one-party system",
+        "D": "monarchical system",
+        "E": "no elections"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of these is a feature of a parliamentary system?",
+      "hasImage": false,
+      "options": {
+        "A": "President as head of state and government",
+        "B": "Prime Minister as head of government",
+        "C": "President is elected by the legislature only",
+        "D": "Judiciary controls government",
+        "E": "Military appoints ministers"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Judicial review allows courts to",
+      "hasImage": false,
+      "options": {
+        "A": "execute laws",
+        "B": "review the constitutionality of laws and government actions",
+        "C": "appoint governors",
+        "D": "approve budgets",
+        "E": "run elections"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Nigeria’s National Assembly exercises",
+      "hasImage": false,
+      "options": {
+        "A": "executive powers",
+        "B": "legislative powers",
+        "C": "judicial powers",
+        "D": "military powers",
+        "E": "electoral powers"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Constitution ensures independence of the judiciary to",
+      "hasImage": false,
+      "options": {
+        "A": "allow judges to make laws",
+        "B": "prevent political interference",
+        "C": "control the military",
+        "D": "run political parties",
+        "E": "enforce taxes"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The power to declare a law unconstitutional rests with",
+      "hasImage": false,
+      "options": {
+        "A": "President",
+        "B": "National Assembly",
+        "C": "Supreme Court",
+        "D": "Governors",
+        "E": "Electoral Commission"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Nigerian system of government is",
+      "hasImage": false,
+      "options": {
+        "A": "unitary",
+        "B": "federal",
+        "C": "confederal",
+        "D": "dictatorial",
+        "E": "monarchical"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An independent judiciary protects",
+      "hasImage": false,
+      "options": {
+        "A": "citizens’ rights and freedoms",
+        "B": "only the president",
+        "C": "only the National Assembly",
+        "D": "party leaders",
+        "E": "state governors"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Nigeria’s federal system has three levels of government:",
+      "hasImage": false,
+      "options": {
+        "A": "Federal, State, Local",
+        "B": "Federal, Regional, Local",
+        "C": "State, Local, Traditional",
+        "D": "Federal, Governor, Local",
+        "E": "President, Senate, House"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "A referendum is used to",
+      "hasImage": false,
+      "options": {
+        "A": "appoint governors",
+        "B": "approve constitutional amendments by popular vote",
+        "C": "make laws in the National Assembly",
+        "D": "elect senators only",
+        "E": "impeach the president"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The tenure of the National Assembly in Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "3 years",
+        "B": "4 years",
+        "C": "5 years",
+        "D": "6 years",
+        "E": "7 years"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The term 'sovereignty' refers to",
+      "hasImage": false,
+      "options": {
+        "A": "legal independence of a state",
+        "B": "appointment of governors",
+        "C": "military control",
+        "D": "rule by foreign powers",
+        "E": "party supremacy"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The role of the Independent National Electoral Commission is to",
+      "hasImage": false,
+      "options": {
+        "A": "conduct free and fair elections",
+        "B": "interpret laws",
+        "C": "amend the constitution",
+        "D": "appoint ministers",
+        "E": "enforce the law"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The President of Nigeria must be a citizen by",
+      "hasImage": false,
+      "options": {
+        "A": "birth",
+        "B": "residency",
+        "C": "naturalization",
+        "D": "marriage",
+        "E": "declaration"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Political participation is important because it",
+      "hasImage": false,
+      "options": {
+        "A": "strengthens democracy",
+        "B": "destroys democracy",
+        "C": "gives power to the military",
+        "D": "reduces citizen influence",
+        "E": "restricts freedom"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The power to pardon offenders is exercised by",
+      "hasImage": false,
+      "options": {
+        "A": "Supreme Court",
+        "B": "National Assembly",
+        "C": "President",
+        "D": "Governors",
+        "E": "Electoral Commission"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The Nigerian Constitution provides for how many arms of government?",
+      "hasImage": false,
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five",
+        "E": "One"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Checks and balances ensure that",
+      "hasImage": false,
+      "options": {
+        "A": "no arm of government becomes too powerful",
+        "B": "judges control the army",
+        "C": "governors make laws",
+        "D": "citizens have no rights",
+        "E": "only one political party rules"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The Nigerian constitution guarantees fundamental rights to",
+      "hasImage": false,
+      "options": {
+        "A": "all citizens",
+        "B": "only civil servants",
+        "C": "only the president",
+        "D": "only the National Assembly",
+        "E": "only party members"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The power to make laws in Nigeria rests with",
+      "hasImage": false,
+      "options": {
+        "A": "Judiciary",
+        "B": "Executive",
+        "C": "Legislature",
+        "D": "President",
+        "E": "Electoral Commission"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A representative democracy is one in which",
+      "hasImage": false,
+      "options": {
+        "A": "citizens directly make laws",
+        "B": "citizens elect representatives to make laws",
+        "C": "military rules the country",
+        "D": "judges legislate",
+        "E": "only party leaders vote"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Nigeria’s first military coup occurred in",
+      "hasImage": false,
+      "options": {
+        "A": "1960",
+        "B": "1963",
+        "C": "1966",
+        "D": "1979",
+        "E": "1983"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The doctrine of separation of powers was first applied to prevent",
+      "hasImage": false,
+      "options": {
+        "A": "concentration of power",
+        "B": "judicial review",
+        "C": "military coups",
+        "D": "party politics",
+        "E": "federalism"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Citizens can participate in governance through",
+      "hasImage": false,
+      "options": {
+        "A": "voting and political involvement",
+        "B": "ignoring elections",
+        "C": "military coups",
+        "D": "court rulings",
+        "E": "judicial appointments"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The head of a local government is called",
+      "hasImage": false,
+      "options": {
+        "A": "Governor",
+        "B": "President",
+        "C": "Local Government Chairman",
+        "D": "Senator",
+        "E": "Minister"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The power to make appointments to federal offices rests with",
+      "hasImage": false,
+      "options": {
+        "A": "National Assembly",
+        "B": "President with legislative approval",
+        "C": "Judiciary",
+        "D": "Electoral Commission",
+        "E": "Governors"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Democracy allows citizens to",
+      "hasImage": false,
+      "options": {
+        "A": "participate in government",
+        "B": "ignore laws",
+        "C": "rule without elections",
+        "D": "appoint judges",
+        "E": "control the military"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Nigeria practices a presidential system because",
+      "hasImage": false,
+      "options": {
+        "A": "the President is head of state and government",
+        "B": "the Prime Minister rules",
+        "C": "the military controls governance",
+        "D": "the legislature has supreme power",
+        "E": "judges govern the country"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Civil rights are protected by",
+      "hasImage": false,
+      "options": {
+        "A": "the constitution",
+        "B": "political parties",
+        "C": "party leaders",
+        "D": "governors",
+        "E": "the military"
+      },
+      "answer": "A"
+    }
+  ]
+}

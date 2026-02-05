@@ -1,0 +1,672 @@
+{
+  "subject": "Commerce",
+  "exam": "JAMB",
+  "totalQuestions": 100,
+  "questions": [
+    {
+      "question": "Commerce is defined as the study of how",
+      "hasImage": false,
+      "options": {
+        "A": "man utilizes the resources in his physical environment",
+        "B": "man produces, distributes and consumes his goods and services",
+        "C": "man buys, sells and distributes goods and services",
+        "D": "raw materials are changed into finished goods"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The type of activity which turns processed raw materials into consumer and industrial goods is described as",
+      "hasImage": false,
+      "options": {
+        "A": "extractive",
+        "B": "manufacturing",
+        "C": "constructive",
+        "D": "processing"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The production process that combines two or more raw materials into one end product is",
+      "hasImage": false,
+      "options": {
+        "A": "conditioning",
+        "B": "blending",
+        "C": "merging",
+        "D": "synthesis"
+      },
+      "answer": "D"
+    },
+
+    {
+      "question": "Which of the following is an example of extractive industry?",
+      "hasImage": false,
+      "options": {
+        "A": "furniture making",
+        "B": "fishing",
+        "C": "baking",
+        "D": "textile production"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The transformation of raw materials into finished goods is known as",
+      "hasImage": false,
+      "options": {
+        "A": "trade",
+        "B": "manufacturing",
+        "C": "commerce",
+        "D": "distribution"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A business owned and controlled by one person is",
+      "hasImage": false,
+      "options": {
+        "A": "partnership",
+        "B": "sole proprietorship",
+        "C": "co-operative society",
+        "D": "public company"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The document that gives a company legal authority to operate is called",
+      "hasImage": false,
+      "options": {
+        "A": "prospectus",
+        "B": "memorandum of association",
+        "C": "share certificate",
+        "D": "invoice"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of a retailer?",
+      "hasImage": false,
+      "options": {
+        "A": "production of goods",
+        "B": "selling in bulk",
+        "C": "selling in small quantities",
+        "D": "exporting goods"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Trade carried out within a country is known as",
+      "hasImage": false,
+      "options": {
+        "A": "foreign trade",
+        "B": "domestic trade",
+        "C": "bilateral trade",
+        "D": "multilateral trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Trade between two countries is known as",
+      "hasImage": false,
+      "options": {
+        "A": "internal trade",
+        "B": "bilateral trade",
+        "C": "retail trade",
+        "D": "home trade"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The business document used to acknowledge receipt of goods is",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "receipt",
+        "C": "delivery note",
+        "D": "credit note"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an example of visible trade?",
+      "hasImage": false,
+      "options": {
+        "A": "tourism",
+        "B": "shipping",
+        "C": "export of crude oil",
+        "D": "banking services"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Advertising is mainly used to",
+      "hasImage": false,
+      "options": {
+        "A": "reduce production cost",
+        "B": "inform and persuade consumers",
+        "C": "increase taxation",
+        "D": "discourage competition"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The channel through which goods move from producers to consumers is",
+      "hasImage": false,
+      "options": {
+        "A": "market",
+        "B": "distribution channel",
+        "C": "advertising",
+        "D": "transport system"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Insurance protects businesses against",
+      "hasImage": false,
+      "options": {
+        "A": "profit making",
+        "B": "risk and uncertainty",
+        "C": "tax payment",
+        "D": "competition"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which of the following is an example of life assurance?",
+      "hasImage": false,
+      "options": {
+        "A": "fire insurance",
+        "B": "marine insurance",
+        "C": "whole life policy",
+        "D": "burglary insurance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which mode of transport is best suited for bulky goods over long distances?",
+      "hasImage": false,
+      "options": {
+        "A": "road",
+        "B": "air",
+        "C": "rail",
+        "D": "pipeline"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which financial institution accepts deposits and grants loans?",
+      "hasImage": false,
+      "options": {
+        "A": "insurance company",
+        "B": "commercial bank",
+        "C": "stock exchange",
+        "D": "warehouse"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Money paid regularly for insurance protection is called",
+      "hasImage": false,
+      "options": {
+        "A": "interest",
+        "B": "premium",
+        "C": "dividend",
+        "D": "commission"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of communication service?",
+      "hasImage": false,
+      "options": {
+        "A": "banking",
+        "B": "telecommunication",
+        "C": "insurance",
+        "D": "retailing"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "The difference between selling price and cost price is known as",
+      "hasImage": false,
+      "options": {
+        "A": "capital",
+        "B": "profit",
+        "C": "revenue",
+        "D": "expenditure"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The document issued by a seller to reduce the amount owed by a buyer is",
+      "hasImage": false,
+      "options": {
+        "A": "debit note",
+        "B": "credit note",
+        "C": "invoice",
+        "D": "receipt"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A partnership business must have a minimum of",
+      "hasImage": false,
+      "options": {
+        "A": "one person",
+        "B": "two persons",
+        "C": "five persons",
+        "D": "seven persons"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main aim of warehousing is to",
+      "hasImage": false,
+      "options": {
+        "A": "advertise goods",
+        "B": "store goods",
+        "C": "transport goods",
+        "D": "manufacture goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following promotes international trade?",
+      "hasImage": false,
+      "options": {
+        "A": "tariffs",
+        "B": "quotas",
+        "C": "trade agreements",
+        "D": "import duties"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The organization that regulates stock trading in Nigeria is",
+      "hasImage": false,
+      "options": {
+        "A": "Central Bank",
+        "B": "Nigerian Stock Exchange",
+        "C": "Commercial Bank",
+        "D": "Ministry of Trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a means of electronic payment?",
+      "hasImage": false,
+      "options": {
+        "A": "cheque",
+        "B": "mobile transfer",
+        "C": "cash",
+        "D": "draft"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a disadvantage of air transport?",
+      "hasImage": false,
+      "options": {
+        "A": "speed",
+        "B": "high cost",
+        "C": "comfort",
+        "D": "safety"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of the Central Bank?",
+      "hasImage": false,
+      "options": {
+        "A": "issue of currency",
+        "B": "retailing goods",
+        "C": "warehousing",
+        "D": "transporting goods"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The term used to describe goods sent to another country for sale is",
+      "hasImage": false,
+      "options": {
+        "A": "import",
+        "B": "export",
+        "C": "entrepot",
+        "D": "barter"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a function of commerce?",
+      "hasImage": false,
+      "options": {
+        "A": "exchange of goods",
+        "B": "distribution of goods",
+        "C": "manufacturing of goods",
+        "D": "aids to trade"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Trade that involves buying and selling within the same country is called",
+      "hasImage": false,
+      "options": {
+        "A": "foreign trade",
+        "B": "domestic trade",
+        "C": "bilateral trade",
+        "D": "multilateral trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Buying goods in large quantities directly from producers is known as",
+      "hasImage": false,
+      "options": {
+        "A": "retailing",
+        "B": "wholesaling",
+        "C": "hawking",
+        "D": "barter"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following documents shows the prices of goods offered for sale?",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "quotation",
+        "C": "receipt",
+        "D": "delivery note"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The movement of goods from producers to consumers is facilitated by",
+      "hasImage": false,
+      "options": {
+        "A": "production",
+        "B": "consumption",
+        "C": "distribution",
+        "D": "advertising"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an aid to trade?",
+      "hasImage": false,
+      "options": {
+        "A": "mining",
+        "B": "manufacturing",
+        "C": "transport",
+        "D": "farming"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The person who bears all the risks in a sole proprietorship is the",
+      "hasImage": false,
+      "options": {
+        "A": "manager",
+        "B": "government",
+        "C": "owner",
+        "D": "employee"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a feature of a public limited company?",
+      "hasImage": false,
+      "options": {
+        "A": "unlimited liability",
+        "B": "restriction of share transfer",
+        "C": "limited liability",
+        "D": "single ownership"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The reward for labour is known as",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "wages",
+        "D": "profit"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a factor of production?",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "transport",
+        "C": "labour",
+        "D": "insurance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The reward for capital invested in a business is known as",
+      "hasImage": false,
+      "options": {
+        "A": "rent",
+        "B": "interest",
+        "C": "profit",
+        "D": "wages"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following businesses is owned by the government?",
+      "hasImage": false,
+      "options": {
+        "A": "sole proprietorship",
+        "B": "public corporation",
+        "C": "partnership",
+        "D": "private company"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The buying and selling of goods without the use of money is known as",
+      "hasImage": false,
+      "options": {
+        "A": "credit transaction",
+        "B": "foreign trade",
+        "C": "barter",
+        "D": "retailing"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following documents is issued after payment has been made?",
+      "hasImage": false,
+      "options": {
+        "A": "invoice",
+        "B": "receipt",
+        "C": "quotation",
+        "D": "delivery note"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "An agent who sells goods on behalf of the owner and earns commission is called",
+      "hasImage": false,
+      "options": {
+        "A": "broker",
+        "B": "factor",
+        "C": "retailer",
+        "D": "consumer"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a function of money?",
+      "hasImage": false,
+      "options": {
+        "A": "medium of exchange",
+        "B": "store of value",
+        "C": "measure of weight",
+        "D": "unit of account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The risk of goods being damaged in transit can be minimized by",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "insurance",
+        "C": "banking",
+        "D": "warehousing"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an advantage of a partnership business?",
+      "hasImage": false,
+      "options": {
+        "A": "limited capital",
+        "B": "shared risk",
+        "C": "slow decision making",
+        "D": "unlimited liability"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The process of selling shares to the public is known as",
+      "hasImage": false,
+      "options": {
+        "A": "privatization",
+        "B": "capitalization",
+        "C": "public offer",
+        "D": "merger"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a disadvantage of sole proprietorship?",
+      "hasImage": false,
+      "options": {
+        "A": "quick decision making",
+        "B": "close customer relationship",
+        "C": "unlimited liability",
+        "D": "privacy of business"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Goods brought into a country from another country are called",
+      "hasImage": false,
+      "options": {
+        "A": "exports",
+        "B": "imports",
+        "C": "entrepot",
+        "D": "visible trade"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following promotes saving?",
+      "hasImage": false,
+      "options": {
+        "A": "high spending",
+        "B": "high interest rate",
+        "C": "inflation",
+        "D": "unemployment"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The Central Bank controls commercial banks through",
+      "hasImage": false,
+      "options": {
+        "A": "advertising",
+        "B": "monetary policy",
+        "C": "foreign trade",
+        "D": "insurance"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a function of advertising?",
+      "hasImage": false,
+      "options": {
+        "A": "transporting goods",
+        "B": "storing goods",
+        "C": "creating awareness",
+        "D": "granting loans"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The place where buyers and sellers meet to exchange goods is called",
+      "hasImage": false,
+      "options": {
+        "A": "warehouse",
+        "B": "market",
+        "C": "factory",
+        "D": "bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a benefit of large-scale production?",
+      "hasImage": false,
+      "options": {
+        "A": "high cost per unit",
+        "B": "economies of scale",
+        "C": "limited output",
+        "D": "poor specialization"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The reward for entrepreneurship is",
+      "hasImage": false,
+      "options": {
+        "A": "wages",
+        "B": "interest",
+        "C": "profit",
+        "D": "rent"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a feature of co-operative societies?",
+      "hasImage": false,
+      "options": {
+        "A": "profit maximization",
+        "B": "one man one vote",
+        "C": "unlimited shares",
+        "D": "foreign ownership"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Trade between more than two countries is known as",
+      "hasImage": false,
+      "options": {
+        "A": "bilateral trade",
+        "B": "domestic trade",
+        "C": "multilateral trade",
+        "D": "retail trade"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following helps to determine profit or loss?",
+      "hasImage": false,
+      "options": {
+        "A": "balance sheet",
+        "B": "profit and loss account",
+        "C": "invoice",
+        "D": "receipt"
+      },
+      "answer": "B"
+    }
+  ]
+}

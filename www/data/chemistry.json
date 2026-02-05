@@ -1,0 +1,554 @@
+{
+  "subject": "chemistry",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "X is a crystalline salt of sodium. Solution of X in water turns litmus red, produces a gas which turns lime water milky when added to sodium carbonate. With barium chloride solution, X gives a white precipitate which is insoluble in dilute hydrochloric acid. X is",
+      "hasImage": false,
+      "options": {
+        "A": "Na2CO3",
+        "B": "NaHCO3",
+        "C": "NaHSO4",
+        "D": "Na2SO3",
+        "E": "Na2SO4"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The alkanol obtained from the production of soap is",
+      "hasImage": false,
+      "options": {
+        "A": "ethanol",
+        "B": "glycerol",
+        "C": "methanol",
+        "D": "propanol",
+        "E": "glycol"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The flame used by welders in cutting metals is",
+      "hasImage": false,
+      "options": {
+        "A": "butane gas flame",
+        "B": "acetylene flame",
+        "C": "kerosene flame",
+        "D": "oxy-acetylene flame",
+        "E": "oxygen flame"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Consecutive members of an alkane homologous series differ by",
+      "hasImage": false,
+      "options": {
+        "A": "CH",
+        "B": "CH2",
+        "C": "CH3",
+        "D": "CnHn",
+        "E": "CnH2n+2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If an element has the electronic configuration 1s2 2s2 2p6 3s2 3p2, it is",
+      "hasImage": false,
+      "options": {
+        "A": "a metal",
+        "B": "an alkaline earth metal",
+        "C": "an s-block element",
+        "D": "a p-block element",
+        "E": "a transition element"
+      },
+      "answer": "D"
+    },
+
+    {
+      "question": "Which gas is most abundant in air?",
+      "hasImage": false,
+      "options": {
+        "A": "oxygen",
+        "B": "nitrogen",
+        "C": "argon",
+        "D": "carbon dioxide",
+        "E": "hydrogen"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The process of converting starch to glucose is known as",
+      "hasImage": false,
+      "options": {
+        "A": "hydrogenation",
+        "B": "fermentation",
+        "C": "hydrolysis",
+        "D": "distillation",
+        "E": "polymerization"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an amphoteric oxide?",
+      "hasImage": false,
+      "options": {
+        "A": "Na2O",
+        "B": "Al2O3",
+        "C": "CO2",
+        "D": "SO2",
+        "E": "K2O"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a noble gas?",
+      "hasImage": false,
+      "options": {
+        "A": "chlorine",
+        "B": "neon",
+        "C": "nitrogen",
+        "D": "oxygen",
+        "E": "hydrogen"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The main component of natural gas is",
+      "hasImage": false,
+      "options": {
+        "A": "propane",
+        "B": "methane",
+        "C": "butane",
+        "D": "ethane",
+        "E": "carbon monoxide"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which of the following metals reacts most vigorously with water?",
+      "hasImage": false,
+      "options": {
+        "A": "calcium",
+        "B": "magnesium",
+        "C": "sodium",
+        "D": "iron",
+        "E": "copper"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The gas responsible for acid rain is mainly",
+      "hasImage": false,
+      "options": {
+        "A": "CO2",
+        "B": "SO2",
+        "C": "O2",
+        "D": "N2",
+        "E": "H2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The standard temperature for gas measurement is",
+      "hasImage": false,
+      "options": {
+        "A": "0°C",
+        "B": "25°C",
+        "C": "50°C",
+        "D": "100°C",
+        "E": "273°C"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is used to soften hard water?",
+      "hasImage": false,
+      "options": {
+        "A": "alum",
+        "B": "washing soda",
+        "C": "common salt",
+        "D": "vinegar",
+        "E": "sugar"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an oxidizing agent?",
+      "hasImage": false,
+      "options": {
+        "A": "H2",
+        "B": "CO",
+        "C": "O2",
+        "D": "CH4",
+        "E": "NH3"
+      },
+      "answer": "C"
+    },
+
+    {
+      "question": "The IUPAC name of CH3COOH is",
+      "hasImage": false,
+      "options": {
+        "A": "ethanoic acid",
+        "B": "methanoic acid",
+        "C": "propanoic acid",
+        "D": "butanoic acid",
+        "E": "ethanol"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a reducing agent?",
+      "hasImage": false,
+      "options": {
+        "A": "oxygen",
+        "B": "hydrogen",
+        "C": "chlorine",
+        "D": "nitric acid",
+        "E": "sulphuric acid"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a greenhouse gas?",
+      "hasImage": false,
+      "options": {
+        "A": "nitrogen",
+        "B": "carbon dioxide",
+        "C": "helium",
+        "D": "argon",
+        "E": "oxygen"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which type of bond exists in sodium chloride?",
+      "hasImage": false,
+      "options": {
+        "A": "covalent",
+        "B": "ionic",
+        "C": "metallic",
+        "D": "hydrogen",
+        "E": "coordinate"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is used as drying agent?",
+      "hasImage": false,
+      "options": {
+        "A": "calcium chloride",
+        "B": "sodium chloride",
+        "C": "potassium nitrate",
+        "D": "ammonium chloride",
+        "E": "calcium carbonate"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "The element used in making electric bulbs filament is",
+      "hasImage": false,
+      "options": {
+        "A": "iron",
+        "B": "tungsten",
+        "C": "copper",
+        "D": "zinc",
+        "E": "silver"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which gas bleaches moist litmus paper?",
+      "hasImage": false,
+      "options": {
+        "A": "chlorine",
+        "B": "oxygen",
+        "C": "nitrogen",
+        "D": "hydrogen",
+        "E": "carbon dioxide"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a transition metal?",
+      "hasImage": false,
+      "options": {
+        "A": "sodium",
+        "B": "magnesium",
+        "C": "iron",
+        "D": "calcium",
+        "E": "aluminium"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is an example of condensation polymer?",
+      "hasImage": false,
+      "options": {
+        "A": "polythene",
+        "B": "nylon",
+        "C": "PVC",
+        "D": "teflon",
+        "E": "rubber"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which gas is produced during photosynthesis?",
+      "hasImage": false,
+      "options": {
+        "A": "carbon dioxide",
+        "B": "oxygen",
+        "C": "nitrogen",
+        "D": "hydrogen",
+        "E": "methane"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which metal is extracted from cassiterite?",
+      "hasImage": false,
+      "options": {
+        "A": "zinc",
+        "B": "iron",
+        "C": "tin",
+        "D": "lead",
+        "E": "aluminium"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The product formed when an acid reacts with a base is",
+      "hasImage": false,
+      "options": {
+        "A": "salt and water",
+        "B": "gas and salt",
+        "C": "salt and metal",
+        "D": "acid and salt",
+        "E": "water only"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is an allotrope of carbon?",
+      "hasImage": false,
+      "options": {
+        "A": "diamond",
+        "B": "silica",
+        "C": "alumina",
+        "D": "limestone",
+        "E": "quartz"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which gas is commonly called laughing gas?",
+      "hasImage": false,
+      "options": {
+        "A": "NO",
+        "B": "N2O",
+        "C": "NO2",
+        "D": "NH3",
+        "E": "CO"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is used as refrigerant?",
+      "hasImage": false,
+      "options": {
+        "A": "ammonia",
+        "B": "oxygen",
+        "C": "nitrogen",
+        "D": "hydrogen",
+        "E": "carbon monoxide"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "Which of the following is a non-metal?",
+      "hasImage": false,
+      "options": {
+        "A": "iron",
+        "B": "sodium",
+        "C": "sulphur",
+        "D": "zinc",
+        "E": "copper"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following elements is most electronegative?",
+      "hasImage": false,
+      "options": {
+        "A": "fluorine",
+        "B": "chlorine",
+        "C": "oxygen",
+        "D": "nitrogen",
+        "E": "iodine"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is used in the manufacture of fertilizers?",
+      "hasImage": false,
+      "options": {
+        "A": "ammonia",
+        "B": "methane",
+        "C": "propane",
+        "D": "ethane",
+        "E": "butane"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which compound is responsible for the smell of rotten eggs?",
+      "hasImage": false,
+      "options": {
+        "A": "SO2",
+        "B": "H2S",
+        "C": "CO2",
+        "D": "NH3",
+        "E": "NO2"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which metal is liquid at room temperature?",
+      "hasImage": false,
+      "options": {
+        "A": "iron",
+        "B": "mercury",
+        "C": "sodium",
+        "D": "lead",
+        "E": "silver"
+      },
+      "answer": "B"
+    },
+
+    {
+      "question": "Which gas is used in the manufacture of nitric acid?",
+      "hasImage": false,
+      "options": {
+        "A": "nitrogen",
+        "B": "ammonia",
+        "C": "oxygen",
+        "D": "hydrogen",
+        "E": "chlorine"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is used to test for starch?",
+      "hasImage": false,
+      "options": {
+        "A": "iodine solution",
+        "B": "lime water",
+        "C": "litmus paper",
+        "D": "bromine water",
+        "E": "phenolphthalein"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is the lightest metal?",
+      "hasImage": false,
+      "options": {
+        "A": "lithium",
+        "B": "sodium",
+        "C": "potassium",
+        "D": "calcium",
+        "E": "magnesium"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which compound is used in fire extinguishers?",
+      "hasImage": false,
+      "options": {
+        "A": "CO2",
+        "B": "O2",
+        "C": "H2",
+        "D": "N2",
+        "E": "Cl2"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following metals is used for galvanizing iron?",
+      "hasImage": false,
+      "options": {
+        "A": "zinc",
+        "B": "tin",
+        "C": "lead",
+        "D": "copper",
+        "E": "silver"
+      },
+      "answer": "A"
+    },
+
+    {
+      "question": "Which gas is used in balloons?",
+      "hasImage": false,
+      "options": {
+        "A": "oxygen",
+        "B": "helium",
+        "C": "carbon dioxide",
+        "D": "nitrogen",
+        "E": "chlorine"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following substances is used as antiseptic?",
+      "hasImage": false,
+      "options": {
+        "A": "iodine",
+        "B": "glucose",
+        "C": "sodium chloride",
+        "D": "calcium oxide",
+        "E": "magnesium oxide"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which gas is responsible for ozone layer depletion?",
+      "hasImage": false,
+      "options": {
+        "A": "CFCs",
+        "B": "CO2",
+        "C": "O2",
+        "D": "N2",
+        "E": "H2"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is used in electroplating?",
+      "hasImage": false,
+      "options": {
+        "A": "electrolysis",
+        "B": "distillation",
+        "C": "filtration",
+        "D": "sublimation",
+        "E": "evaporation"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which gas is evolved during respiration?",
+      "hasImage": false,
+      "options": {
+        "A": "oxygen",
+        "B": "nitrogen",
+        "C": "carbon dioxide",
+        "D": "hydrogen",
+        "E": "helium"
+      },
+      "answer": "C"
+    }
+  ]
+}

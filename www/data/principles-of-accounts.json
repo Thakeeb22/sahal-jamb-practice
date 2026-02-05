@@ -1,0 +1,886 @@
+{
+  "subject": "principles_of_accounts",
+  "exam": "jamb",
+  "questions": [
+    {
+      "question": "The term ‘accounting period’ is used to refer to the",
+      "hasImage": false,
+      "options": {
+        "A": "Time span during which taxes are paid to the Inland Revenue Board",
+        "B": "Budget period, usually one year, relied on by the accountant",
+        "C": "Time span, usually one year covered by financial statement",
+        "D": "Period within which debtors are expected to settle accounts"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Assigning revenues to the accounting period in which goods were sold or services rendered and expenses incurred is known as",
+      "hasImage": false,
+      "options": {
+        "A": "Passing of entries",
+        "B": "Consistency convention",
+        "C": "Matching concept",
+        "D": "Adjusting for revenue"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The accounting convention which states that profit must not be recognized until realized while all losses should be adequately provided for is termed",
+      "hasImage": false,
+      "options": {
+        "A": "Materiality",
+        "B": "Objectivity",
+        "C": "Consistency",
+        "D": "Conservatism"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "Accounting information is used by investors and creditors of a company to predict",
+      "hasImage": false,
+      "options": {
+        "A": "Future cash flows of the company",
+        "B": "Future tax payments of the company",
+        "C": "Potential merger candidates for the company",
+        "D": "Appropriate remuneration for the company’s staff"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Antics Electronics Company recently bought six generators. Which of the following is the correct method of recording this transaction?",
+      "hasImage": false,
+      "options": {
+        "A": "Debit generator account and credit cash account",
+        "B": "Debit purchases account and credit cash account",
+        "C": "Debit cash account and credit purchases account",
+        "D": "Debit cash account and credit generator account"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "When a business incurs labour costs in installing a fixed asset, the cost is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Additional cost to the asset",
+        "B": "Business wages and salaries",
+        "C": "Installation cost of the asset",
+        "D": "Business cost of the asset"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "What is the cardinal rule of the double entry system?",
+      "hasImage": false,
+      "options": {
+        "A": "Debit the increasing account and credit the decreasing account",
+        "B": "Debit the receiving account and credit the giving account",
+        "C": "Debit the asset account and credit the liability account",
+        "D": "Debit the revenue account and credit the expenditure account"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Malam Gambo bought a freezer for his shop costing ₦10,500. In recording, he debited office expenses account and credited the bank account. What bookkeeping error has he committed?",
+      "hasImage": false,
+      "options": {
+        "A": "Error of commission",
+        "B": "Error of reversal of entries",
+        "C": "Error of principle",
+        "D": "Compensating error"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The use of the folio column in the ledger is for",
+      "hasImage": false,
+      "options": {
+        "A": "Referencing purposes",
+        "B": "Particulars of the transaction",
+        "C": "The account titles",
+        "D": "Only credit items"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The suspense account is used to correct bookkeeping errors where the",
+      "hasImage": false,
+      "options": {
+        "A": "Amount involved is quite significant",
+        "B": "Item involved is not material",
+        "C": "Item involved is unknown",
+        "D": "Error does not affect the agreement of the trial balance"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "The discount column of a three-column cash book is not balanced off but periodically transferred because discounts",
+      "hasImage": false,
+      "options": {
+        "A": "Are not important in accounting",
+        "B": "Are cash items only",
+        "C": "Do not form part of double entry",
+        "D": "Are used for bank reconciliation"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "When is a petty cash account debited?",
+      "hasImage": false,
+      "options": {
+        "A": "When the fund is established and every time money is spent",
+        "B": "When the fund is established and every time it is replenished",
+        "C": "When the size of the float is reduced",
+        "D": "Whenever expenses are incurred"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "When preparing a bank reconciliation statement, which of the following is deducted from the balance per bank statement?",
+      "hasImage": false,
+      "options": {
+        "A": "Bank charges",
+        "B": "Uncleared cheques",
+        "C": "Returned cheques",
+        "D": "Unpresented cheques"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The financial position of a business at a particular date is shown by the",
+      "hasImage": false,
+      "options": {
+        "A": "Statement of sources and application of funds",
+        "B": "Trading account",
+        "C": "Balance sheet",
+        "D": "Profit and loss account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Given: Purchases ₦20,000; Opening stock ₦10,000; Closing stock ₦5,000; Carriage inwards ₦5,000. What is the cost of goods sold?",
+      "hasImage": false,
+      "options": {
+        "A": "₦30,000",
+        "B": "₦25,000",
+        "C": "₦20,000",
+        "D": "₦15,000"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The net profit of a business is determined by",
+      "hasImage": false,
+      "options": {
+        "A": "Deducting purchases from sales",
+        "B": "Deducting cost of goods sold from sales",
+        "C": "Deducting all expenses from gross profit and adding other income",
+        "D": "Adding expenses to gross profit"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "If a bad debt previously written off is later recovered, it is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Capital receipt",
+        "B": "Income in the profit and loss account",
+        "C": "Liability in the balance sheet",
+        "D": "Reduction in expenses"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following accounts is a real account?",
+      "hasImage": false,
+      "options": {
+        "A": "Capital account",
+        "B": "Purchases account",
+        "C": "Motor vehicle account",
+        "D": "Rent account"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following items is shown in the trading account?",
+      "hasImage": false,
+      "options": {
+        "A": "Carriage outwards",
+        "B": "Rent received",
+        "C": "Closing stock",
+        "D": "Bad debts"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Depreciation is charged on fixed assets in order to",
+      "hasImage": false,
+      "options": {
+        "A": "Increase profit",
+        "B": "Provide funds for replacement",
+        "C": "Show the true value of assets",
+        "D": "Reduce tax payable"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following errors will not affect the agreement of the trial balance?",
+      "hasImage": false,
+      "options": {
+        "A": "Error of omission",
+        "B": "Error of casting",
+        "C": "Error of one-sided entry",
+        "D": "Error of balancing"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "The imprest system of petty cash is designed to",
+      "hasImage": false,
+      "options": {
+        "A": "Reduce fraud",
+        "B": "Control minor expenses",
+        "C": "Eliminate the cash book",
+        "D": "Increase cash sales"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a liability?",
+      "hasImage": false,
+      "options": {
+        "A": "Debtors",
+        "B": "Creditors",
+        "C": "Stock",
+        "D": "Cash at bank"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A balance sheet balances because",
+      "hasImage": false,
+      "options": {
+        "A": "Assets equal liabilities",
+        "B": "Assets equal capital",
+        "C": "Assets equal liabilities plus capital",
+        "D": "Capital equals liabilities"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following best describes goodwill?",
+      "hasImage": false,
+      "options": {
+        "A": "An intangible asset",
+        "B": "A current asset",
+        "C": "A fictitious asset",
+        "D": "A liability"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a capital expenditure?",
+      "hasImage": false,
+      "options": {
+        "A": "Purchase of machinery",
+        "B": "Legal fees on purchase of land",
+        "C": "Major repairs on a building",
+        "D": "Purchase of goods for resale"
+      },
+      "answer": "D"
+    },
+    {
+      "question": "The book of original entry used to record credit purchases is the",
+      "hasImage": false,
+      "options": {
+        "A": "Sales journal",
+        "B": "Purchases journal",
+        "C": "Cash book",
+        "D": "General journal"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which principle assumes that a business will continue to operate for the foreseeable future?",
+      "hasImage": false,
+      "options": {
+        "A": "Consistency",
+        "B": "Going concern",
+        "C": "Matching",
+        "D": "Materiality"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Rent paid in advance at the end of an accounting period is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Expense",
+        "B": "Income",
+        "C": "Asset",
+        "D": "Liability"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "A trade discount allowed by a seller is treated as",
+      "hasImage": false,
+      "options": {
+        "A": "Revenue",
+        "B": "Capital",
+        "C": "Reduction in the invoice price",
+        "D": "Asset"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Provision for doubtful debts is created in order to",
+      "hasImage": false,
+      "options": {
+        "A": "Increase profit",
+        "B": "Adjust for expected losses",
+        "C": "Reduce liabilities",
+        "D": "Adjust closing stock"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "If closing stock is undervalued, the net profit will be",
+      "hasImage": false,
+      "options": {
+        "A": "Overstated",
+        "B": "Understated",
+        "C": "Unaffected",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Cash received from debtors is recorded in the cash book on the",
+      "hasImage": false,
+      "options": {
+        "A": "Credit side",
+        "B": "Debit side",
+        "C": "Both sides",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Outstanding expenses are",
+      "hasImage": false,
+      "options": {
+        "A": "Expenses paid in advance",
+        "B": "Expenses incurred but not paid",
+        "C": "Income earned but not received",
+        "D": "Expenses canceled"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Accrued income refers to",
+      "hasImage": false,
+      "options": {
+        "A": "Income earned but not yet received",
+        "B": "Income received in advance",
+        "C": "Income recorded twice",
+        "D": "Income not yet earned"
+      },
+      "answer": "A"
+    },
+    {
+      "question": "Prepaid expenses are",
+      "hasImage": false,
+      "options": {
+        "A": "Expenses incurred but not yet paid",
+        "B": "Expenses paid in advance",
+        "C": "Expenses canceled",
+        "D": "Revenue"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "The trial balance is prepared to",
+      "hasImage": false,
+      "options": {
+        "A": "Show profit or loss",
+        "B": "Check arithmetical accuracy of ledger accounts",
+        "C": "Show assets and liabilities",
+        "D": "Record daily transactions"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Purchase of office furniture is classified as",
+      "hasImage": false,
+      "options": {
+        "A": "Revenue expenditure",
+        "B": "Capital expenditure",
+        "C": "Deferred revenue expenditure",
+        "D": "Liability"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "A general journal is used to record",
+      "hasImage": false,
+      "options": {
+        "A": "Only cash transactions",
+        "B": "All transactions not recorded in subsidiary books",
+        "C": "Only credit purchases",
+        "D": "Only sales of goods"
+      },
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an intangible asset?",
+      "hasImage": false,
+      "options": {
+        "A": "Building",
+        "B": "Machinery",
+        "C": "Goodwill",
+        "D": "Stock"
+      },
+      "answer": "C"
+    },
+    {
+      "question": "Which of the following is a deferred revenue expenditure?",
+      "hasImage": false,
+      "options": {
+        "A": "Purchase of machinery",
+        "B": "Advertising pre-opening cost",
+        "C": "Salaries of staff",
+        "D": "Purchase of stock"
+      },
+      "answer": "B"
+    },
+        {
+          "question": "Which of the following is a real account?",
+          "hasImage": false,
+          "options": {
+            "A": "Cash",
+            "B": "Sales",
+            "C": "Rent",
+            "D": "Debtors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a nominal account?",
+          "hasImage": false,
+          "options": {
+            "A": "Capital",
+            "B": "Rent expense",
+            "C": "Machinery",
+            "D": "Bank"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is a personal account?",
+          "hasImage": false,
+          "options": {
+            "A": "Cash",
+            "B": "Debtors",
+            "C": "Sales",
+            "D": "Furniture"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is recorded in the purchases journal?",
+          "hasImage": false,
+          "options": {
+            "A": "Credit purchases of goods",
+            "B": "Cash sales",
+            "C": "Credit sales",
+            "D": "Cash purchases of stationery"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is recorded in the sales journal?",
+          "hasImage": false,
+          "options": {
+            "A": "Credit sales of goods",
+            "B": "Cash purchases",
+            "C": "Cash receipts",
+            "D": "Returns outward"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The term 'capital expenditure' refers to",
+          "hasImage": false,
+          "options": {
+            "A": "Expenditure on day-to-day running",
+            "B": "Expenditure that increases asset value",
+            "C": "Expenditure on repairs",
+            "D": "Expenditure on salaries"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Revenue expenditure is best described as",
+          "hasImage": false,
+          "options": {
+            "A": "Expenditure incurred to maintain assets",
+            "B": "Expenditure on new machinery",
+            "C": "Expenditure on buying land",
+            "D": "Expenditure on advertising pre-opening"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following errors will affect the trial balance?",
+          "hasImage": false,
+          "options": {
+            "A": "Omission of an entry in both books",
+            "B": "Transposition error in one account",
+            "C": "Error of principle",
+            "D": "Error of original entry"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an example of accrual?",
+          "hasImage": false,
+          "options": {
+            "A": "Rent paid in advance",
+            "B": "Salaries owing to staff",
+            "C": "Purchase of machinery",
+            "D": "Cash sales"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is an example of deferred income?",
+          "hasImage": false,
+          "options": {
+            "A": "Rent received in advance",
+            "B": "Outstanding interest",
+            "C": "Accrued salaries",
+            "D": "Prepaid insurance"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a fictitious asset?",
+          "hasImage": false,
+          "options": {
+            "A": "Goodwill",
+            "B": "Furniture",
+            "C": "Cash",
+            "D": "Debtors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Depreciation is charged to",
+          "hasImage": false,
+          "options": {
+            "A": "Reduce liabilities",
+            "B": "Profit and loss account",
+            "C": "Balance sheet only",
+            "D": "Capital account"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The balance on the debit side of a cash book represents",
+          "hasImage": false,
+          "options": {
+            "A": "Cash receipts",
+            "B": "Cash payments",
+            "C": "Bank overdraft",
+            "D": "Creditors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The balance on the credit side of a cash book represents",
+          "hasImage": false,
+          "options": {
+            "A": "Cash received",
+            "B": "Cash paid",
+            "C": "Bank balance",
+            "D": "Capital"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Which of the following is not recorded in the cash book?",
+          "hasImage": false,
+          "options": {
+            "A": "Cash paid for stationery",
+            "B": "Cash received from debtors",
+            "C": "Credit purchase of goods",
+            "D": "Bank deposit"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "The main objective of preparing a trial balance is to",
+          "hasImage": false,
+          "options": {
+            "A": "Show profit or loss",
+            "B": "Detect errors in the ledger",
+            "C": "Prepare financial statements",
+            "D": "Record transactions"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Goods returned by a customer are recorded in",
+          "hasImage": false,
+          "options": {
+            "A": "Sales journal",
+            "B": "Returns inward journal",
+            "C": "Purchases journal",
+            "D": "Cash book"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "Goods returned to a supplier are recorded in",
+          "hasImage": false,
+          "options": {
+            "A": "Sales journal",
+            "B": "Purchases journal",
+            "C": "Returns outward journal",
+            "D": "Cash book"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Provision for bad debts is treated as",
+          "hasImage": false,
+          "options": {
+            "A": "Liability",
+            "B": "Asset",
+            "C": "Deduction from debtors",
+            "D": "Revenue"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which of the following is included in the capital employed?",
+          "hasImage": false,
+          "options": {
+            "A": "Assets minus current liabilities",
+            "B": "Liabilities only",
+            "C": "Assets only",
+            "D": "Current liabilities only"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following errors will not affect the trial balance totals?",
+          "hasImage": false,
+          "options": {
+            "A": "Error of omission",
+            "B": "Error of commission",
+            "C": "Error of reversal",
+            "D": "Error of original entry"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The matching concept requires that",
+          "hasImage": false,
+          "options": {
+            "A": "Expenses are matched with revenues they generate",
+            "B": "Assets are matched with liabilities",
+            "C": "Capital is matched with revenue",
+            "D": "Debtors are matched with creditors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The consistency principle requires that",
+          "hasImage": false,
+          "options": {
+            "A": "Accounting policies are consistent from year to year",
+            "B": "All transactions are recorded",
+            "C": "Financial statements are consistent",
+            "D": "Expenses are matched with revenue"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "The objective of accounting is to provide information about",
+          "hasImage": false,
+          "options": {
+            "A": "Profit only",
+            "B": "Cash only",
+            "C": "Financial performance and position",
+            "D": "Sales only"
+          },
+          "answer": "C"
+        },
+        {
+          "question": "Which of the following is an example of capital receipts?",
+          "hasImage": false,
+          "options": {
+            "A": "Loan received from bank",
+            "B": "Sales revenue",
+            "C": "Interest received",
+            "D": "Rent received"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of revenue receipts?",
+          "hasImage": false,
+          "options": {
+            "A": "Loan from shareholders",
+            "B": "Sales of goods",
+            "C": "Capital introduced",
+            "D": "Share issue"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The owner’s equity in a business is represented by",
+          "hasImage": false,
+          "options": {
+            "A": "Assets minus liabilities",
+            "B": "Assets plus liabilities",
+            "C": "Revenue minus expenses",
+            "D": "Capital minus drawings"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Drawings by the owner are treated as",
+          "hasImage": false,
+          "options": {
+            "A": "Revenue expenditure",
+            "B": "Capital distribution",
+            "C": "Liability",
+            "D": "Asset"
+          },
+          "answer": "B"
+        },
+        {
+          "question": "The accounting equation is",
+          "hasImage": false,
+          "options": {
+            "A": "Assets = Liabilities + Capital",
+            "B": "Assets + Liabilities = Capital",
+            "C": "Capital = Assets - Revenue",
+            "D": "Assets - Liabilities = Revenue"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is included in the income statement?",
+          "hasImage": false,
+          "options": {
+            "A": "Purchases",
+            "B": "Closing stock",
+            "C": "Capital",
+            "D": "Debtors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is deducted from revenue to calculate gross profit?",
+          "hasImage": false,
+          "options": {
+            "A": "Cost of goods sold",
+            "B": "Expenses",
+            "C": "Drawings",
+            "D": "Liabilities"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of non-current asset?",
+          "hasImage": false,
+          "options": {
+            "A": "Machinery",
+            "B": "Cash",
+            "C": "Debtors",
+            "D": "Stock"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a current liability?",
+          "hasImage": false,
+          "options": {
+            "A": "Bank overdraft",
+            "B": "Land",
+            "C": "Machinery",
+            "D": "Capital"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of intangible asset?",
+          "hasImage": false,
+          "options": {
+            "A": "Goodwill",
+            "B": "Building",
+            "C": "Stock",
+            "D": "Cash"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Accounting information must be",
+          "hasImage": false,
+          "options": {
+            "A": "Relevant and reliable",
+            "B": "Creative",
+            "C": "Subjective",
+            "D": "Optional"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a liability for a business?",
+          "hasImage": false,
+          "options": {
+            "A": "Creditors",
+            "B": "Debtors",
+            "C": "Cash",
+            "D": "Stock"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is treated as an expense?",
+          "hasImage": false,
+          "options": {
+            "A": "Rent",
+            "B": "Loan received",
+            "C": "Capital introduced",
+            "D": "Share capital"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following will not appear in the balance sheet?",
+          "hasImage": false,
+          "options": {
+            "A": "Purchases",
+            "B": "Capital",
+            "C": "Bank",
+            "D": "Debtors"
+          },
+          "answer": "A"
+        },
+        {
+          "question": "Which of the following is a current asset?",
+          "hasImage": false,
+          "options": {
+            "A": "Stock",
+            "B": "Land",
+            "C": "Building",
+            "D": "Goodwill"
+          },
+          "answer": "A"
+        }
+      ]
+    }

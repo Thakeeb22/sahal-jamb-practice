@@ -1,9 +1,10 @@
 {
   "appId": "com.sahal.jambpractice",
-  "appName": "Sahal JAMB Practice",
+  "appName": "Sahal Jamb Practice",
   "webDir": "www",
+  "bundledWebRuntime": false,
   "server": {
-    "url": "https://sahaljambpractice.vercel.app/",
+    "url": "https://sahaljambpractice.vercel.app",
     "cleartext": true
   }
 }
