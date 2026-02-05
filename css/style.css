@@ -420,4 +420,7 @@ footer {
   .result-container {
     width: 100%;
   }
+  .result-main {
+    grid-template-columns: 1fr;
+  }
 }
