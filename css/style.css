@@ -256,6 +256,27 @@ footer {
   opacity: 0.6;
   cursor: not-allowed;
 }
+#subject-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 10px 0;
+}
+.subject-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.subject-label:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.subject-label input[type="checkbox"] {
+  margin: 0;
+}
 .spinner {
   display: none;
   position: absolute;
