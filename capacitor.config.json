@@ -1,0 +1,9 @@
+{
+  "appId": "com.sahal.jambpractice",
+  "appName": "Sahal JAMB Practice",
+  "webDir": "www",
+  "server": {
+    "url": "https://sahaljambpractice.vercel.app/",
+    "cleartext": true
+  }
+}

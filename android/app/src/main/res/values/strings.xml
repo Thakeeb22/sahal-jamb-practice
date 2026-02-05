@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sahal JAMB Practice</string>
+    <string name="title_activity_main">Sahal JAMB Practice</string>
+    <string name="package_name">com.sahal.jambpractice</string>
+    <string name="custom_url_scheme">com.sahal.jambpractice</string>
+</resources>
